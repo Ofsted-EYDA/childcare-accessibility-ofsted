@@ -97,7 +97,7 @@
 <section>
 	<div class="wrapper">
     <h1>ONS Svelte Map Components</h1>
-    <p>This library contains a series of components for building Maplibre GL JS maps within Svelte apps. They are primarily built with data visualisation use cases in mind, and generally assume the use of self-hosted map tiles and/or geojson sources.</p>
+    <p>THIS IS FOR TESTING PURPOSES</p>
 		<p>Below are a series of examples of how to use the components to display maps. View the source code of the <a href="https://github.com/ONSvisual/svelte-maps/blob/main/src/App.svelte">App.svelte</a> file in this repository to see how they are used.</p>
 		<p>
 			Base map:
