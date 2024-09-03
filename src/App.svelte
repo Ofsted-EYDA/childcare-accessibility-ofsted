@@ -1,16 +1,21 @@
 <script>
 	// Components for working with Mapbox layers
-	import { getData, getColor, getTopo } from "./js/utils.js";
+	import { getData, getColor, getTopo, getBreaks } from "./js/utils.js";
 	import Map from './Map.svelte';
 	import MapSource from './MapSource.svelte';
 	import MapLayer from './MapLayer.svelte';
 	import MapTooltip from './MapTooltip.svelte';
+  	import { Divider } from "@onsvisual/svelte-components";
+	import { LineChart } from "@onsvisual/svelte-charts";
 	
+	// Defining colours
 	const colors = {
 		seq5: ['rgb(234, 236, 177)', 'rgb(169, 216, 145)', 'rgb(0, 167, 186)', 'rgb(0, 78, 166)', 'rgb(0, 13, 84)'],
-		div10: ['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061']	
+		div10: ['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061'],
+		viridis10: ['#fde725', '#b5de2b', '#6ece58', '#35b779', '#1f9e89', '#26828e', '#31688e', '#3e4989', '#482878', '#440154']	
 	};
 
+	// defining pcon data and bounds (from json)
   const pconData = "./data/salary-pcon10.csv";
   const pconBounds = {
 	  url: "./data/pcon10-bounds.json",
@@ -18,36 +23,49 @@
 	  code: "AREACD"
 	};
 	
+	// defining lsoa data and bounds (vector tiles)
+	const datasets = ["lad", "lsoa", "lad_over_time"];
 	const lsoaData = "./data/imd-lsoa11.csv";
+	const ladData = "./data/data_lad.csv";
+	const lsoaAccessibilityScores = "./data/data_lsoa.csv";
+	const ladOverTime = "./data/data_lad_over_time.csv";
 	const lsoaBounds = {
 		url: "https://cdn.ons.gov.uk/maptiles/administrative/lsoa/v1/boundaries/{z}/{x}/{y}.pbf",
 		layer: "boundaries",
 		code: "AREACD"
 	};
+	const lsoaBuildings11 = {
+        url: "https://cdn.ons.gov.uk/maptiles/buildings/v1/{z}/{x}/{y}.pbf",
+        layer: "buildings",
+        code: "lsoa11cd"
+    };
+	const ladBounds = {
+		url: "https://cdn.ons.gov.uk/maptiles/administrative/2023/ltla/v1/boundaries/{z}/{x}/{y}.pbf",
+		layer: "boundaries",
+		code: "areacd"
+	};
 
+	// defining bounds for maps
 	const bounds = {
 		uk: [[ -9, 49 ], [ 2, 61 ]],
 		ew: [[-6, 49], [2, 56]]
 	};
 
+	// defining paths for base maps
 	const baseMaps = [
-		{
-			key: "omt",
-			label: "OpenMapTiles",
-			path: "./data/style-ons-light.json"
-		},
 		{
 			key: "osm",
 			label: "OpenStreetMap",
 			path: "./data/style-osm-grey.json"
 		},
 	];
+
 	
 	// Bindings
 	let map1, map2, map3, map4;
 
 	// Data
-	let data = {};
+	let data = {lsoa: {}, lad: {}};
 	let geojson;
 
 	// State
@@ -84,195 +102,224 @@
 	});
 
 	// Get data for vector tiles map
-	getData(lsoaData)
+	getData(lsoaAccessibilityScores)
 	.then(res => {
 		res.forEach(d => {
-			d.color = colors.div10[+d.income_decile - 1];
-			d.AREACD = d.lsoa11cd;
+			d.color = colors.viridis10[d.decileMarch24];
+			d.lsoa11cd = d.code;
 		});
-		data.lsoa = res;
+		data.lsoaDecilesMarch24 = res;
 	});
+
+	getData(lsoaAccessibilityScores)
+	.then(res => {
+		res.forEach(d => {
+			d.color = colors.viridis10[d.decileDec19];
+			d.lsoa11cd= d.code;
+		});
+		data.lsoaDecilesDec19 = res;
+	});
+
+	getData(ladData)
+	.then(res => {
+		res.forEach(d => {
+			d.color = colors.viridis10[d.decileDec19];
+			d.areacd= d.code;
+		});
+		data.ladDecilesDec19 = res;
+	});
+
+	getData(ladData)
+	.then(res => {
+		res.forEach(d => {
+			d.color = colors.viridis10[d.decileMarch24];
+			d.areacd= d.code;
+		});
+		data.ladDecilesMarch24 = res;
+	});
+
 </script>
 
 <section>
 	<div class="wrapper">
-    <h1>ONS Svelte Map Components</h1>
-    <p>THIS IS FOR TESTING PURPOSES</p>
-		<p>Below are a series of examples of how to use the components to display maps. View the source code of the <a href="https://github.com/ONSvisual/svelte-maps/blob/main/src/App.svelte">App.svelte</a> file in this repository to see how they are used.</p>
-		<p>
-			Base map:
-			<select bind:value={baseMap}>
-				{#each baseMaps as option}
-				<option value={option}>{option.label}</option>
-				{/each}
-			</select>
-		</p>
-		<p>
-			Create/destroy:
-			<label><input type="checkbox" bind:checked={showSources}/> Sources</label>
-			<label><input type="checkbox" bind:checked={showLayers}/> Layers</label>
-		</p>
-		<p>
-			Show/hide:
-			<label><input type="checkbox" bind:checked={visLayers}/> Layers</label>
-		</p>
+    <h1>Childcare deserts and oases data viz development</h1>
+
+    <h2>Our first publication is avaible <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare/articles/childcareaccessibilitybyneighbourhood/2024-06-04"> here</a></h2>
   </div>
 </section>
+
+<Divider/>
 
 <section>
 	<div class="grid">
 		<div>
 			<div class="map">
-				<Map id="map1" style={baseMap.path} bind:map={map1} bind:zoom={zoom} bind:center={center}/>
-			</div>
-			Plain OSM base map with location bindings<br/>
-			(zoom: {zoom ? zoom.toFixed(1) : ''},
-			lon: {center.lng ? center.lng.toFixed(1) : ''},
-			lat: {center.lat ? center.lat.toFixed(1) : ''})
-		</div>
-		<div>
-			<div class="map">
 			  {#if geojson && data.pcon}
-			  <Map id="map2" style={baseMap.path} location={{bounds: bounds.uk}} bind:map={map2} controls={true}>
-					{#if showSources}
-				  <MapSource
-					  id="pcon"
-					  type="geojson"
-					  data={geojson}
-					  promoteId={pconBounds.code}
-					  maxzoom={13}>
-						{#if showLayers}
-					  <MapLayer
-					  	id="pcon"
-					  	data={data.pcon}
-					  	type="fill"
-					  	paint={{
-					  		'fill-color': ['case',
-					  			['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
-					  			'rgba(255, 255, 255, 0)'
-					  		],
-					  		'fill-opacity': 0.7
-					  	}}
-							order={baseMap.key === "omt" ? "water_name" : null}
-							visible={visLayers}
-				    />
-						{/if}
-				  </MapSource>
-					{/if}
-			  </Map>
-			  {/if}
-			</div>
-			Basic geojson choropleth map
-		</div>
-		<div>
-			<div class="map">
-			  {#if geojson && data.pcon}
-			  <Map id="map3" style={baseMap.path} location={{bounds: bounds.uk}} bind:map={map3} controls={true}>
-					{#if showSources}
-			  	<MapSource
-					  id="pcon"
-					  type="geojson"
-					  data={geojson}
-					  promoteId={pconBounds.code}
-					  maxzoom={13}>
-						{#if showLayers}
-					  <MapLayer
-					  	id="pcon-fill"
-					  	data={data.pcon}
-					  	type="fill"
-					  	hover={true}
-					  	bind:hovered
-					  	select={true}
-					  	bind:selected
-					  	paint={{
-					  		'fill-color': ['case',
-					  			['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
-					  			'rgba(255, 255, 255, 0)'
-					  		],
-					  		'fill-opacity': 0.7
-				  		}}
-							order={baseMap.key === "omt" ? "water_name" : null}
-							visible={visLayers}
-				    >
-						  <MapTooltip content={`Code: ${hovered}`}/>
-						</MapLayer>
-				  	<MapLayer
-				  		id="pcon-line"
-				  		type="line"
-				  		paint={{
-				  			'line-color': ['case',
-				  				['==', ['feature-state', 'selected'], true], 'black',
-				  				['==', ['feature-state', 'hovered'], true], 'orange',
-				  				'rgba(255, 255, 255, 0)'
-				  			],
-				  			'line-width': ['case',
-				  				['==', ['feature-state', 'selected'], true], 2,
-				  				1
-				  			]
-				  		}}
-							visible={visLayers}
-						/>
-						{/if}
-				  </MapSource>
-					{/if}
-			  </Map>
-			  {/if}
-			</div>
-			Geojson choropleth map with hover and select<br/>
-			(hovered: {hovered ? hovered : ''},
-			selected: {#if selected} {selected} <button on:click|preventDefault={() => selected = null}>x</button>{/if})
-		</div>
-		<div>
-			<div class="map">
-			  <Map id="map4" style={baseMap.path} location={{lng: -2, lat: 52, zoom: 8}} bind:map={map4} controls={true} minzoom={5}>
-					{#if showSources}
-			    <MapSource
+			  <Map id="map1" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map1} controls={true} minzoom={4}>
+				{#if showSources}
+
+			<MapSource
+				id="lad"
+				type="vector"
+				url={ladBounds.url}
+				layer={ladBounds.layer}
+				promoteId={ladBounds.code}
+				minzoom={4}
+				maxzoom={8}>
+				{#if showLayers && data}
+			<MapLayer
+				id="lad"
+				data={data.ladDecilesDec19}
+				type="fill"
+				minzoom={4}
+				maxzoom={8}
+				paint={{
+					'fill-color': ['case',
+						['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+						'rgba(255, 255, 255, 0)'
+					],
+					'fill-opacity': 0.8
+				}}
+					order={baseMap.key === "omt" ? "water_name" : null}
+					visible={visLayers}
+			/>
+			<MapLayer
+				id="lad-bg"
+				data={data.ladDecilesDec19}
+				type="fill"
+				minzoom={8}
+				maxzoom={13}
+				paint={{
+					'fill-color': ['case',
+						['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+						'rgba(255, 255, 255, 0)'
+					],
+					'fill-opacity': 0.2
+				}}
+					order={baseMap.key === "omt" ? "water_name" : null}
+					visible={visLayers}
+			/>
+				{/if}
+			</MapSource>
+				{/if}
+				<MapSource
 				  	id="lsoa"
 				  	type="vector"
-				  	url={lsoaBounds.url}
-				  	layer={lsoaBounds.layer}
-				  	promoteId={lsoaBounds.code}
+				  	url={lsoaBuildings11.url}
+				  	layer={lsoaBuildings11.layer}
+				  	promoteId={lsoaBuildings11.code}
+					minzoom={8}
 				  	maxzoom={13}>
 				  	{#if showLayers && data}
 				  	<MapLayer
 				  		id="lsoa"
-				  		data={data.lsoa}
+				  		data={data.lsoaDecilesDec19}
 				  		type="fill"
-				  		minzoom={5}
+				  		minzoom={8}
 				  		paint={{
 				  			'fill-color': ['case',
 				  				['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
 				  				'rgba(255, 255, 255, 0)'
 				  			],
-				  			'fill-opacity': 0.8
+				  			'fill-opacity': 0.9
 				  		}}
 							order={baseMap.key === "omt" ? "water_name" : null}
 							visible={visLayers}
 				    />
 				  	{/if}
 			  	</MapSource>
+		  </Map>
+			  {/if}
+			</div>
+			<h2>Childcare accessibility as at 31 December 2019</h2>
+		</div>
+
+		<div>
+			<div class="map">
+			  <Map id="map2" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true} minzoom={4}>
+					{#if showSources}
+
+				<MapSource
+					id="lad"
+					type="vector"
+					url={ladBounds.url}
+					layer={ladBounds.layer}
+					promoteId={ladBounds.code}
+					minzoom={4}
+					maxzoom={7}>
+					{#if showLayers && data}
+				<MapLayer
+					id="lad"
+					data={data.ladDecilesMarch24}
+					type="fill"
+					minzoom={4}
+					maxzoom={8}
+					paint={{
+						'fill-color': ['case',
+							['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+							'rgba(255, 255, 255, 0)'
+						],
+						'fill-opacity': 0.8
+					}}
+						order={baseMap.key === "omt" ? "water_name" : null}
+						visible={visLayers}
+				/>
+				<MapLayer
+					id="lad-bg"
+					data={data.ladDecilesMarch24}
+					type="fill"
+					minzoom={7}
+					maxzoom={13}
+					paint={{
+						'fill-color': ['case',
+							['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+							'rgba(255, 255, 255, 0)'
+						],
+						'fill-opacity': 0.2
+					}}
+						order={baseMap.key === "omt" ? "water_name" : null}
+						visible={visLayers}
+				/>
 					{/if}
+				</MapSource>
+					{/if}
+				<MapSource
+				  	id="lsoa"
+				  	type="vector"
+				  	url={lsoaBuildings11.url}
+				  	layer={lsoaBuildings11.layer}
+				  	promoteId={lsoaBuildings11.code}
+					minzoom={8}
+				  	maxzoom={13}>
+				  	{#if showLayers && data}
+				  	<MapLayer
+				  		id="lsoa"
+				  		data={data.lsoaDecilesMarch24}
+				  		type="fill"
+				  		minzoom={8}
+				  		paint={{
+				  			'fill-color': ['case',
+				  				['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+				  				'rgba(255, 255, 255, 0)'
+				  			],
+				  			'fill-opacity': 0.9
+				  		}}
+							order={baseMap.key === "omt" ? "water_name" : null}
+							visible={visLayers}
+				    />
+				  	{/if}
+			  	</MapSource>
 			  </Map>
 			</div>
-			Choropleth map using custom vector boundary tiles and OpenMapTiles basemap
+			<h2>Childcare accessibility as at 31 March 2024</h2>
 		</div>
   </div>
 </section>
 
+<Divider/>
+
 <section>
-	<div class="wrapper">
-    <h2>Current features</h2>
-    <p>Description to be added.</p>
-    <h2>Intended features</h2>
-    <ul>
-			<li>Better documentation.</li>
-			<li>Split screen support.</li>
-			<li>Marker layer.</li>
-			<li>Drawing layer.</li>
-			<li>Custom layer support.</li>
-			<li>Transition settings.</li>
-		</ul>
-  </div>
+	<h1>Insert line chart below showing change in accessibility over time for a selected area</h1>
 </section>
 
 <style>
@@ -306,14 +353,14 @@
 	.grid {
 		display: grid;
 		width: 100%;
-		max-width: 768px;
+		max-width: 3500px;
 		margin: 0 16;
-		grid-gap: 30px;
+		grid-gap: 10px;
 		grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
 		justify-content: stretch;
 	}
 	.map {
-		height: 300px;
+		height: 500px;
 	}
 	a:hover {
 		cursor: pointer;
