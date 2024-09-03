@@ -1,0 +1,2961 @@
+,LAD23NM,LAD23CD,Month,overall accessibility score
+0,Hartlepool,E06000001,Dec-19,1
+1,Middlesbrough,E06000002,Dec-19,1
+2,Redcar and Cleveland,E06000003,Dec-19,1
+3,Stockton-on-Tees,E06000004,Dec-19,1
+4,Darlington,E06000005,Dec-19,1
+5,Halton,E06000006,Dec-19,1
+6,Warrington,E06000007,Dec-19,1
+7,Blackburn with Darwen,E06000008,Dec-19,1
+8,Blackpool,E06000009,Dec-19,1
+9,Kingston upon Hull,E06000010,Dec-19,1
+10,East Riding of Yorkshire,E06000011,Dec-19,1
+11,North East Lincolnshire,E06000012,Dec-19,1
+12,North Lincolnshire,E06000013,Dec-19,1
+13,York,E06000014,Dec-19,1
+14,Derby,E06000015,Dec-19,1
+15,Leicester,E06000016,Dec-19,1
+16,Rutland,E06000017,Dec-19,1
+17,Nottingham,E06000018,Dec-19,1
+18,Herefordshire,E06000019,Dec-19,1
+19,Telford and Wrekin,E06000020,Dec-19,1
+20,Stoke-on-Trent,E06000021,Dec-19,1
+21,Bath and North East Somerset,E06000022,Dec-19,1
+22,Bristol,E06000023,Dec-19,1
+23,North Somerset,E06000024,Dec-19,1
+24,South Gloucestershire,E06000025,Dec-19,1
+25,Plymouth,E06000026,Dec-19,1
+26,Torbay,E06000027,Dec-19,1
+27,Swindon,E06000030,Dec-19,1
+28,Peterborough,E06000031,Dec-19,1
+29,Luton,E06000032,Dec-19,1
+30,Southend-on-Sea,E06000033,Dec-19,1
+31,Thurrock,E06000034,Dec-19,1
+32,Medway,E06000035,Dec-19,1
+33,Bracknell Forest,E06000036,Dec-19,1
+34,West Berkshire,E06000037,Dec-19,1
+35,Reading,E06000038,Dec-19,1
+36,Slough,E06000039,Dec-19,1
+37,Windsor and Maidenhead,E06000040,Dec-19,1
+38,Wokingham,E06000041,Dec-19,1
+39,Milton Keynes,E06000042,Dec-19,1
+40,Brighton and Hove,E06000043,Dec-19,1
+41,Portsmouth,E06000044,Dec-19,1
+42,Southampton,E06000045,Dec-19,1
+43,Isle of Wight,E06000046,Dec-19,1
+44,County Durham,E06000047,Dec-19,1
+45,Cheshire East,E06000049,Dec-19,1
+46,Cheshire West and Chester,E06000050,Dec-19,1
+47,Shropshire,E06000051,Dec-19,1
+48,Cornwall,E06000052,Dec-19,1
+49,Isles of Scilly,E06000053,Dec-19,1
+50,Wiltshire,E06000054,Dec-19,1
+51,Bedford,E06000055,Dec-19,1
+52,Central Bedfordshire,E06000056,Dec-19,1
+53,Northumberland,E06000057,Dec-19,1
+54,"Bournemouth, Christchurch and Poole",E06000058,Dec-19,1
+55,Dorset,E06000059,Dec-19,1
+56,Buckinghamshire,E06000060,Dec-19,1
+57,North Northamptonshire,E06000061,Dec-19,1
+58,West Northamptonshire,E06000062,Dec-19,1
+59,Cumberland,E06000063,Dec-19,1
+60,Westmorland and Furness,E06000064,Dec-19,1
+61,North Yorkshire,E06000065,Dec-19,1
+62,Somerset,E06000066,Dec-19,1
+63,Cambridge,E07000008,Dec-19,1
+64,East Cambridgeshire,E07000009,Dec-19,1
+65,Fenland,E07000010,Dec-19,1
+66,Huntingdonshire,E07000011,Dec-19,1
+67,South Cambridgeshire,E07000012,Dec-19,1
+68,Amber Valley,E07000032,Dec-19,1
+69,Bolsover,E07000033,Dec-19,1
+70,Chesterfield,E07000034,Dec-19,1
+71,Derbyshire Dales,E07000035,Dec-19,1
+72,Erewash,E07000036,Dec-19,1
+73,High Peak,E07000037,Dec-19,1
+74,North East Derbyshire,E07000038,Dec-19,1
+75,South Derbyshire,E07000039,Dec-19,1
+76,East Devon,E07000040,Dec-19,1
+77,Exeter,E07000041,Dec-19,1
+78,Mid Devon,E07000042,Dec-19,1
+79,North Devon,E07000043,Dec-19,1
+80,South Hams,E07000044,Dec-19,1
+81,Teignbridge,E07000045,Dec-19,1
+82,Torridge,E07000046,Dec-19,1
+83,West Devon,E07000047,Dec-19,1
+84,Eastbourne,E07000061,Dec-19,1
+85,Hastings,E07000062,Dec-19,1
+86,Lewes,E07000063,Dec-19,1
+87,Rother,E07000064,Dec-19,1
+88,Wealden,E07000065,Dec-19,1
+89,Basildon,E07000066,Dec-19,1
+90,Braintree,E07000067,Dec-19,1
+91,Brentwood,E07000068,Dec-19,1
+92,Castle Point,E07000069,Dec-19,1
+93,Chelmsford,E07000070,Dec-19,1
+94,Colchester,E07000071,Dec-19,1
+95,Epping Forest,E07000072,Dec-19,1
+96,Harlow,E07000073,Dec-19,1
+97,Maldon,E07000074,Dec-19,1
+98,Rochford,E07000075,Dec-19,1
+99,Tendring,E07000076,Dec-19,1
+100,Uttlesford,E07000077,Dec-19,1
+101,Cheltenham,E07000078,Dec-19,1
+102,Cotswold,E07000079,Dec-19,1
+103,Forest of Dean,E07000080,Dec-19,1
+104,Gloucester,E07000081,Dec-19,1
+105,Stroud,E07000082,Dec-19,1
+106,Tewkesbury,E07000083,Dec-19,1
+107,Basingstoke and Deane,E07000084,Dec-19,1
+108,East Hampshire,E07000085,Dec-19,1
+109,Eastleigh,E07000086,Dec-19,1
+110,Fareham,E07000087,Dec-19,1
+111,Gosport,E07000088,Dec-19,1
+112,Hart,E07000089,Dec-19,1
+113,Havant,E07000090,Dec-19,1
+114,New Forest,E07000091,Dec-19,1
+115,Rushmoor,E07000092,Dec-19,1
+116,Test Valley,E07000093,Dec-19,1
+117,Winchester,E07000094,Dec-19,1
+118,Broxbourne,E07000095,Dec-19,1
+119,Dacorum,E07000096,Dec-19,1
+120,Hertsmere,E07000098,Dec-19,1
+121,North Hertfordshire,E07000099,Dec-19,1
+122,Three Rivers,E07000102,Dec-19,1
+123,Watford,E07000103,Dec-19,1
+124,Ashford,E07000105,Dec-19,1
+125,Canterbury,E07000106,Dec-19,1
+126,Dartford,E07000107,Dec-19,1
+127,Dover,E07000108,Dec-19,1
+128,Gravesham,E07000109,Dec-19,1
+129,Maidstone,E07000110,Dec-19,1
+130,Sevenoaks,E07000111,Dec-19,1
+131,Folkestone and Hythe,E07000112,Dec-19,1
+132,Swale,E07000113,Dec-19,1
+133,Thanet,E07000114,Dec-19,1
+134,Tonbridge and Malling,E07000115,Dec-19,1
+135,Tunbridge Wells,E07000116,Dec-19,1
+136,Burnley,E07000117,Dec-19,1
+137,Chorley,E07000118,Dec-19,1
+138,Fylde,E07000119,Dec-19,1
+139,Hyndburn,E07000120,Dec-19,1
+140,Lancaster,E07000121,Dec-19,1
+141,Pendle,E07000122,Dec-19,1
+142,Preston,E07000123,Dec-19,1
+143,Ribble Valley,E07000124,Dec-19,1
+144,Rossendale,E07000125,Dec-19,1
+145,South Ribble,E07000126,Dec-19,1
+146,West Lancashire,E07000127,Dec-19,1
+147,Wyre,E07000128,Dec-19,1
+148,Blaby,E07000129,Dec-19,1
+149,Charnwood,E07000130,Dec-19,1
+150,Harborough,E07000131,Dec-19,1
+151,Hinckley and Bosworth,E07000132,Dec-19,1
+152,Melton,E07000133,Dec-19,1
+153,North West Leicestershire,E07000134,Dec-19,1
+154,Oadby and Wigston,E07000135,Dec-19,1
+155,Boston,E07000136,Dec-19,1
+156,East Lindsey,E07000137,Dec-19,1
+157,Lincoln,E07000138,Dec-19,1
+158,North Kesteven,E07000139,Dec-19,1
+159,South Holland,E07000140,Dec-19,1
+160,South Kesteven,E07000141,Dec-19,1
+161,West Lindsey,E07000142,Dec-19,1
+162,Breckland,E07000143,Dec-19,1
+163,Broadland,E07000144,Dec-19,1
+164,Great Yarmouth,E07000145,Dec-19,1
+165,King's Lynn and West Norfolk,E07000146,Dec-19,1
+166,North Norfolk,E07000147,Dec-19,1
+167,Norwich,E07000148,Dec-19,1
+168,South Norfolk,E07000149,Dec-19,1
+169,Ashfield,E07000170,Dec-19,1
+170,Bassetlaw,E07000171,Dec-19,1
+171,Broxtowe,E07000172,Dec-19,1
+172,Gedling,E07000173,Dec-19,1
+173,Mansfield,E07000174,Dec-19,1
+174,Newark and Sherwood,E07000175,Dec-19,1
+175,Rushcliffe,E07000176,Dec-19,1
+176,Cherwell,E07000177,Dec-19,1
+177,Oxford,E07000178,Dec-19,1
+178,South Oxfordshire,E07000179,Dec-19,1
+179,Vale of White Horse,E07000180,Dec-19,1
+180,West Oxfordshire,E07000181,Dec-19,1
+181,Cannock Chase,E07000192,Dec-19,1
+182,East Staffordshire,E07000193,Dec-19,1
+183,Lichfield,E07000194,Dec-19,1
+184,Newcastle-under-Lyme,E07000195,Dec-19,1
+185,South Staffordshire,E07000196,Dec-19,1
+186,Stafford,E07000197,Dec-19,1
+187,Staffordshire Moorlands,E07000198,Dec-19,1
+188,Tamworth,E07000199,Dec-19,1
+189,Babergh,E07000200,Dec-19,1
+190,Ipswich,E07000202,Dec-19,1
+191,Mid Suffolk,E07000203,Dec-19,1
+192,Elmbridge,E07000207,Dec-19,1
+193,Epsom and Ewell,E07000208,Dec-19,1
+194,Guildford,E07000209,Dec-19,1
+195,Mole Valley,E07000210,Dec-19,1
+196,Reigate and Banstead,E07000211,Dec-19,1
+197,Runnymede,E07000212,Dec-19,1
+198,Spelthorne,E07000213,Dec-19,1
+199,Surrey Heath,E07000214,Dec-19,1
+200,Tandridge,E07000215,Dec-19,1
+201,Waverley,E07000216,Dec-19,1
+202,Woking,E07000217,Dec-19,1
+203,North Warwickshire,E07000218,Dec-19,1
+204,Nuneaton and Bedworth,E07000219,Dec-19,1
+205,Rugby,E07000220,Dec-19,1
+206,Stratford-on-Avon,E07000221,Dec-19,1
+207,Warwick,E07000222,Dec-19,1
+208,Adur,E07000223,Dec-19,1
+209,Arun,E07000224,Dec-19,1
+210,Chichester,E07000225,Dec-19,1
+211,Crawley,E07000226,Dec-19,1
+212,Horsham,E07000227,Dec-19,1
+213,Mid Sussex,E07000228,Dec-19,1
+214,Worthing,E07000229,Dec-19,1
+215,Bromsgrove,E07000234,Dec-19,1
+216,Malvern Hills,E07000235,Dec-19,1
+217,Redditch,E07000236,Dec-19,1
+218,Worcester,E07000237,Dec-19,1
+219,Wychavon,E07000238,Dec-19,1
+220,Wyre Forest,E07000239,Dec-19,1
+221,St Albans,E07000240,Dec-19,1
+222,Welwyn Hatfield,E07000241,Dec-19,1
+223,East Hertfordshire,E07000242,Dec-19,1
+224,Stevenage,E07000243,Dec-19,1
+225,East Suffolk,E07000244,Dec-19,1
+226,West Suffolk,E07000245,Dec-19,1
+227,Bolton,E08000001,Dec-19,1
+228,Bury,E08000002,Dec-19,1
+229,Manchester,E08000003,Dec-19,1
+230,Oldham,E08000004,Dec-19,1
+231,Rochdale,E08000005,Dec-19,1
+232,Salford,E08000006,Dec-19,1
+233,Stockport,E08000007,Dec-19,1
+234,Tameside,E08000008,Dec-19,1
+235,Trafford,E08000009,Dec-19,1
+236,Wigan,E08000010,Dec-19,1
+237,Knowsley,E08000011,Dec-19,1
+238,Liverpool,E08000012,Dec-19,1
+239,St. Helens,E08000013,Dec-19,1
+240,Sefton,E08000014,Dec-19,1
+241,Wirral,E08000015,Dec-19,1
+242,Barnsley,E08000016,Dec-19,1
+243,Doncaster,E08000017,Dec-19,1
+244,Rotherham,E08000018,Dec-19,1
+245,Sheffield,E08000019,Dec-19,1
+246,Newcastle upon Tyne,E08000021,Dec-19,1
+247,North Tyneside,E08000022,Dec-19,1
+248,South Tyneside,E08000023,Dec-19,1
+249,Sunderland,E08000024,Dec-19,1
+250,Birmingham,E08000025,Dec-19,1
+251,Coventry,E08000026,Dec-19,1
+252,Dudley,E08000027,Dec-19,1
+253,Sandwell,E08000028,Dec-19,1
+254,Solihull,E08000029,Dec-19,1
+255,Walsall,E08000030,Dec-19,1
+256,Wolverhampton,E08000031,Dec-19,1
+257,Bradford,E08000032,Dec-19,1
+258,Calderdale,E08000033,Dec-19,1
+259,Kirklees,E08000034,Dec-19,1
+260,Leeds,E08000035,Dec-19,1
+261,Wakefield,E08000036,Dec-19,1
+262,Gateshead,E08000037,Dec-19,1
+263,City of London,E09000001,Dec-19,1
+264,Barking and Dagenham,E09000002,Dec-19,1
+265,Barnet,E09000003,Dec-19,1
+266,Bexley,E09000004,Dec-19,1
+267,Brent,E09000005,Dec-19,1
+268,Bromley,E09000006,Dec-19,1
+269,Camden,E09000007,Dec-19,1
+270,Croydon,E09000008,Dec-19,1
+271,Ealing,E09000009,Dec-19,1
+272,Enfield,E09000010,Dec-19,1
+273,Greenwich,E09000011,Dec-19,1
+274,Hackney,E09000012,Dec-19,1
+275,Hammersmith and Fulham,E09000013,Dec-19,1
+276,Haringey,E09000014,Dec-19,1
+277,Harrow,E09000015,Dec-19,1
+278,Havering,E09000016,Dec-19,1
+279,Hillingdon,E09000017,Dec-19,1
+280,Hounslow,E09000018,Dec-19,1
+281,Islington,E09000019,Dec-19,1
+282,Kensington and Chelsea,E09000020,Dec-19,1
+283,Kingston upon Thames,E09000021,Dec-19,1
+284,Lambeth,E09000022,Dec-19,1
+285,Lewisham,E09000023,Dec-19,1
+286,Merton,E09000024,Dec-19,1
+287,Newham,E09000025,Dec-19,1
+288,Redbridge,E09000026,Dec-19,1
+289,Richmond upon Thames,E09000027,Dec-19,1
+290,Southwark,E09000028,Dec-19,1
+291,Sutton,E09000029,Dec-19,1
+292,Tower Hamlets,E09000030,Dec-19,1
+293,Waltham Forest,E09000031,Dec-19,1
+294,Wandsworth,E09000032,Dec-19,1
+295,Westminster,E09000033,Dec-19,1
+296,Hartlepool,E06000001,Mar-20,1
+297,Middlesbrough,E06000002,Mar-20,1
+298,Redcar and Cleveland,E06000003,Mar-20,1
+299,Stockton-on-Tees,E06000004,Mar-20,1
+300,Darlington,E06000005,Mar-20,1
+301,Halton,E06000006,Mar-20,1
+302,Warrington,E06000007,Mar-20,1
+303,Blackburn with Darwen,E06000008,Mar-20,1
+304,Blackpool,E06000009,Mar-20,1
+305,Kingston upon Hull,E06000010,Mar-20,1
+306,East Riding of Yorkshire,E06000011,Mar-20,1
+307,North East Lincolnshire,E06000012,Mar-20,1
+308,North Lincolnshire,E06000013,Mar-20,1
+309,York,E06000014,Mar-20,1
+310,Derby,E06000015,Mar-20,1
+311,Leicester,E06000016,Mar-20,1
+312,Rutland,E06000017,Mar-20,1
+313,Nottingham,E06000018,Mar-20,1
+314,Herefordshire,E06000019,Mar-20,1
+315,Telford and Wrekin,E06000020,Mar-20,1
+316,Stoke-on-Trent,E06000021,Mar-20,1
+317,Bath and North East Somerset,E06000022,Mar-20,1
+318,Bristol,E06000023,Mar-20,1
+319,North Somerset,E06000024,Mar-20,1
+320,South Gloucestershire,E06000025,Mar-20,1
+321,Plymouth,E06000026,Mar-20,1
+322,Torbay,E06000027,Mar-20,1
+323,Swindon,E06000030,Mar-20,1
+324,Peterborough,E06000031,Mar-20,1
+325,Luton,E06000032,Mar-20,1
+326,Southend-on-Sea,E06000033,Mar-20,1
+327,Thurrock,E06000034,Mar-20,1
+328,Medway,E06000035,Mar-20,1
+329,Bracknell Forest,E06000036,Mar-20,1
+330,West Berkshire,E06000037,Mar-20,1
+331,Reading,E06000038,Mar-20,1
+332,Slough,E06000039,Mar-20,1
+333,Windsor and Maidenhead,E06000040,Mar-20,1
+334,Wokingham,E06000041,Mar-20,1
+335,Milton Keynes,E06000042,Mar-20,1
+336,Brighton and Hove,E06000043,Mar-20,1
+337,Portsmouth,E06000044,Mar-20,1
+338,Southampton,E06000045,Mar-20,1
+339,Isle of Wight,E06000046,Mar-20,1
+340,County Durham,E06000047,Mar-20,1
+341,Cheshire East,E06000049,Mar-20,1
+342,Cheshire West and Chester,E06000050,Mar-20,1
+343,Shropshire,E06000051,Mar-20,1
+344,Cornwall,E06000052,Mar-20,1
+345,Isles of Scilly,E06000053,Mar-20,1
+346,Wiltshire,E06000054,Mar-20,1
+347,Bedford,E06000055,Mar-20,1
+348,Central Bedfordshire,E06000056,Mar-20,1
+349,Northumberland,E06000057,Mar-20,1
+350,"Bournemouth, Christchurch and Poole",E06000058,Mar-20,1
+351,Dorset,E06000059,Mar-20,1
+352,Buckinghamshire,E06000060,Mar-20,1
+353,North Northamptonshire,E06000061,Mar-20,1
+354,West Northamptonshire,E06000062,Mar-20,1
+355,Cumberland,E06000063,Mar-20,1
+356,Westmorland and Furness,E06000064,Mar-20,1
+357,North Yorkshire,E06000065,Mar-20,1
+358,Somerset,E06000066,Mar-20,1
+359,Cambridge,E07000008,Mar-20,1
+360,East Cambridgeshire,E07000009,Mar-20,1
+361,Fenland,E07000010,Mar-20,1
+362,Huntingdonshire,E07000011,Mar-20,1
+363,South Cambridgeshire,E07000012,Mar-20,1
+364,Amber Valley,E07000032,Mar-20,1
+365,Bolsover,E07000033,Mar-20,1
+366,Chesterfield,E07000034,Mar-20,1
+367,Derbyshire Dales,E07000035,Mar-20,1
+368,Erewash,E07000036,Mar-20,1
+369,High Peak,E07000037,Mar-20,1
+370,North East Derbyshire,E07000038,Mar-20,1
+371,South Derbyshire,E07000039,Mar-20,1
+372,East Devon,E07000040,Mar-20,1
+373,Exeter,E07000041,Mar-20,1
+374,Mid Devon,E07000042,Mar-20,1
+375,North Devon,E07000043,Mar-20,1
+376,South Hams,E07000044,Mar-20,1
+377,Teignbridge,E07000045,Mar-20,1
+378,Torridge,E07000046,Mar-20,1
+379,West Devon,E07000047,Mar-20,1
+380,Eastbourne,E07000061,Mar-20,1
+381,Hastings,E07000062,Mar-20,1
+382,Lewes,E07000063,Mar-20,1
+383,Rother,E07000064,Mar-20,1
+384,Wealden,E07000065,Mar-20,1
+385,Basildon,E07000066,Mar-20,1
+386,Braintree,E07000067,Mar-20,1
+387,Brentwood,E07000068,Mar-20,1
+388,Castle Point,E07000069,Mar-20,1
+389,Chelmsford,E07000070,Mar-20,1
+390,Colchester,E07000071,Mar-20,1
+391,Epping Forest,E07000072,Mar-20,1
+392,Harlow,E07000073,Mar-20,1
+393,Maldon,E07000074,Mar-20,1
+394,Rochford,E07000075,Mar-20,1
+395,Tendring,E07000076,Mar-20,1
+396,Uttlesford,E07000077,Mar-20,1
+397,Cheltenham,E07000078,Mar-20,1
+398,Cotswold,E07000079,Mar-20,1
+399,Forest of Dean,E07000080,Mar-20,1
+400,Gloucester,E07000081,Mar-20,1
+401,Stroud,E07000082,Mar-20,1
+402,Tewkesbury,E07000083,Mar-20,1
+403,Basingstoke and Deane,E07000084,Mar-20,1
+404,East Hampshire,E07000085,Mar-20,1
+405,Eastleigh,E07000086,Mar-20,1
+406,Fareham,E07000087,Mar-20,1
+407,Gosport,E07000088,Mar-20,1
+408,Hart,E07000089,Mar-20,1
+409,Havant,E07000090,Mar-20,1
+410,New Forest,E07000091,Mar-20,1
+411,Rushmoor,E07000092,Mar-20,1
+412,Test Valley,E07000093,Mar-20,1
+413,Winchester,E07000094,Mar-20,1
+414,Broxbourne,E07000095,Mar-20,1
+415,Dacorum,E07000096,Mar-20,1
+416,Hertsmere,E07000098,Mar-20,1
+417,North Hertfordshire,E07000099,Mar-20,1
+418,Three Rivers,E07000102,Mar-20,1
+419,Watford,E07000103,Mar-20,1
+420,Ashford,E07000105,Mar-20,1
+421,Canterbury,E07000106,Mar-20,1
+422,Dartford,E07000107,Mar-20,1
+423,Dover,E07000108,Mar-20,1
+424,Gravesham,E07000109,Mar-20,1
+425,Maidstone,E07000110,Mar-20,1
+426,Sevenoaks,E07000111,Mar-20,1
+427,Folkestone and Hythe,E07000112,Mar-20,1
+428,Swale,E07000113,Mar-20,1
+429,Thanet,E07000114,Mar-20,1
+430,Tonbridge and Malling,E07000115,Mar-20,1
+431,Tunbridge Wells,E07000116,Mar-20,1
+432,Burnley,E07000117,Mar-20,1
+433,Chorley,E07000118,Mar-20,1
+434,Fylde,E07000119,Mar-20,1
+435,Hyndburn,E07000120,Mar-20,1
+436,Lancaster,E07000121,Mar-20,1
+437,Pendle,E07000122,Mar-20,1
+438,Preston,E07000123,Mar-20,1
+439,Ribble Valley,E07000124,Mar-20,1
+440,Rossendale,E07000125,Mar-20,1
+441,South Ribble,E07000126,Mar-20,1
+442,West Lancashire,E07000127,Mar-20,1
+443,Wyre,E07000128,Mar-20,1
+444,Blaby,E07000129,Mar-20,1
+445,Charnwood,E07000130,Mar-20,1
+446,Harborough,E07000131,Mar-20,1
+447,Hinckley and Bosworth,E07000132,Mar-20,1
+448,Melton,E07000133,Mar-20,1
+449,North West Leicestershire,E07000134,Mar-20,1
+450,Oadby and Wigston,E07000135,Mar-20,1
+451,Boston,E07000136,Mar-20,1
+452,East Lindsey,E07000137,Mar-20,1
+453,Lincoln,E07000138,Mar-20,1
+454,North Kesteven,E07000139,Mar-20,1
+455,South Holland,E07000140,Mar-20,1
+456,South Kesteven,E07000141,Mar-20,1
+457,West Lindsey,E07000142,Mar-20,1
+458,Breckland,E07000143,Mar-20,1
+459,Broadland,E07000144,Mar-20,1
+460,Great Yarmouth,E07000145,Mar-20,1
+461,King's Lynn and West Norfolk,E07000146,Mar-20,1
+462,North Norfolk,E07000147,Mar-20,1
+463,Norwich,E07000148,Mar-20,1
+464,South Norfolk,E07000149,Mar-20,1
+465,Ashfield,E07000170,Mar-20,1
+466,Bassetlaw,E07000171,Mar-20,1
+467,Broxtowe,E07000172,Mar-20,1
+468,Gedling,E07000173,Mar-20,1
+469,Mansfield,E07000174,Mar-20,1
+470,Newark and Sherwood,E07000175,Mar-20,1
+471,Rushcliffe,E07000176,Mar-20,1
+472,Cherwell,E07000177,Mar-20,1
+473,Oxford,E07000178,Mar-20,1
+474,South Oxfordshire,E07000179,Mar-20,1
+475,Vale of White Horse,E07000180,Mar-20,1
+476,West Oxfordshire,E07000181,Mar-20,1
+477,Cannock Chase,E07000192,Mar-20,1
+478,East Staffordshire,E07000193,Mar-20,1
+479,Lichfield,E07000194,Mar-20,1
+480,Newcastle-under-Lyme,E07000195,Mar-20,1
+481,South Staffordshire,E07000196,Mar-20,1
+482,Stafford,E07000197,Mar-20,1
+483,Staffordshire Moorlands,E07000198,Mar-20,1
+484,Tamworth,E07000199,Mar-20,1
+485,Babergh,E07000200,Mar-20,1
+486,Ipswich,E07000202,Mar-20,1
+487,Mid Suffolk,E07000203,Mar-20,1
+488,Elmbridge,E07000207,Mar-20,1
+489,Epsom and Ewell,E07000208,Mar-20,1
+490,Guildford,E07000209,Mar-20,1
+491,Mole Valley,E07000210,Mar-20,1
+492,Reigate and Banstead,E07000211,Mar-20,1
+493,Runnymede,E07000212,Mar-20,1
+494,Spelthorne,E07000213,Mar-20,1
+495,Surrey Heath,E07000214,Mar-20,1
+496,Tandridge,E07000215,Mar-20,1
+497,Waverley,E07000216,Mar-20,1
+498,Woking,E07000217,Mar-20,1
+499,North Warwickshire,E07000218,Mar-20,1
+500,Nuneaton and Bedworth,E07000219,Mar-20,1
+501,Rugby,E07000220,Mar-20,1
+502,Stratford-on-Avon,E07000221,Mar-20,1
+503,Warwick,E07000222,Mar-20,1
+504,Adur,E07000223,Mar-20,1
+505,Arun,E07000224,Mar-20,1
+506,Chichester,E07000225,Mar-20,1
+507,Crawley,E07000226,Mar-20,1
+508,Horsham,E07000227,Mar-20,1
+509,Mid Sussex,E07000228,Mar-20,1
+510,Worthing,E07000229,Mar-20,1
+511,Bromsgrove,E07000234,Mar-20,1
+512,Malvern Hills,E07000235,Mar-20,1
+513,Redditch,E07000236,Mar-20,1
+514,Worcester,E07000237,Mar-20,1
+515,Wychavon,E07000238,Mar-20,1
+516,Wyre Forest,E07000239,Mar-20,1
+517,St Albans,E07000240,Mar-20,1
+518,Welwyn Hatfield,E07000241,Mar-20,1
+519,East Hertfordshire,E07000242,Mar-20,1
+520,Stevenage,E07000243,Mar-20,1
+521,East Suffolk,E07000244,Mar-20,1
+522,West Suffolk,E07000245,Mar-20,1
+523,Bolton,E08000001,Mar-20,1
+524,Bury,E08000002,Mar-20,1
+525,Manchester,E08000003,Mar-20,1
+526,Oldham,E08000004,Mar-20,1
+527,Rochdale,E08000005,Mar-20,1
+528,Salford,E08000006,Mar-20,1
+529,Stockport,E08000007,Mar-20,1
+530,Tameside,E08000008,Mar-20,1
+531,Trafford,E08000009,Mar-20,1
+532,Wigan,E08000010,Mar-20,1
+533,Knowsley,E08000011,Mar-20,1
+534,Liverpool,E08000012,Mar-20,1
+535,St. Helens,E08000013,Mar-20,1
+536,Sefton,E08000014,Mar-20,1
+537,Wirral,E08000015,Mar-20,1
+538,Barnsley,E08000016,Mar-20,1
+539,Doncaster,E08000017,Mar-20,1
+540,Rotherham,E08000018,Mar-20,1
+541,Sheffield,E08000019,Mar-20,1
+542,Newcastle upon Tyne,E08000021,Mar-20,1
+543,North Tyneside,E08000022,Mar-20,1
+544,South Tyneside,E08000023,Mar-20,1
+545,Sunderland,E08000024,Mar-20,1
+546,Birmingham,E08000025,Mar-20,1
+547,Coventry,E08000026,Mar-20,1
+548,Dudley,E08000027,Mar-20,1
+549,Sandwell,E08000028,Mar-20,1
+550,Solihull,E08000029,Mar-20,1
+551,Walsall,E08000030,Mar-20,1
+552,Wolverhampton,E08000031,Mar-20,1
+553,Bradford,E08000032,Mar-20,1
+554,Calderdale,E08000033,Mar-20,1
+555,Kirklees,E08000034,Mar-20,1
+556,Leeds,E08000035,Mar-20,1
+557,Wakefield,E08000036,Mar-20,1
+558,Gateshead,E08000037,Mar-20,1
+559,City of London,E09000001,Mar-20,1
+560,Barking and Dagenham,E09000002,Mar-20,1
+561,Barnet,E09000003,Mar-20,1
+562,Bexley,E09000004,Mar-20,1
+563,Brent,E09000005,Mar-20,1
+564,Bromley,E09000006,Mar-20,1
+565,Camden,E09000007,Mar-20,1
+566,Croydon,E09000008,Mar-20,1
+567,Ealing,E09000009,Mar-20,1
+568,Enfield,E09000010,Mar-20,1
+569,Greenwich,E09000011,Mar-20,1
+570,Hackney,E09000012,Mar-20,1
+571,Hammersmith and Fulham,E09000013,Mar-20,1
+572,Haringey,E09000014,Mar-20,1
+573,Harrow,E09000015,Mar-20,1
+574,Havering,E09000016,Mar-20,1
+575,Hillingdon,E09000017,Mar-20,1
+576,Hounslow,E09000018,Mar-20,1
+577,Islington,E09000019,Mar-20,1
+578,Kensington and Chelsea,E09000020,Mar-20,1
+579,Kingston upon Thames,E09000021,Mar-20,1
+580,Lambeth,E09000022,Mar-20,1
+581,Lewisham,E09000023,Mar-20,1
+582,Merton,E09000024,Mar-20,1
+583,Newham,E09000025,Mar-20,1
+584,Redbridge,E09000026,Mar-20,1
+585,Richmond upon Thames,E09000027,Mar-20,1
+586,Southwark,E09000028,Mar-20,1
+587,Sutton,E09000029,Mar-20,1
+588,Tower Hamlets,E09000030,Mar-20,1
+589,Waltham Forest,E09000031,Mar-20,1
+590,Wandsworth,E09000032,Mar-20,1
+591,Westminster,E09000033,Mar-20,1
+592,Hartlepool,E06000001,Dec-20,1
+593,Middlesbrough,E06000002,Dec-20,1
+594,Redcar and Cleveland,E06000003,Dec-20,1
+595,Stockton-on-Tees,E06000004,Dec-20,1
+596,Darlington,E06000005,Dec-20,1
+597,Halton,E06000006,Dec-20,1
+598,Warrington,E06000007,Dec-20,1
+599,Blackburn with Darwen,E06000008,Dec-20,1
+600,Blackpool,E06000009,Dec-20,1
+601,Kingston upon Hull,E06000010,Dec-20,1
+602,East Riding of Yorkshire,E06000011,Dec-20,1
+603,North East Lincolnshire,E06000012,Dec-20,1
+604,North Lincolnshire,E06000013,Dec-20,1
+605,York,E06000014,Dec-20,1
+606,Derby,E06000015,Dec-20,1
+607,Leicester,E06000016,Dec-20,1
+608,Rutland,E06000017,Dec-20,1
+609,Nottingham,E06000018,Dec-20,1
+610,Herefordshire,E06000019,Dec-20,1
+611,Telford and Wrekin,E06000020,Dec-20,1
+612,Stoke-on-Trent,E06000021,Dec-20,1
+613,Bath and North East Somerset,E06000022,Dec-20,1
+614,Bristol,E06000023,Dec-20,1
+615,North Somerset,E06000024,Dec-20,1
+616,South Gloucestershire,E06000025,Dec-20,1
+617,Plymouth,E06000026,Dec-20,1
+618,Torbay,E06000027,Dec-20,1
+619,Swindon,E06000030,Dec-20,1
+620,Peterborough,E06000031,Dec-20,1
+621,Luton,E06000032,Dec-20,1
+622,Southend-on-Sea,E06000033,Dec-20,1
+623,Thurrock,E06000034,Dec-20,1
+624,Medway,E06000035,Dec-20,1
+625,Bracknell Forest,E06000036,Dec-20,1
+626,West Berkshire,E06000037,Dec-20,1
+627,Reading,E06000038,Dec-20,1
+628,Slough,E06000039,Dec-20,1
+629,Windsor and Maidenhead,E06000040,Dec-20,1
+630,Wokingham,E06000041,Dec-20,1
+631,Milton Keynes,E06000042,Dec-20,1
+632,Brighton and Hove,E06000043,Dec-20,1
+633,Portsmouth,E06000044,Dec-20,1
+634,Southampton,E06000045,Dec-20,1
+635,Isle of Wight,E06000046,Dec-20,1
+636,County Durham,E06000047,Dec-20,1
+637,Cheshire East,E06000049,Dec-20,1
+638,Cheshire West and Chester,E06000050,Dec-20,1
+639,Shropshire,E06000051,Dec-20,1
+640,Cornwall,E06000052,Dec-20,1
+641,Isles of Scilly,E06000053,Dec-20,1
+642,Wiltshire,E06000054,Dec-20,1
+643,Bedford,E06000055,Dec-20,1
+644,Central Bedfordshire,E06000056,Dec-20,1
+645,Northumberland,E06000057,Dec-20,1
+646,"Bournemouth, Christchurch and Poole",E06000058,Dec-20,1
+647,Dorset,E06000059,Dec-20,1
+648,Buckinghamshire,E06000060,Dec-20,1
+649,North Northamptonshire,E06000061,Dec-20,1
+650,West Northamptonshire,E06000062,Dec-20,1
+651,Cumberland,E06000063,Dec-20,1
+652,Westmorland and Furness,E06000064,Dec-20,1
+653,North Yorkshire,E06000065,Dec-20,1
+654,Somerset,E06000066,Dec-20,1
+655,Cambridge,E07000008,Dec-20,1
+656,East Cambridgeshire,E07000009,Dec-20,1
+657,Fenland,E07000010,Dec-20,1
+658,Huntingdonshire,E07000011,Dec-20,1
+659,South Cambridgeshire,E07000012,Dec-20,1
+660,Amber Valley,E07000032,Dec-20,1
+661,Bolsover,E07000033,Dec-20,1
+662,Chesterfield,E07000034,Dec-20,1
+663,Derbyshire Dales,E07000035,Dec-20,1
+664,Erewash,E07000036,Dec-20,1
+665,High Peak,E07000037,Dec-20,1
+666,North East Derbyshire,E07000038,Dec-20,1
+667,South Derbyshire,E07000039,Dec-20,1
+668,East Devon,E07000040,Dec-20,1
+669,Exeter,E07000041,Dec-20,1
+670,Mid Devon,E07000042,Dec-20,1
+671,North Devon,E07000043,Dec-20,1
+672,South Hams,E07000044,Dec-20,1
+673,Teignbridge,E07000045,Dec-20,1
+674,Torridge,E07000046,Dec-20,1
+675,West Devon,E07000047,Dec-20,1
+676,Eastbourne,E07000061,Dec-20,1
+677,Hastings,E07000062,Dec-20,1
+678,Lewes,E07000063,Dec-20,1
+679,Rother,E07000064,Dec-20,1
+680,Wealden,E07000065,Dec-20,1
+681,Basildon,E07000066,Dec-20,1
+682,Braintree,E07000067,Dec-20,1
+683,Brentwood,E07000068,Dec-20,1
+684,Castle Point,E07000069,Dec-20,1
+685,Chelmsford,E07000070,Dec-20,1
+686,Colchester,E07000071,Dec-20,1
+687,Epping Forest,E07000072,Dec-20,1
+688,Harlow,E07000073,Dec-20,1
+689,Maldon,E07000074,Dec-20,1
+690,Rochford,E07000075,Dec-20,1
+691,Tendring,E07000076,Dec-20,1
+692,Uttlesford,E07000077,Dec-20,1
+693,Cheltenham,E07000078,Dec-20,1
+694,Cotswold,E07000079,Dec-20,1
+695,Forest of Dean,E07000080,Dec-20,1
+696,Gloucester,E07000081,Dec-20,1
+697,Stroud,E07000082,Dec-20,1
+698,Tewkesbury,E07000083,Dec-20,1
+699,Basingstoke and Deane,E07000084,Dec-20,1
+700,East Hampshire,E07000085,Dec-20,1
+701,Eastleigh,E07000086,Dec-20,1
+702,Fareham,E07000087,Dec-20,1
+703,Gosport,E07000088,Dec-20,1
+704,Hart,E07000089,Dec-20,1
+705,Havant,E07000090,Dec-20,1
+706,New Forest,E07000091,Dec-20,1
+707,Rushmoor,E07000092,Dec-20,1
+708,Test Valley,E07000093,Dec-20,1
+709,Winchester,E07000094,Dec-20,1
+710,Broxbourne,E07000095,Dec-20,1
+711,Dacorum,E07000096,Dec-20,1
+712,Hertsmere,E07000098,Dec-20,1
+713,North Hertfordshire,E07000099,Dec-20,1
+714,Three Rivers,E07000102,Dec-20,1
+715,Watford,E07000103,Dec-20,1
+716,Ashford,E07000105,Dec-20,1
+717,Canterbury,E07000106,Dec-20,1
+718,Dartford,E07000107,Dec-20,1
+719,Dover,E07000108,Dec-20,1
+720,Gravesham,E07000109,Dec-20,1
+721,Maidstone,E07000110,Dec-20,1
+722,Sevenoaks,E07000111,Dec-20,1
+723,Folkestone and Hythe,E07000112,Dec-20,1
+724,Swale,E07000113,Dec-20,1
+725,Thanet,E07000114,Dec-20,1
+726,Tonbridge and Malling,E07000115,Dec-20,1
+727,Tunbridge Wells,E07000116,Dec-20,1
+728,Burnley,E07000117,Dec-20,1
+729,Chorley,E07000118,Dec-20,1
+730,Fylde,E07000119,Dec-20,1
+731,Hyndburn,E07000120,Dec-20,1
+732,Lancaster,E07000121,Dec-20,1
+733,Pendle,E07000122,Dec-20,1
+734,Preston,E07000123,Dec-20,1
+735,Ribble Valley,E07000124,Dec-20,1
+736,Rossendale,E07000125,Dec-20,1
+737,South Ribble,E07000126,Dec-20,1
+738,West Lancashire,E07000127,Dec-20,1
+739,Wyre,E07000128,Dec-20,1
+740,Blaby,E07000129,Dec-20,1
+741,Charnwood,E07000130,Dec-20,1
+742,Harborough,E07000131,Dec-20,1
+743,Hinckley and Bosworth,E07000132,Dec-20,1
+744,Melton,E07000133,Dec-20,1
+745,North West Leicestershire,E07000134,Dec-20,1
+746,Oadby and Wigston,E07000135,Dec-20,1
+747,Boston,E07000136,Dec-20,1
+748,East Lindsey,E07000137,Dec-20,1
+749,Lincoln,E07000138,Dec-20,1
+750,North Kesteven,E07000139,Dec-20,1
+751,South Holland,E07000140,Dec-20,1
+752,South Kesteven,E07000141,Dec-20,1
+753,West Lindsey,E07000142,Dec-20,1
+754,Breckland,E07000143,Dec-20,1
+755,Broadland,E07000144,Dec-20,1
+756,Great Yarmouth,E07000145,Dec-20,1
+757,King's Lynn and West Norfolk,E07000146,Dec-20,1
+758,North Norfolk,E07000147,Dec-20,1
+759,Norwich,E07000148,Dec-20,1
+760,South Norfolk,E07000149,Dec-20,1
+761,Ashfield,E07000170,Dec-20,1
+762,Bassetlaw,E07000171,Dec-20,1
+763,Broxtowe,E07000172,Dec-20,1
+764,Gedling,E07000173,Dec-20,1
+765,Mansfield,E07000174,Dec-20,1
+766,Newark and Sherwood,E07000175,Dec-20,1
+767,Rushcliffe,E07000176,Dec-20,1
+768,Cherwell,E07000177,Dec-20,1
+769,Oxford,E07000178,Dec-20,1
+770,South Oxfordshire,E07000179,Dec-20,1
+771,Vale of White Horse,E07000180,Dec-20,1
+772,West Oxfordshire,E07000181,Dec-20,1
+773,Cannock Chase,E07000192,Dec-20,1
+774,East Staffordshire,E07000193,Dec-20,1
+775,Lichfield,E07000194,Dec-20,1
+776,Newcastle-under-Lyme,E07000195,Dec-20,1
+777,South Staffordshire,E07000196,Dec-20,1
+778,Stafford,E07000197,Dec-20,1
+779,Staffordshire Moorlands,E07000198,Dec-20,1
+780,Tamworth,E07000199,Dec-20,1
+781,Babergh,E07000200,Dec-20,1
+782,Ipswich,E07000202,Dec-20,1
+783,Mid Suffolk,E07000203,Dec-20,1
+784,Elmbridge,E07000207,Dec-20,1
+785,Epsom and Ewell,E07000208,Dec-20,1
+786,Guildford,E07000209,Dec-20,1
+787,Mole Valley,E07000210,Dec-20,1
+788,Reigate and Banstead,E07000211,Dec-20,1
+789,Runnymede,E07000212,Dec-20,1
+790,Spelthorne,E07000213,Dec-20,1
+791,Surrey Heath,E07000214,Dec-20,1
+792,Tandridge,E07000215,Dec-20,1
+793,Waverley,E07000216,Dec-20,1
+794,Woking,E07000217,Dec-20,1
+795,North Warwickshire,E07000218,Dec-20,1
+796,Nuneaton and Bedworth,E07000219,Dec-20,1
+797,Rugby,E07000220,Dec-20,1
+798,Stratford-on-Avon,E07000221,Dec-20,1
+799,Warwick,E07000222,Dec-20,1
+800,Adur,E07000223,Dec-20,1
+801,Arun,E07000224,Dec-20,1
+802,Chichester,E07000225,Dec-20,1
+803,Crawley,E07000226,Dec-20,1
+804,Horsham,E07000227,Dec-20,1
+805,Mid Sussex,E07000228,Dec-20,1
+806,Worthing,E07000229,Dec-20,1
+807,Bromsgrove,E07000234,Dec-20,1
+808,Malvern Hills,E07000235,Dec-20,1
+809,Redditch,E07000236,Dec-20,1
+810,Worcester,E07000237,Dec-20,1
+811,Wychavon,E07000238,Dec-20,1
+812,Wyre Forest,E07000239,Dec-20,1
+813,St Albans,E07000240,Dec-20,1
+814,Welwyn Hatfield,E07000241,Dec-20,1
+815,East Hertfordshire,E07000242,Dec-20,1
+816,Stevenage,E07000243,Dec-20,1
+817,East Suffolk,E07000244,Dec-20,1
+818,West Suffolk,E07000245,Dec-20,1
+819,Bolton,E08000001,Dec-20,1
+820,Bury,E08000002,Dec-20,1
+821,Manchester,E08000003,Dec-20,1
+822,Oldham,E08000004,Dec-20,1
+823,Rochdale,E08000005,Dec-20,1
+824,Salford,E08000006,Dec-20,1
+825,Stockport,E08000007,Dec-20,1
+826,Tameside,E08000008,Dec-20,1
+827,Trafford,E08000009,Dec-20,1
+828,Wigan,E08000010,Dec-20,1
+829,Knowsley,E08000011,Dec-20,1
+830,Liverpool,E08000012,Dec-20,1
+831,St. Helens,E08000013,Dec-20,1
+832,Sefton,E08000014,Dec-20,1
+833,Wirral,E08000015,Dec-20,1
+834,Barnsley,E08000016,Dec-20,1
+835,Doncaster,E08000017,Dec-20,1
+836,Rotherham,E08000018,Dec-20,1
+837,Sheffield,E08000019,Dec-20,1
+838,Newcastle upon Tyne,E08000021,Dec-20,1
+839,North Tyneside,E08000022,Dec-20,1
+840,South Tyneside,E08000023,Dec-20,1
+841,Sunderland,E08000024,Dec-20,1
+842,Birmingham,E08000025,Dec-20,1
+843,Coventry,E08000026,Dec-20,1
+844,Dudley,E08000027,Dec-20,1
+845,Sandwell,E08000028,Dec-20,1
+846,Solihull,E08000029,Dec-20,1
+847,Walsall,E08000030,Dec-20,1
+848,Wolverhampton,E08000031,Dec-20,1
+849,Bradford,E08000032,Dec-20,1
+850,Calderdale,E08000033,Dec-20,1
+851,Kirklees,E08000034,Dec-20,1
+852,Leeds,E08000035,Dec-20,1
+853,Wakefield,E08000036,Dec-20,1
+854,Gateshead,E08000037,Dec-20,1
+855,City of London,E09000001,Dec-20,1
+856,Barking and Dagenham,E09000002,Dec-20,1
+857,Barnet,E09000003,Dec-20,1
+858,Bexley,E09000004,Dec-20,1
+859,Brent,E09000005,Dec-20,1
+860,Bromley,E09000006,Dec-20,1
+861,Camden,E09000007,Dec-20,1
+862,Croydon,E09000008,Dec-20,1
+863,Ealing,E09000009,Dec-20,1
+864,Enfield,E09000010,Dec-20,1
+865,Greenwich,E09000011,Dec-20,1
+866,Hackney,E09000012,Dec-20,1
+867,Hammersmith and Fulham,E09000013,Dec-20,1
+868,Haringey,E09000014,Dec-20,1
+869,Harrow,E09000015,Dec-20,1
+870,Havering,E09000016,Dec-20,1
+871,Hillingdon,E09000017,Dec-20,1
+872,Hounslow,E09000018,Dec-20,1
+873,Islington,E09000019,Dec-20,1
+874,Kensington and Chelsea,E09000020,Dec-20,1
+875,Kingston upon Thames,E09000021,Dec-20,1
+876,Lambeth,E09000022,Dec-20,1
+877,Lewisham,E09000023,Dec-20,1
+878,Merton,E09000024,Dec-20,1
+879,Newham,E09000025,Dec-20,1
+880,Redbridge,E09000026,Dec-20,1
+881,Richmond upon Thames,E09000027,Dec-20,1
+882,Southwark,E09000028,Dec-20,1
+883,Sutton,E09000029,Dec-20,1
+884,Tower Hamlets,E09000030,Dec-20,1
+885,Waltham Forest,E09000031,Dec-20,1
+886,Wandsworth,E09000032,Dec-20,1
+887,Westminster,E09000033,Dec-20,1
+888,Hartlepool,E06000001,Mar-21,1
+889,Middlesbrough,E06000002,Mar-21,1
+890,Redcar and Cleveland,E06000003,Mar-21,1
+891,Stockton-on-Tees,E06000004,Mar-21,1
+892,Darlington,E06000005,Mar-21,1
+893,Halton,E06000006,Mar-21,1
+894,Warrington,E06000007,Mar-21,1
+895,Blackburn with Darwen,E06000008,Mar-21,1
+896,Blackpool,E06000009,Mar-21,1
+897,Kingston upon Hull,E06000010,Mar-21,1
+898,East Riding of Yorkshire,E06000011,Mar-21,1
+899,North East Lincolnshire,E06000012,Mar-21,1
+900,North Lincolnshire,E06000013,Mar-21,1
+901,York,E06000014,Mar-21,1
+902,Derby,E06000015,Mar-21,1
+903,Leicester,E06000016,Mar-21,1
+904,Rutland,E06000017,Mar-21,1
+905,Nottingham,E06000018,Mar-21,1
+906,Herefordshire,E06000019,Mar-21,1
+907,Telford and Wrekin,E06000020,Mar-21,1
+908,Stoke-on-Trent,E06000021,Mar-21,1
+909,Bath and North East Somerset,E06000022,Mar-21,1
+910,Bristol,E06000023,Mar-21,1
+911,North Somerset,E06000024,Mar-21,1
+912,South Gloucestershire,E06000025,Mar-21,1
+913,Plymouth,E06000026,Mar-21,1
+914,Torbay,E06000027,Mar-21,1
+915,Swindon,E06000030,Mar-21,1
+916,Peterborough,E06000031,Mar-21,1
+917,Luton,E06000032,Mar-21,1
+918,Southend-on-Sea,E06000033,Mar-21,1
+919,Thurrock,E06000034,Mar-21,1
+920,Medway,E06000035,Mar-21,1
+921,Bracknell Forest,E06000036,Mar-21,1
+922,West Berkshire,E06000037,Mar-21,1
+923,Reading,E06000038,Mar-21,1
+924,Slough,E06000039,Mar-21,1
+925,Windsor and Maidenhead,E06000040,Mar-21,1
+926,Wokingham,E06000041,Mar-21,1
+927,Milton Keynes,E06000042,Mar-21,1
+928,Brighton and Hove,E06000043,Mar-21,1
+929,Portsmouth,E06000044,Mar-21,1
+930,Southampton,E06000045,Mar-21,1
+931,Isle of Wight,E06000046,Mar-21,1
+932,County Durham,E06000047,Mar-21,1
+933,Cheshire East,E06000049,Mar-21,1
+934,Cheshire West and Chester,E06000050,Mar-21,1
+935,Shropshire,E06000051,Mar-21,1
+936,Cornwall,E06000052,Mar-21,1
+937,Isles of Scilly,E06000053,Mar-21,1
+938,Wiltshire,E06000054,Mar-21,1
+939,Bedford,E06000055,Mar-21,1
+940,Central Bedfordshire,E06000056,Mar-21,1
+941,Northumberland,E06000057,Mar-21,1
+942,"Bournemouth, Christchurch and Poole",E06000058,Mar-21,1
+943,Dorset,E06000059,Mar-21,1
+944,Buckinghamshire,E06000060,Mar-21,1
+945,North Northamptonshire,E06000061,Mar-21,1
+946,West Northamptonshire,E06000062,Mar-21,1
+947,Cumberland,E06000063,Mar-21,1
+948,Westmorland and Furness,E06000064,Mar-21,1
+949,North Yorkshire,E06000065,Mar-21,1
+950,Somerset,E06000066,Mar-21,1
+951,Cambridge,E07000008,Mar-21,1
+952,East Cambridgeshire,E07000009,Mar-21,1
+953,Fenland,E07000010,Mar-21,1
+954,Huntingdonshire,E07000011,Mar-21,1
+955,South Cambridgeshire,E07000012,Mar-21,1
+956,Amber Valley,E07000032,Mar-21,1
+957,Bolsover,E07000033,Mar-21,1
+958,Chesterfield,E07000034,Mar-21,1
+959,Derbyshire Dales,E07000035,Mar-21,1
+960,Erewash,E07000036,Mar-21,1
+961,High Peak,E07000037,Mar-21,1
+962,North East Derbyshire,E07000038,Mar-21,1
+963,South Derbyshire,E07000039,Mar-21,1
+964,East Devon,E07000040,Mar-21,1
+965,Exeter,E07000041,Mar-21,1
+966,Mid Devon,E07000042,Mar-21,1
+967,North Devon,E07000043,Mar-21,1
+968,South Hams,E07000044,Mar-21,1
+969,Teignbridge,E07000045,Mar-21,1
+970,Torridge,E07000046,Mar-21,1
+971,West Devon,E07000047,Mar-21,1
+972,Eastbourne,E07000061,Mar-21,1
+973,Hastings,E07000062,Mar-21,1
+974,Lewes,E07000063,Mar-21,1
+975,Rother,E07000064,Mar-21,1
+976,Wealden,E07000065,Mar-21,1
+977,Basildon,E07000066,Mar-21,1
+978,Braintree,E07000067,Mar-21,1
+979,Brentwood,E07000068,Mar-21,1
+980,Castle Point,E07000069,Mar-21,1
+981,Chelmsford,E07000070,Mar-21,1
+982,Colchester,E07000071,Mar-21,1
+983,Epping Forest,E07000072,Mar-21,1
+984,Harlow,E07000073,Mar-21,1
+985,Maldon,E07000074,Mar-21,1
+986,Rochford,E07000075,Mar-21,1
+987,Tendring,E07000076,Mar-21,1
+988,Uttlesford,E07000077,Mar-21,1
+989,Cheltenham,E07000078,Mar-21,1
+990,Cotswold,E07000079,Mar-21,1
+991,Forest of Dean,E07000080,Mar-21,1
+992,Gloucester,E07000081,Mar-21,1
+993,Stroud,E07000082,Mar-21,1
+994,Tewkesbury,E07000083,Mar-21,1
+995,Basingstoke and Deane,E07000084,Mar-21,1
+996,East Hampshire,E07000085,Mar-21,1
+997,Eastleigh,E07000086,Mar-21,1
+998,Fareham,E07000087,Mar-21,1
+999,Gosport,E07000088,Mar-21,1
+1000,Hart,E07000089,Mar-21,1
+1001,Havant,E07000090,Mar-21,1
+1002,New Forest,E07000091,Mar-21,1
+1003,Rushmoor,E07000092,Mar-21,1
+1004,Test Valley,E07000093,Mar-21,1
+1005,Winchester,E07000094,Mar-21,1
+1006,Broxbourne,E07000095,Mar-21,1
+1007,Dacorum,E07000096,Mar-21,1
+1008,Hertsmere,E07000098,Mar-21,1
+1009,North Hertfordshire,E07000099,Mar-21,1
+1010,Three Rivers,E07000102,Mar-21,1
+1011,Watford,E07000103,Mar-21,1
+1012,Ashford,E07000105,Mar-21,1
+1013,Canterbury,E07000106,Mar-21,1
+1014,Dartford,E07000107,Mar-21,1
+1015,Dover,E07000108,Mar-21,1
+1016,Gravesham,E07000109,Mar-21,1
+1017,Maidstone,E07000110,Mar-21,1
+1018,Sevenoaks,E07000111,Mar-21,1
+1019,Folkestone and Hythe,E07000112,Mar-21,1
+1020,Swale,E07000113,Mar-21,1
+1021,Thanet,E07000114,Mar-21,1
+1022,Tonbridge and Malling,E07000115,Mar-21,1
+1023,Tunbridge Wells,E07000116,Mar-21,1
+1024,Burnley,E07000117,Mar-21,1
+1025,Chorley,E07000118,Mar-21,1
+1026,Fylde,E07000119,Mar-21,1
+1027,Hyndburn,E07000120,Mar-21,1
+1028,Lancaster,E07000121,Mar-21,1
+1029,Pendle,E07000122,Mar-21,1
+1030,Preston,E07000123,Mar-21,1
+1031,Ribble Valley,E07000124,Mar-21,1
+1032,Rossendale,E07000125,Mar-21,1
+1033,South Ribble,E07000126,Mar-21,1
+1034,West Lancashire,E07000127,Mar-21,1
+1035,Wyre,E07000128,Mar-21,1
+1036,Blaby,E07000129,Mar-21,1
+1037,Charnwood,E07000130,Mar-21,1
+1038,Harborough,E07000131,Mar-21,1
+1039,Hinckley and Bosworth,E07000132,Mar-21,1
+1040,Melton,E07000133,Mar-21,1
+1041,North West Leicestershire,E07000134,Mar-21,1
+1042,Oadby and Wigston,E07000135,Mar-21,1
+1043,Boston,E07000136,Mar-21,1
+1044,East Lindsey,E07000137,Mar-21,1
+1045,Lincoln,E07000138,Mar-21,1
+1046,North Kesteven,E07000139,Mar-21,1
+1047,South Holland,E07000140,Mar-21,1
+1048,South Kesteven,E07000141,Mar-21,1
+1049,West Lindsey,E07000142,Mar-21,1
+1050,Breckland,E07000143,Mar-21,1
+1051,Broadland,E07000144,Mar-21,1
+1052,Great Yarmouth,E07000145,Mar-21,1
+1053,King's Lynn and West Norfolk,E07000146,Mar-21,1
+1054,North Norfolk,E07000147,Mar-21,1
+1055,Norwich,E07000148,Mar-21,1
+1056,South Norfolk,E07000149,Mar-21,1
+1057,Ashfield,E07000170,Mar-21,1
+1058,Bassetlaw,E07000171,Mar-21,1
+1059,Broxtowe,E07000172,Mar-21,1
+1060,Gedling,E07000173,Mar-21,1
+1061,Mansfield,E07000174,Mar-21,1
+1062,Newark and Sherwood,E07000175,Mar-21,1
+1063,Rushcliffe,E07000176,Mar-21,1
+1064,Cherwell,E07000177,Mar-21,1
+1065,Oxford,E07000178,Mar-21,1
+1066,South Oxfordshire,E07000179,Mar-21,1
+1067,Vale of White Horse,E07000180,Mar-21,1
+1068,West Oxfordshire,E07000181,Mar-21,1
+1069,Cannock Chase,E07000192,Mar-21,1
+1070,East Staffordshire,E07000193,Mar-21,1
+1071,Lichfield,E07000194,Mar-21,1
+1072,Newcastle-under-Lyme,E07000195,Mar-21,1
+1073,South Staffordshire,E07000196,Mar-21,1
+1074,Stafford,E07000197,Mar-21,1
+1075,Staffordshire Moorlands,E07000198,Mar-21,1
+1076,Tamworth,E07000199,Mar-21,1
+1077,Babergh,E07000200,Mar-21,1
+1078,Ipswich,E07000202,Mar-21,1
+1079,Mid Suffolk,E07000203,Mar-21,1
+1080,Elmbridge,E07000207,Mar-21,1
+1081,Epsom and Ewell,E07000208,Mar-21,1
+1082,Guildford,E07000209,Mar-21,1
+1083,Mole Valley,E07000210,Mar-21,1
+1084,Reigate and Banstead,E07000211,Mar-21,1
+1085,Runnymede,E07000212,Mar-21,1
+1086,Spelthorne,E07000213,Mar-21,1
+1087,Surrey Heath,E07000214,Mar-21,1
+1088,Tandridge,E07000215,Mar-21,1
+1089,Waverley,E07000216,Mar-21,1
+1090,Woking,E07000217,Mar-21,1
+1091,North Warwickshire,E07000218,Mar-21,1
+1092,Nuneaton and Bedworth,E07000219,Mar-21,1
+1093,Rugby,E07000220,Mar-21,1
+1094,Stratford-on-Avon,E07000221,Mar-21,1
+1095,Warwick,E07000222,Mar-21,1
+1096,Adur,E07000223,Mar-21,1
+1097,Arun,E07000224,Mar-21,1
+1098,Chichester,E07000225,Mar-21,1
+1099,Crawley,E07000226,Mar-21,1
+1100,Horsham,E07000227,Mar-21,1
+1101,Mid Sussex,E07000228,Mar-21,1
+1102,Worthing,E07000229,Mar-21,1
+1103,Bromsgrove,E07000234,Mar-21,1
+1104,Malvern Hills,E07000235,Mar-21,1
+1105,Redditch,E07000236,Mar-21,1
+1106,Worcester,E07000237,Mar-21,1
+1107,Wychavon,E07000238,Mar-21,1
+1108,Wyre Forest,E07000239,Mar-21,1
+1109,St Albans,E07000240,Mar-21,1
+1110,Welwyn Hatfield,E07000241,Mar-21,1
+1111,East Hertfordshire,E07000242,Mar-21,1
+1112,Stevenage,E07000243,Mar-21,1
+1113,East Suffolk,E07000244,Mar-21,1
+1114,West Suffolk,E07000245,Mar-21,1
+1115,Bolton,E08000001,Mar-21,1
+1116,Bury,E08000002,Mar-21,1
+1117,Manchester,E08000003,Mar-21,1
+1118,Oldham,E08000004,Mar-21,1
+1119,Rochdale,E08000005,Mar-21,1
+1120,Salford,E08000006,Mar-21,1
+1121,Stockport,E08000007,Mar-21,1
+1122,Tameside,E08000008,Mar-21,1
+1123,Trafford,E08000009,Mar-21,1
+1124,Wigan,E08000010,Mar-21,1
+1125,Knowsley,E08000011,Mar-21,1
+1126,Liverpool,E08000012,Mar-21,1
+1127,St. Helens,E08000013,Mar-21,1
+1128,Sefton,E08000014,Mar-21,1
+1129,Wirral,E08000015,Mar-21,1
+1130,Barnsley,E08000016,Mar-21,1
+1131,Doncaster,E08000017,Mar-21,1
+1132,Rotherham,E08000018,Mar-21,1
+1133,Sheffield,E08000019,Mar-21,1
+1134,Newcastle upon Tyne,E08000021,Mar-21,1
+1135,North Tyneside,E08000022,Mar-21,1
+1136,South Tyneside,E08000023,Mar-21,1
+1137,Sunderland,E08000024,Mar-21,1
+1138,Birmingham,E08000025,Mar-21,1
+1139,Coventry,E08000026,Mar-21,1
+1140,Dudley,E08000027,Mar-21,1
+1141,Sandwell,E08000028,Mar-21,1
+1142,Solihull,E08000029,Mar-21,1
+1143,Walsall,E08000030,Mar-21,1
+1144,Wolverhampton,E08000031,Mar-21,1
+1145,Bradford,E08000032,Mar-21,1
+1146,Calderdale,E08000033,Mar-21,1
+1147,Kirklees,E08000034,Mar-21,1
+1148,Leeds,E08000035,Mar-21,1
+1149,Wakefield,E08000036,Mar-21,1
+1150,Gateshead,E08000037,Mar-21,1
+1151,City of London,E09000001,Mar-21,1
+1152,Barking and Dagenham,E09000002,Mar-21,1
+1153,Barnet,E09000003,Mar-21,1
+1154,Bexley,E09000004,Mar-21,1
+1155,Brent,E09000005,Mar-21,1
+1156,Bromley,E09000006,Mar-21,1
+1157,Camden,E09000007,Mar-21,1
+1158,Croydon,E09000008,Mar-21,1
+1159,Ealing,E09000009,Mar-21,1
+1160,Enfield,E09000010,Mar-21,1
+1161,Greenwich,E09000011,Mar-21,1
+1162,Hackney,E09000012,Mar-21,1
+1163,Hammersmith and Fulham,E09000013,Mar-21,1
+1164,Haringey,E09000014,Mar-21,1
+1165,Harrow,E09000015,Mar-21,1
+1166,Havering,E09000016,Mar-21,1
+1167,Hillingdon,E09000017,Mar-21,1
+1168,Hounslow,E09000018,Mar-21,1
+1169,Islington,E09000019,Mar-21,1
+1170,Kensington and Chelsea,E09000020,Mar-21,1
+1171,Kingston upon Thames,E09000021,Mar-21,1
+1172,Lambeth,E09000022,Mar-21,1
+1173,Lewisham,E09000023,Mar-21,1
+1174,Merton,E09000024,Mar-21,1
+1175,Newham,E09000025,Mar-21,1
+1176,Redbridge,E09000026,Mar-21,1
+1177,Richmond upon Thames,E09000027,Mar-21,1
+1178,Southwark,E09000028,Mar-21,1
+1179,Sutton,E09000029,Mar-21,1
+1180,Tower Hamlets,E09000030,Mar-21,1
+1181,Waltham Forest,E09000031,Mar-21,1
+1182,Wandsworth,E09000032,Mar-21,1
+1183,Westminster,E09000033,Mar-21,1
+1184,Hartlepool,E06000001,Dec-21,1
+1185,Middlesbrough,E06000002,Dec-21,1
+1186,Redcar and Cleveland,E06000003,Dec-21,1
+1187,Stockton-on-Tees,E06000004,Dec-21,1
+1188,Darlington,E06000005,Dec-21,1
+1189,Halton,E06000006,Dec-21,1
+1190,Warrington,E06000007,Dec-21,1
+1191,Blackburn with Darwen,E06000008,Dec-21,1
+1192,Blackpool,E06000009,Dec-21,1
+1193,Kingston upon Hull,E06000010,Dec-21,1
+1194,East Riding of Yorkshire,E06000011,Dec-21,1
+1195,North East Lincolnshire,E06000012,Dec-21,1
+1196,North Lincolnshire,E06000013,Dec-21,1
+1197,York,E06000014,Dec-21,1
+1198,Derby,E06000015,Dec-21,1
+1199,Leicester,E06000016,Dec-21,1
+1200,Rutland,E06000017,Dec-21,1
+1201,Nottingham,E06000018,Dec-21,1
+1202,Herefordshire,E06000019,Dec-21,1
+1203,Telford and Wrekin,E06000020,Dec-21,1
+1204,Stoke-on-Trent,E06000021,Dec-21,1
+1205,Bath and North East Somerset,E06000022,Dec-21,1
+1206,Bristol,E06000023,Dec-21,1
+1207,North Somerset,E06000024,Dec-21,1
+1208,South Gloucestershire,E06000025,Dec-21,1
+1209,Plymouth,E06000026,Dec-21,1
+1210,Torbay,E06000027,Dec-21,1
+1211,Swindon,E06000030,Dec-21,1
+1212,Peterborough,E06000031,Dec-21,1
+1213,Luton,E06000032,Dec-21,1
+1214,Southend-on-Sea,E06000033,Dec-21,1
+1215,Thurrock,E06000034,Dec-21,1
+1216,Medway,E06000035,Dec-21,1
+1217,Bracknell Forest,E06000036,Dec-21,1
+1218,West Berkshire,E06000037,Dec-21,1
+1219,Reading,E06000038,Dec-21,1
+1220,Slough,E06000039,Dec-21,1
+1221,Windsor and Maidenhead,E06000040,Dec-21,1
+1222,Wokingham,E06000041,Dec-21,1
+1223,Milton Keynes,E06000042,Dec-21,1
+1224,Brighton and Hove,E06000043,Dec-21,1
+1225,Portsmouth,E06000044,Dec-21,1
+1226,Southampton,E06000045,Dec-21,1
+1227,Isle of Wight,E06000046,Dec-21,1
+1228,County Durham,E06000047,Dec-21,1
+1229,Cheshire East,E06000049,Dec-21,1
+1230,Cheshire West and Chester,E06000050,Dec-21,1
+1231,Shropshire,E06000051,Dec-21,1
+1232,Cornwall,E06000052,Dec-21,1
+1233,Isles of Scilly,E06000053,Dec-21,1
+1234,Wiltshire,E06000054,Dec-21,1
+1235,Bedford,E06000055,Dec-21,1
+1236,Central Bedfordshire,E06000056,Dec-21,1
+1237,Northumberland,E06000057,Dec-21,1
+1238,"Bournemouth, Christchurch and Poole",E06000058,Dec-21,1
+1239,Dorset,E06000059,Dec-21,1
+1240,Buckinghamshire,E06000060,Dec-21,1
+1241,North Northamptonshire,E06000061,Dec-21,1
+1242,West Northamptonshire,E06000062,Dec-21,1
+1243,Cumberland,E06000063,Dec-21,1
+1244,Westmorland and Furness,E06000064,Dec-21,1
+1245,North Yorkshire,E06000065,Dec-21,1
+1246,Somerset,E06000066,Dec-21,1
+1247,Cambridge,E07000008,Dec-21,1
+1248,East Cambridgeshire,E07000009,Dec-21,1
+1249,Fenland,E07000010,Dec-21,1
+1250,Huntingdonshire,E07000011,Dec-21,1
+1251,South Cambridgeshire,E07000012,Dec-21,1
+1252,Amber Valley,E07000032,Dec-21,1
+1253,Bolsover,E07000033,Dec-21,1
+1254,Chesterfield,E07000034,Dec-21,1
+1255,Derbyshire Dales,E07000035,Dec-21,1
+1256,Erewash,E07000036,Dec-21,1
+1257,High Peak,E07000037,Dec-21,1
+1258,North East Derbyshire,E07000038,Dec-21,1
+1259,South Derbyshire,E07000039,Dec-21,1
+1260,East Devon,E07000040,Dec-21,1
+1261,Exeter,E07000041,Dec-21,1
+1262,Mid Devon,E07000042,Dec-21,1
+1263,North Devon,E07000043,Dec-21,1
+1264,South Hams,E07000044,Dec-21,1
+1265,Teignbridge,E07000045,Dec-21,1
+1266,Torridge,E07000046,Dec-21,1
+1267,West Devon,E07000047,Dec-21,1
+1268,Eastbourne,E07000061,Dec-21,1
+1269,Hastings,E07000062,Dec-21,1
+1270,Lewes,E07000063,Dec-21,1
+1271,Rother,E07000064,Dec-21,1
+1272,Wealden,E07000065,Dec-21,1
+1273,Basildon,E07000066,Dec-21,1
+1274,Braintree,E07000067,Dec-21,1
+1275,Brentwood,E07000068,Dec-21,1
+1276,Castle Point,E07000069,Dec-21,1
+1277,Chelmsford,E07000070,Dec-21,1
+1278,Colchester,E07000071,Dec-21,1
+1279,Epping Forest,E07000072,Dec-21,1
+1280,Harlow,E07000073,Dec-21,1
+1281,Maldon,E07000074,Dec-21,1
+1282,Rochford,E07000075,Dec-21,1
+1283,Tendring,E07000076,Dec-21,1
+1284,Uttlesford,E07000077,Dec-21,1
+1285,Cheltenham,E07000078,Dec-21,1
+1286,Cotswold,E07000079,Dec-21,1
+1287,Forest of Dean,E07000080,Dec-21,1
+1288,Gloucester,E07000081,Dec-21,1
+1289,Stroud,E07000082,Dec-21,1
+1290,Tewkesbury,E07000083,Dec-21,1
+1291,Basingstoke and Deane,E07000084,Dec-21,1
+1292,East Hampshire,E07000085,Dec-21,1
+1293,Eastleigh,E07000086,Dec-21,1
+1294,Fareham,E07000087,Dec-21,1
+1295,Gosport,E07000088,Dec-21,1
+1296,Hart,E07000089,Dec-21,1
+1297,Havant,E07000090,Dec-21,1
+1298,New Forest,E07000091,Dec-21,1
+1299,Rushmoor,E07000092,Dec-21,1
+1300,Test Valley,E07000093,Dec-21,1
+1301,Winchester,E07000094,Dec-21,1
+1302,Broxbourne,E07000095,Dec-21,1
+1303,Dacorum,E07000096,Dec-21,1
+1304,Hertsmere,E07000098,Dec-21,1
+1305,North Hertfordshire,E07000099,Dec-21,1
+1306,Three Rivers,E07000102,Dec-21,1
+1307,Watford,E07000103,Dec-21,1
+1308,Ashford,E07000105,Dec-21,1
+1309,Canterbury,E07000106,Dec-21,1
+1310,Dartford,E07000107,Dec-21,1
+1311,Dover,E07000108,Dec-21,1
+1312,Gravesham,E07000109,Dec-21,1
+1313,Maidstone,E07000110,Dec-21,1
+1314,Sevenoaks,E07000111,Dec-21,1
+1315,Folkestone and Hythe,E07000112,Dec-21,1
+1316,Swale,E07000113,Dec-21,1
+1317,Thanet,E07000114,Dec-21,1
+1318,Tonbridge and Malling,E07000115,Dec-21,1
+1319,Tunbridge Wells,E07000116,Dec-21,1
+1320,Burnley,E07000117,Dec-21,1
+1321,Chorley,E07000118,Dec-21,1
+1322,Fylde,E07000119,Dec-21,1
+1323,Hyndburn,E07000120,Dec-21,1
+1324,Lancaster,E07000121,Dec-21,1
+1325,Pendle,E07000122,Dec-21,1
+1326,Preston,E07000123,Dec-21,1
+1327,Ribble Valley,E07000124,Dec-21,1
+1328,Rossendale,E07000125,Dec-21,1
+1329,South Ribble,E07000126,Dec-21,1
+1330,West Lancashire,E07000127,Dec-21,1
+1331,Wyre,E07000128,Dec-21,1
+1332,Blaby,E07000129,Dec-21,1
+1333,Charnwood,E07000130,Dec-21,1
+1334,Harborough,E07000131,Dec-21,1
+1335,Hinckley and Bosworth,E07000132,Dec-21,1
+1336,Melton,E07000133,Dec-21,1
+1337,North West Leicestershire,E07000134,Dec-21,1
+1338,Oadby and Wigston,E07000135,Dec-21,1
+1339,Boston,E07000136,Dec-21,1
+1340,East Lindsey,E07000137,Dec-21,1
+1341,Lincoln,E07000138,Dec-21,1
+1342,North Kesteven,E07000139,Dec-21,1
+1343,South Holland,E07000140,Dec-21,1
+1344,South Kesteven,E07000141,Dec-21,1
+1345,West Lindsey,E07000142,Dec-21,1
+1346,Breckland,E07000143,Dec-21,1
+1347,Broadland,E07000144,Dec-21,1
+1348,Great Yarmouth,E07000145,Dec-21,1
+1349,King's Lynn and West Norfolk,E07000146,Dec-21,1
+1350,North Norfolk,E07000147,Dec-21,1
+1351,Norwich,E07000148,Dec-21,1
+1352,South Norfolk,E07000149,Dec-21,1
+1353,Ashfield,E07000170,Dec-21,1
+1354,Bassetlaw,E07000171,Dec-21,1
+1355,Broxtowe,E07000172,Dec-21,1
+1356,Gedling,E07000173,Dec-21,1
+1357,Mansfield,E07000174,Dec-21,1
+1358,Newark and Sherwood,E07000175,Dec-21,1
+1359,Rushcliffe,E07000176,Dec-21,1
+1360,Cherwell,E07000177,Dec-21,1
+1361,Oxford,E07000178,Dec-21,1
+1362,South Oxfordshire,E07000179,Dec-21,1
+1363,Vale of White Horse,E07000180,Dec-21,1
+1364,West Oxfordshire,E07000181,Dec-21,1
+1365,Cannock Chase,E07000192,Dec-21,1
+1366,East Staffordshire,E07000193,Dec-21,1
+1367,Lichfield,E07000194,Dec-21,1
+1368,Newcastle-under-Lyme,E07000195,Dec-21,1
+1369,South Staffordshire,E07000196,Dec-21,1
+1370,Stafford,E07000197,Dec-21,1
+1371,Staffordshire Moorlands,E07000198,Dec-21,1
+1372,Tamworth,E07000199,Dec-21,1
+1373,Babergh,E07000200,Dec-21,1
+1374,Ipswich,E07000202,Dec-21,1
+1375,Mid Suffolk,E07000203,Dec-21,1
+1376,Elmbridge,E07000207,Dec-21,1
+1377,Epsom and Ewell,E07000208,Dec-21,1
+1378,Guildford,E07000209,Dec-21,1
+1379,Mole Valley,E07000210,Dec-21,1
+1380,Reigate and Banstead,E07000211,Dec-21,1
+1381,Runnymede,E07000212,Dec-21,1
+1382,Spelthorne,E07000213,Dec-21,1
+1383,Surrey Heath,E07000214,Dec-21,1
+1384,Tandridge,E07000215,Dec-21,1
+1385,Waverley,E07000216,Dec-21,1
+1386,Woking,E07000217,Dec-21,1
+1387,North Warwickshire,E07000218,Dec-21,1
+1388,Nuneaton and Bedworth,E07000219,Dec-21,1
+1389,Rugby,E07000220,Dec-21,1
+1390,Stratford-on-Avon,E07000221,Dec-21,1
+1391,Warwick,E07000222,Dec-21,1
+1392,Adur,E07000223,Dec-21,1
+1393,Arun,E07000224,Dec-21,1
+1394,Chichester,E07000225,Dec-21,1
+1395,Crawley,E07000226,Dec-21,1
+1396,Horsham,E07000227,Dec-21,1
+1397,Mid Sussex,E07000228,Dec-21,1
+1398,Worthing,E07000229,Dec-21,1
+1399,Bromsgrove,E07000234,Dec-21,1
+1400,Malvern Hills,E07000235,Dec-21,1
+1401,Redditch,E07000236,Dec-21,1
+1402,Worcester,E07000237,Dec-21,1
+1403,Wychavon,E07000238,Dec-21,1
+1404,Wyre Forest,E07000239,Dec-21,1
+1405,St Albans,E07000240,Dec-21,1
+1406,Welwyn Hatfield,E07000241,Dec-21,1
+1407,East Hertfordshire,E07000242,Dec-21,1
+1408,Stevenage,E07000243,Dec-21,1
+1409,East Suffolk,E07000244,Dec-21,1
+1410,West Suffolk,E07000245,Dec-21,1
+1411,Bolton,E08000001,Dec-21,1
+1412,Bury,E08000002,Dec-21,1
+1413,Manchester,E08000003,Dec-21,1
+1414,Oldham,E08000004,Dec-21,1
+1415,Rochdale,E08000005,Dec-21,1
+1416,Salford,E08000006,Dec-21,1
+1417,Stockport,E08000007,Dec-21,1
+1418,Tameside,E08000008,Dec-21,1
+1419,Trafford,E08000009,Dec-21,1
+1420,Wigan,E08000010,Dec-21,1
+1421,Knowsley,E08000011,Dec-21,1
+1422,Liverpool,E08000012,Dec-21,1
+1423,St. Helens,E08000013,Dec-21,1
+1424,Sefton,E08000014,Dec-21,1
+1425,Wirral,E08000015,Dec-21,1
+1426,Barnsley,E08000016,Dec-21,1
+1427,Doncaster,E08000017,Dec-21,1
+1428,Rotherham,E08000018,Dec-21,1
+1429,Sheffield,E08000019,Dec-21,1
+1430,Newcastle upon Tyne,E08000021,Dec-21,1
+1431,North Tyneside,E08000022,Dec-21,1
+1432,South Tyneside,E08000023,Dec-21,1
+1433,Sunderland,E08000024,Dec-21,1
+1434,Birmingham,E08000025,Dec-21,1
+1435,Coventry,E08000026,Dec-21,1
+1436,Dudley,E08000027,Dec-21,1
+1437,Sandwell,E08000028,Dec-21,1
+1438,Solihull,E08000029,Dec-21,1
+1439,Walsall,E08000030,Dec-21,1
+1440,Wolverhampton,E08000031,Dec-21,1
+1441,Bradford,E08000032,Dec-21,1
+1442,Calderdale,E08000033,Dec-21,1
+1443,Kirklees,E08000034,Dec-21,1
+1444,Leeds,E08000035,Dec-21,1
+1445,Wakefield,E08000036,Dec-21,1
+1446,Gateshead,E08000037,Dec-21,1
+1447,City of London,E09000001,Dec-21,1
+1448,Barking and Dagenham,E09000002,Dec-21,1
+1449,Barnet,E09000003,Dec-21,1
+1450,Bexley,E09000004,Dec-21,1
+1451,Brent,E09000005,Dec-21,1
+1452,Bromley,E09000006,Dec-21,1
+1453,Camden,E09000007,Dec-21,1
+1454,Croydon,E09000008,Dec-21,1
+1455,Ealing,E09000009,Dec-21,1
+1456,Enfield,E09000010,Dec-21,1
+1457,Greenwich,E09000011,Dec-21,1
+1458,Hackney,E09000012,Dec-21,1
+1459,Hammersmith and Fulham,E09000013,Dec-21,1
+1460,Haringey,E09000014,Dec-21,1
+1461,Harrow,E09000015,Dec-21,1
+1462,Havering,E09000016,Dec-21,1
+1463,Hillingdon,E09000017,Dec-21,1
+1464,Hounslow,E09000018,Dec-21,1
+1465,Islington,E09000019,Dec-21,1
+1466,Kensington and Chelsea,E09000020,Dec-21,1
+1467,Kingston upon Thames,E09000021,Dec-21,1
+1468,Lambeth,E09000022,Dec-21,1
+1469,Lewisham,E09000023,Dec-21,1
+1470,Merton,E09000024,Dec-21,1
+1471,Newham,E09000025,Dec-21,1
+1472,Redbridge,E09000026,Dec-21,1
+1473,Richmond upon Thames,E09000027,Dec-21,1
+1474,Southwark,E09000028,Dec-21,1
+1475,Sutton,E09000029,Dec-21,1
+1476,Tower Hamlets,E09000030,Dec-21,1
+1477,Waltham Forest,E09000031,Dec-21,1
+1478,Wandsworth,E09000032,Dec-21,1
+1479,Westminster,E09000033,Dec-21,1
+1480,Hartlepool,E06000001,Mar-22,1
+1481,Middlesbrough,E06000002,Mar-22,1
+1482,Redcar and Cleveland,E06000003,Mar-22,1
+1483,Stockton-on-Tees,E06000004,Mar-22,1
+1484,Darlington,E06000005,Mar-22,1
+1485,Halton,E06000006,Mar-22,1
+1486,Warrington,E06000007,Mar-22,1
+1487,Blackburn with Darwen,E06000008,Mar-22,1
+1488,Blackpool,E06000009,Mar-22,1
+1489,Kingston upon Hull,E06000010,Mar-22,1
+1490,East Riding of Yorkshire,E06000011,Mar-22,1
+1491,North East Lincolnshire,E06000012,Mar-22,1
+1492,North Lincolnshire,E06000013,Mar-22,1
+1493,York,E06000014,Mar-22,1
+1494,Derby,E06000015,Mar-22,1
+1495,Leicester,E06000016,Mar-22,1
+1496,Rutland,E06000017,Mar-22,1
+1497,Nottingham,E06000018,Mar-22,1
+1498,Herefordshire,E06000019,Mar-22,1
+1499,Telford and Wrekin,E06000020,Mar-22,1
+1500,Stoke-on-Trent,E06000021,Mar-22,1
+1501,Bath and North East Somerset,E06000022,Mar-22,1
+1502,Bristol,E06000023,Mar-22,1
+1503,North Somerset,E06000024,Mar-22,1
+1504,South Gloucestershire,E06000025,Mar-22,1
+1505,Plymouth,E06000026,Mar-22,1
+1506,Torbay,E06000027,Mar-22,1
+1507,Swindon,E06000030,Mar-22,1
+1508,Peterborough,E06000031,Mar-22,1
+1509,Luton,E06000032,Mar-22,1
+1510,Southend-on-Sea,E06000033,Mar-22,1
+1511,Thurrock,E06000034,Mar-22,1
+1512,Medway,E06000035,Mar-22,1
+1513,Bracknell Forest,E06000036,Mar-22,1
+1514,West Berkshire,E06000037,Mar-22,1
+1515,Reading,E06000038,Mar-22,1
+1516,Slough,E06000039,Mar-22,1
+1517,Windsor and Maidenhead,E06000040,Mar-22,1
+1518,Wokingham,E06000041,Mar-22,1
+1519,Milton Keynes,E06000042,Mar-22,1
+1520,Brighton and Hove,E06000043,Mar-22,1
+1521,Portsmouth,E06000044,Mar-22,1
+1522,Southampton,E06000045,Mar-22,1
+1523,Isle of Wight,E06000046,Mar-22,1
+1524,County Durham,E06000047,Mar-22,1
+1525,Cheshire East,E06000049,Mar-22,1
+1526,Cheshire West and Chester,E06000050,Mar-22,1
+1527,Shropshire,E06000051,Mar-22,1
+1528,Cornwall,E06000052,Mar-22,1
+1529,Isles of Scilly,E06000053,Mar-22,1
+1530,Wiltshire,E06000054,Mar-22,1
+1531,Bedford,E06000055,Mar-22,1
+1532,Central Bedfordshire,E06000056,Mar-22,1
+1533,Northumberland,E06000057,Mar-22,1
+1534,"Bournemouth, Christchurch and Poole",E06000058,Mar-22,1
+1535,Dorset,E06000059,Mar-22,1
+1536,Buckinghamshire,E06000060,Mar-22,1
+1537,North Northamptonshire,E06000061,Mar-22,1
+1538,West Northamptonshire,E06000062,Mar-22,1
+1539,Cumberland,E06000063,Mar-22,1
+1540,Westmorland and Furness,E06000064,Mar-22,1
+1541,North Yorkshire,E06000065,Mar-22,1
+1542,Somerset,E06000066,Mar-22,1
+1543,Cambridge,E07000008,Mar-22,1
+1544,East Cambridgeshire,E07000009,Mar-22,1
+1545,Fenland,E07000010,Mar-22,1
+1546,Huntingdonshire,E07000011,Mar-22,1
+1547,South Cambridgeshire,E07000012,Mar-22,1
+1548,Amber Valley,E07000032,Mar-22,1
+1549,Bolsover,E07000033,Mar-22,1
+1550,Chesterfield,E07000034,Mar-22,1
+1551,Derbyshire Dales,E07000035,Mar-22,1
+1552,Erewash,E07000036,Mar-22,1
+1553,High Peak,E07000037,Mar-22,1
+1554,North East Derbyshire,E07000038,Mar-22,1
+1555,South Derbyshire,E07000039,Mar-22,1
+1556,East Devon,E07000040,Mar-22,1
+1557,Exeter,E07000041,Mar-22,1
+1558,Mid Devon,E07000042,Mar-22,1
+1559,North Devon,E07000043,Mar-22,1
+1560,South Hams,E07000044,Mar-22,1
+1561,Teignbridge,E07000045,Mar-22,1
+1562,Torridge,E07000046,Mar-22,1
+1563,West Devon,E07000047,Mar-22,1
+1564,Eastbourne,E07000061,Mar-22,1
+1565,Hastings,E07000062,Mar-22,1
+1566,Lewes,E07000063,Mar-22,1
+1567,Rother,E07000064,Mar-22,1
+1568,Wealden,E07000065,Mar-22,1
+1569,Basildon,E07000066,Mar-22,1
+1570,Braintree,E07000067,Mar-22,1
+1571,Brentwood,E07000068,Mar-22,1
+1572,Castle Point,E07000069,Mar-22,1
+1573,Chelmsford,E07000070,Mar-22,1
+1574,Colchester,E07000071,Mar-22,1
+1575,Epping Forest,E07000072,Mar-22,1
+1576,Harlow,E07000073,Mar-22,1
+1577,Maldon,E07000074,Mar-22,1
+1578,Rochford,E07000075,Mar-22,1
+1579,Tendring,E07000076,Mar-22,1
+1580,Uttlesford,E07000077,Mar-22,1
+1581,Cheltenham,E07000078,Mar-22,1
+1582,Cotswold,E07000079,Mar-22,1
+1583,Forest of Dean,E07000080,Mar-22,1
+1584,Gloucester,E07000081,Mar-22,1
+1585,Stroud,E07000082,Mar-22,1
+1586,Tewkesbury,E07000083,Mar-22,1
+1587,Basingstoke and Deane,E07000084,Mar-22,1
+1588,East Hampshire,E07000085,Mar-22,1
+1589,Eastleigh,E07000086,Mar-22,1
+1590,Fareham,E07000087,Mar-22,1
+1591,Gosport,E07000088,Mar-22,1
+1592,Hart,E07000089,Mar-22,1
+1593,Havant,E07000090,Mar-22,1
+1594,New Forest,E07000091,Mar-22,1
+1595,Rushmoor,E07000092,Mar-22,1
+1596,Test Valley,E07000093,Mar-22,1
+1597,Winchester,E07000094,Mar-22,1
+1598,Broxbourne,E07000095,Mar-22,1
+1599,Dacorum,E07000096,Mar-22,1
+1600,Hertsmere,E07000098,Mar-22,1
+1601,North Hertfordshire,E07000099,Mar-22,1
+1602,Three Rivers,E07000102,Mar-22,1
+1603,Watford,E07000103,Mar-22,1
+1604,Ashford,E07000105,Mar-22,1
+1605,Canterbury,E07000106,Mar-22,1
+1606,Dartford,E07000107,Mar-22,1
+1607,Dover,E07000108,Mar-22,1
+1608,Gravesham,E07000109,Mar-22,1
+1609,Maidstone,E07000110,Mar-22,1
+1610,Sevenoaks,E07000111,Mar-22,1
+1611,Folkestone and Hythe,E07000112,Mar-22,1
+1612,Swale,E07000113,Mar-22,1
+1613,Thanet,E07000114,Mar-22,1
+1614,Tonbridge and Malling,E07000115,Mar-22,1
+1615,Tunbridge Wells,E07000116,Mar-22,1
+1616,Burnley,E07000117,Mar-22,1
+1617,Chorley,E07000118,Mar-22,1
+1618,Fylde,E07000119,Mar-22,1
+1619,Hyndburn,E07000120,Mar-22,1
+1620,Lancaster,E07000121,Mar-22,1
+1621,Pendle,E07000122,Mar-22,1
+1622,Preston,E07000123,Mar-22,1
+1623,Ribble Valley,E07000124,Mar-22,1
+1624,Rossendale,E07000125,Mar-22,1
+1625,South Ribble,E07000126,Mar-22,1
+1626,West Lancashire,E07000127,Mar-22,1
+1627,Wyre,E07000128,Mar-22,1
+1628,Blaby,E07000129,Mar-22,1
+1629,Charnwood,E07000130,Mar-22,1
+1630,Harborough,E07000131,Mar-22,1
+1631,Hinckley and Bosworth,E07000132,Mar-22,1
+1632,Melton,E07000133,Mar-22,1
+1633,North West Leicestershire,E07000134,Mar-22,1
+1634,Oadby and Wigston,E07000135,Mar-22,1
+1635,Boston,E07000136,Mar-22,1
+1636,East Lindsey,E07000137,Mar-22,1
+1637,Lincoln,E07000138,Mar-22,1
+1638,North Kesteven,E07000139,Mar-22,1
+1639,South Holland,E07000140,Mar-22,1
+1640,South Kesteven,E07000141,Mar-22,1
+1641,West Lindsey,E07000142,Mar-22,1
+1642,Breckland,E07000143,Mar-22,1
+1643,Broadland,E07000144,Mar-22,1
+1644,Great Yarmouth,E07000145,Mar-22,1
+1645,King's Lynn and West Norfolk,E07000146,Mar-22,1
+1646,North Norfolk,E07000147,Mar-22,1
+1647,Norwich,E07000148,Mar-22,1
+1648,South Norfolk,E07000149,Mar-22,1
+1649,Ashfield,E07000170,Mar-22,1
+1650,Bassetlaw,E07000171,Mar-22,1
+1651,Broxtowe,E07000172,Mar-22,1
+1652,Gedling,E07000173,Mar-22,1
+1653,Mansfield,E07000174,Mar-22,1
+1654,Newark and Sherwood,E07000175,Mar-22,1
+1655,Rushcliffe,E07000176,Mar-22,1
+1656,Cherwell,E07000177,Mar-22,1
+1657,Oxford,E07000178,Mar-22,1
+1658,South Oxfordshire,E07000179,Mar-22,1
+1659,Vale of White Horse,E07000180,Mar-22,1
+1660,West Oxfordshire,E07000181,Mar-22,1
+1661,Cannock Chase,E07000192,Mar-22,1
+1662,East Staffordshire,E07000193,Mar-22,1
+1663,Lichfield,E07000194,Mar-22,1
+1664,Newcastle-under-Lyme,E07000195,Mar-22,1
+1665,South Staffordshire,E07000196,Mar-22,1
+1666,Stafford,E07000197,Mar-22,1
+1667,Staffordshire Moorlands,E07000198,Mar-22,1
+1668,Tamworth,E07000199,Mar-22,1
+1669,Babergh,E07000200,Mar-22,1
+1670,Ipswich,E07000202,Mar-22,1
+1671,Mid Suffolk,E07000203,Mar-22,1
+1672,Elmbridge,E07000207,Mar-22,1
+1673,Epsom and Ewell,E07000208,Mar-22,1
+1674,Guildford,E07000209,Mar-22,1
+1675,Mole Valley,E07000210,Mar-22,1
+1676,Reigate and Banstead,E07000211,Mar-22,1
+1677,Runnymede,E07000212,Mar-22,1
+1678,Spelthorne,E07000213,Mar-22,1
+1679,Surrey Heath,E07000214,Mar-22,1
+1680,Tandridge,E07000215,Mar-22,1
+1681,Waverley,E07000216,Mar-22,1
+1682,Woking,E07000217,Mar-22,1
+1683,North Warwickshire,E07000218,Mar-22,1
+1684,Nuneaton and Bedworth,E07000219,Mar-22,1
+1685,Rugby,E07000220,Mar-22,1
+1686,Stratford-on-Avon,E07000221,Mar-22,1
+1687,Warwick,E07000222,Mar-22,1
+1688,Adur,E07000223,Mar-22,1
+1689,Arun,E07000224,Mar-22,1
+1690,Chichester,E07000225,Mar-22,1
+1691,Crawley,E07000226,Mar-22,1
+1692,Horsham,E07000227,Mar-22,1
+1693,Mid Sussex,E07000228,Mar-22,1
+1694,Worthing,E07000229,Mar-22,1
+1695,Bromsgrove,E07000234,Mar-22,1
+1696,Malvern Hills,E07000235,Mar-22,1
+1697,Redditch,E07000236,Mar-22,1
+1698,Worcester,E07000237,Mar-22,1
+1699,Wychavon,E07000238,Mar-22,1
+1700,Wyre Forest,E07000239,Mar-22,1
+1701,St Albans,E07000240,Mar-22,1
+1702,Welwyn Hatfield,E07000241,Mar-22,1
+1703,East Hertfordshire,E07000242,Mar-22,1
+1704,Stevenage,E07000243,Mar-22,1
+1705,East Suffolk,E07000244,Mar-22,1
+1706,West Suffolk,E07000245,Mar-22,1
+1707,Bolton,E08000001,Mar-22,1
+1708,Bury,E08000002,Mar-22,1
+1709,Manchester,E08000003,Mar-22,1
+1710,Oldham,E08000004,Mar-22,1
+1711,Rochdale,E08000005,Mar-22,1
+1712,Salford,E08000006,Mar-22,1
+1713,Stockport,E08000007,Mar-22,1
+1714,Tameside,E08000008,Mar-22,1
+1715,Trafford,E08000009,Mar-22,1
+1716,Wigan,E08000010,Mar-22,1
+1717,Knowsley,E08000011,Mar-22,1
+1718,Liverpool,E08000012,Mar-22,1
+1719,St. Helens,E08000013,Mar-22,1
+1720,Sefton,E08000014,Mar-22,1
+1721,Wirral,E08000015,Mar-22,1
+1722,Barnsley,E08000016,Mar-22,1
+1723,Doncaster,E08000017,Mar-22,1
+1724,Rotherham,E08000018,Mar-22,1
+1725,Sheffield,E08000019,Mar-22,1
+1726,Newcastle upon Tyne,E08000021,Mar-22,1
+1727,North Tyneside,E08000022,Mar-22,1
+1728,South Tyneside,E08000023,Mar-22,1
+1729,Sunderland,E08000024,Mar-22,1
+1730,Birmingham,E08000025,Mar-22,1
+1731,Coventry,E08000026,Mar-22,1
+1732,Dudley,E08000027,Mar-22,1
+1733,Sandwell,E08000028,Mar-22,1
+1734,Solihull,E08000029,Mar-22,1
+1735,Walsall,E08000030,Mar-22,1
+1736,Wolverhampton,E08000031,Mar-22,1
+1737,Bradford,E08000032,Mar-22,1
+1738,Calderdale,E08000033,Mar-22,1
+1739,Kirklees,E08000034,Mar-22,1
+1740,Leeds,E08000035,Mar-22,1
+1741,Wakefield,E08000036,Mar-22,1
+1742,Gateshead,E08000037,Mar-22,1
+1743,City of London,E09000001,Mar-22,1
+1744,Barking and Dagenham,E09000002,Mar-22,1
+1745,Barnet,E09000003,Mar-22,1
+1746,Bexley,E09000004,Mar-22,1
+1747,Brent,E09000005,Mar-22,1
+1748,Bromley,E09000006,Mar-22,1
+1749,Camden,E09000007,Mar-22,1
+1750,Croydon,E09000008,Mar-22,1
+1751,Ealing,E09000009,Mar-22,1
+1752,Enfield,E09000010,Mar-22,1
+1753,Greenwich,E09000011,Mar-22,1
+1754,Hackney,E09000012,Mar-22,1
+1755,Hammersmith and Fulham,E09000013,Mar-22,1
+1756,Haringey,E09000014,Mar-22,1
+1757,Harrow,E09000015,Mar-22,1
+1758,Havering,E09000016,Mar-22,1
+1759,Hillingdon,E09000017,Mar-22,1
+1760,Hounslow,E09000018,Mar-22,1
+1761,Islington,E09000019,Mar-22,1
+1762,Kensington and Chelsea,E09000020,Mar-22,1
+1763,Kingston upon Thames,E09000021,Mar-22,1
+1764,Lambeth,E09000022,Mar-22,1
+1765,Lewisham,E09000023,Mar-22,1
+1766,Merton,E09000024,Mar-22,1
+1767,Newham,E09000025,Mar-22,1
+1768,Redbridge,E09000026,Mar-22,1
+1769,Richmond upon Thames,E09000027,Mar-22,1
+1770,Southwark,E09000028,Mar-22,1
+1771,Sutton,E09000029,Mar-22,1
+1772,Tower Hamlets,E09000030,Mar-22,1
+1773,Waltham Forest,E09000031,Mar-22,1
+1774,Wandsworth,E09000032,Mar-22,1
+1775,Westminster,E09000033,Mar-22,1
+1776,Hartlepool,E06000001,Dec-22,1
+1777,Middlesbrough,E06000002,Dec-22,1
+1778,Redcar and Cleveland,E06000003,Dec-22,1
+1779,Stockton-on-Tees,E06000004,Dec-22,1
+1780,Darlington,E06000005,Dec-22,1
+1781,Halton,E06000006,Dec-22,1
+1782,Warrington,E06000007,Dec-22,1
+1783,Blackburn with Darwen,E06000008,Dec-22,1
+1784,Blackpool,E06000009,Dec-22,1
+1785,Kingston upon Hull,E06000010,Dec-22,1
+1786,East Riding of Yorkshire,E06000011,Dec-22,1
+1787,North East Lincolnshire,E06000012,Dec-22,1
+1788,North Lincolnshire,E06000013,Dec-22,1
+1789,York,E06000014,Dec-22,1
+1790,Derby,E06000015,Dec-22,1
+1791,Leicester,E06000016,Dec-22,1
+1792,Rutland,E06000017,Dec-22,1
+1793,Nottingham,E06000018,Dec-22,1
+1794,Herefordshire,E06000019,Dec-22,1
+1795,Telford and Wrekin,E06000020,Dec-22,1
+1796,Stoke-on-Trent,E06000021,Dec-22,1
+1797,Bath and North East Somerset,E06000022,Dec-22,1
+1798,Bristol,E06000023,Dec-22,1
+1799,North Somerset,E06000024,Dec-22,1
+1800,South Gloucestershire,E06000025,Dec-22,1
+1801,Plymouth,E06000026,Dec-22,1
+1802,Torbay,E06000027,Dec-22,1
+1803,Swindon,E06000030,Dec-22,1
+1804,Peterborough,E06000031,Dec-22,1
+1805,Luton,E06000032,Dec-22,1
+1806,Southend-on-Sea,E06000033,Dec-22,1
+1807,Thurrock,E06000034,Dec-22,1
+1808,Medway,E06000035,Dec-22,1
+1809,Bracknell Forest,E06000036,Dec-22,1
+1810,West Berkshire,E06000037,Dec-22,1
+1811,Reading,E06000038,Dec-22,1
+1812,Slough,E06000039,Dec-22,1
+1813,Windsor and Maidenhead,E06000040,Dec-22,1
+1814,Wokingham,E06000041,Dec-22,1
+1815,Milton Keynes,E06000042,Dec-22,1
+1816,Brighton and Hove,E06000043,Dec-22,1
+1817,Portsmouth,E06000044,Dec-22,1
+1818,Southampton,E06000045,Dec-22,1
+1819,Isle of Wight,E06000046,Dec-22,1
+1820,County Durham,E06000047,Dec-22,1
+1821,Cheshire East,E06000049,Dec-22,1
+1822,Cheshire West and Chester,E06000050,Dec-22,1
+1823,Shropshire,E06000051,Dec-22,1
+1824,Cornwall,E06000052,Dec-22,1
+1825,Isles of Scilly,E06000053,Dec-22,1
+1826,Wiltshire,E06000054,Dec-22,1
+1827,Bedford,E06000055,Dec-22,1
+1828,Central Bedfordshire,E06000056,Dec-22,1
+1829,Northumberland,E06000057,Dec-22,1
+1830,"Bournemouth, Christchurch and Poole",E06000058,Dec-22,1
+1831,Dorset,E06000059,Dec-22,1
+1832,Buckinghamshire,E06000060,Dec-22,1
+1833,North Northamptonshire,E06000061,Dec-22,1
+1834,West Northamptonshire,E06000062,Dec-22,1
+1835,Cumberland,E06000063,Dec-22,1
+1836,Westmorland and Furness,E06000064,Dec-22,1
+1837,North Yorkshire,E06000065,Dec-22,1
+1838,Somerset,E06000066,Dec-22,1
+1839,Cambridge,E07000008,Dec-22,1
+1840,East Cambridgeshire,E07000009,Dec-22,1
+1841,Fenland,E07000010,Dec-22,1
+1842,Huntingdonshire,E07000011,Dec-22,1
+1843,South Cambridgeshire,E07000012,Dec-22,1
+1844,Amber Valley,E07000032,Dec-22,1
+1845,Bolsover,E07000033,Dec-22,1
+1846,Chesterfield,E07000034,Dec-22,1
+1847,Derbyshire Dales,E07000035,Dec-22,1
+1848,Erewash,E07000036,Dec-22,1
+1849,High Peak,E07000037,Dec-22,1
+1850,North East Derbyshire,E07000038,Dec-22,1
+1851,South Derbyshire,E07000039,Dec-22,1
+1852,East Devon,E07000040,Dec-22,1
+1853,Exeter,E07000041,Dec-22,1
+1854,Mid Devon,E07000042,Dec-22,1
+1855,North Devon,E07000043,Dec-22,1
+1856,South Hams,E07000044,Dec-22,1
+1857,Teignbridge,E07000045,Dec-22,1
+1858,Torridge,E07000046,Dec-22,1
+1859,West Devon,E07000047,Dec-22,1
+1860,Eastbourne,E07000061,Dec-22,1
+1861,Hastings,E07000062,Dec-22,1
+1862,Lewes,E07000063,Dec-22,1
+1863,Rother,E07000064,Dec-22,1
+1864,Wealden,E07000065,Dec-22,1
+1865,Basildon,E07000066,Dec-22,1
+1866,Braintree,E07000067,Dec-22,1
+1867,Brentwood,E07000068,Dec-22,1
+1868,Castle Point,E07000069,Dec-22,1
+1869,Chelmsford,E07000070,Dec-22,1
+1870,Colchester,E07000071,Dec-22,1
+1871,Epping Forest,E07000072,Dec-22,1
+1872,Harlow,E07000073,Dec-22,1
+1873,Maldon,E07000074,Dec-22,1
+1874,Rochford,E07000075,Dec-22,1
+1875,Tendring,E07000076,Dec-22,1
+1876,Uttlesford,E07000077,Dec-22,1
+1877,Cheltenham,E07000078,Dec-22,1
+1878,Cotswold,E07000079,Dec-22,1
+1879,Forest of Dean,E07000080,Dec-22,1
+1880,Gloucester,E07000081,Dec-22,1
+1881,Stroud,E07000082,Dec-22,1
+1882,Tewkesbury,E07000083,Dec-22,1
+1883,Basingstoke and Deane,E07000084,Dec-22,1
+1884,East Hampshire,E07000085,Dec-22,1
+1885,Eastleigh,E07000086,Dec-22,1
+1886,Fareham,E07000087,Dec-22,1
+1887,Gosport,E07000088,Dec-22,1
+1888,Hart,E07000089,Dec-22,1
+1889,Havant,E07000090,Dec-22,1
+1890,New Forest,E07000091,Dec-22,1
+1891,Rushmoor,E07000092,Dec-22,1
+1892,Test Valley,E07000093,Dec-22,1
+1893,Winchester,E07000094,Dec-22,1
+1894,Broxbourne,E07000095,Dec-22,1
+1895,Dacorum,E07000096,Dec-22,1
+1896,Hertsmere,E07000098,Dec-22,1
+1897,North Hertfordshire,E07000099,Dec-22,1
+1898,Three Rivers,E07000102,Dec-22,1
+1899,Watford,E07000103,Dec-22,1
+1900,Ashford,E07000105,Dec-22,1
+1901,Canterbury,E07000106,Dec-22,1
+1902,Dartford,E07000107,Dec-22,1
+1903,Dover,E07000108,Dec-22,1
+1904,Gravesham,E07000109,Dec-22,1
+1905,Maidstone,E07000110,Dec-22,1
+1906,Sevenoaks,E07000111,Dec-22,1
+1907,Folkestone and Hythe,E07000112,Dec-22,1
+1908,Swale,E07000113,Dec-22,1
+1909,Thanet,E07000114,Dec-22,1
+1910,Tonbridge and Malling,E07000115,Dec-22,1
+1911,Tunbridge Wells,E07000116,Dec-22,1
+1912,Burnley,E07000117,Dec-22,1
+1913,Chorley,E07000118,Dec-22,1
+1914,Fylde,E07000119,Dec-22,1
+1915,Hyndburn,E07000120,Dec-22,1
+1916,Lancaster,E07000121,Dec-22,1
+1917,Pendle,E07000122,Dec-22,1
+1918,Preston,E07000123,Dec-22,1
+1919,Ribble Valley,E07000124,Dec-22,1
+1920,Rossendale,E07000125,Dec-22,1
+1921,South Ribble,E07000126,Dec-22,1
+1922,West Lancashire,E07000127,Dec-22,1
+1923,Wyre,E07000128,Dec-22,1
+1924,Blaby,E07000129,Dec-22,1
+1925,Charnwood,E07000130,Dec-22,1
+1926,Harborough,E07000131,Dec-22,1
+1927,Hinckley and Bosworth,E07000132,Dec-22,1
+1928,Melton,E07000133,Dec-22,1
+1929,North West Leicestershire,E07000134,Dec-22,1
+1930,Oadby and Wigston,E07000135,Dec-22,1
+1931,Boston,E07000136,Dec-22,1
+1932,East Lindsey,E07000137,Dec-22,1
+1933,Lincoln,E07000138,Dec-22,1
+1934,North Kesteven,E07000139,Dec-22,1
+1935,South Holland,E07000140,Dec-22,1
+1936,South Kesteven,E07000141,Dec-22,1
+1937,West Lindsey,E07000142,Dec-22,1
+1938,Breckland,E07000143,Dec-22,1
+1939,Broadland,E07000144,Dec-22,1
+1940,Great Yarmouth,E07000145,Dec-22,1
+1941,King's Lynn and West Norfolk,E07000146,Dec-22,1
+1942,North Norfolk,E07000147,Dec-22,1
+1943,Norwich,E07000148,Dec-22,1
+1944,South Norfolk,E07000149,Dec-22,1
+1945,Ashfield,E07000170,Dec-22,1
+1946,Bassetlaw,E07000171,Dec-22,1
+1947,Broxtowe,E07000172,Dec-22,1
+1948,Gedling,E07000173,Dec-22,1
+1949,Mansfield,E07000174,Dec-22,1
+1950,Newark and Sherwood,E07000175,Dec-22,1
+1951,Rushcliffe,E07000176,Dec-22,1
+1952,Cherwell,E07000177,Dec-22,1
+1953,Oxford,E07000178,Dec-22,1
+1954,South Oxfordshire,E07000179,Dec-22,1
+1955,Vale of White Horse,E07000180,Dec-22,1
+1956,West Oxfordshire,E07000181,Dec-22,1
+1957,Cannock Chase,E07000192,Dec-22,1
+1958,East Staffordshire,E07000193,Dec-22,1
+1959,Lichfield,E07000194,Dec-22,1
+1960,Newcastle-under-Lyme,E07000195,Dec-22,1
+1961,South Staffordshire,E07000196,Dec-22,1
+1962,Stafford,E07000197,Dec-22,1
+1963,Staffordshire Moorlands,E07000198,Dec-22,1
+1964,Tamworth,E07000199,Dec-22,1
+1965,Babergh,E07000200,Dec-22,1
+1966,Ipswich,E07000202,Dec-22,1
+1967,Mid Suffolk,E07000203,Dec-22,1
+1968,Elmbridge,E07000207,Dec-22,1
+1969,Epsom and Ewell,E07000208,Dec-22,1
+1970,Guildford,E07000209,Dec-22,1
+1971,Mole Valley,E07000210,Dec-22,1
+1972,Reigate and Banstead,E07000211,Dec-22,1
+1973,Runnymede,E07000212,Dec-22,1
+1974,Spelthorne,E07000213,Dec-22,1
+1975,Surrey Heath,E07000214,Dec-22,1
+1976,Tandridge,E07000215,Dec-22,1
+1977,Waverley,E07000216,Dec-22,1
+1978,Woking,E07000217,Dec-22,1
+1979,North Warwickshire,E07000218,Dec-22,1
+1980,Nuneaton and Bedworth,E07000219,Dec-22,1
+1981,Rugby,E07000220,Dec-22,1
+1982,Stratford-on-Avon,E07000221,Dec-22,1
+1983,Warwick,E07000222,Dec-22,1
+1984,Adur,E07000223,Dec-22,1
+1985,Arun,E07000224,Dec-22,1
+1986,Chichester,E07000225,Dec-22,1
+1987,Crawley,E07000226,Dec-22,1
+1988,Horsham,E07000227,Dec-22,1
+1989,Mid Sussex,E07000228,Dec-22,1
+1990,Worthing,E07000229,Dec-22,1
+1991,Bromsgrove,E07000234,Dec-22,1
+1992,Malvern Hills,E07000235,Dec-22,1
+1993,Redditch,E07000236,Dec-22,1
+1994,Worcester,E07000237,Dec-22,1
+1995,Wychavon,E07000238,Dec-22,1
+1996,Wyre Forest,E07000239,Dec-22,1
+1997,St Albans,E07000240,Dec-22,1
+1998,Welwyn Hatfield,E07000241,Dec-22,1
+1999,East Hertfordshire,E07000242,Dec-22,1
+2000,Stevenage,E07000243,Dec-22,1
+2001,East Suffolk,E07000244,Dec-22,1
+2002,West Suffolk,E07000245,Dec-22,1
+2003,Bolton,E08000001,Dec-22,1
+2004,Bury,E08000002,Dec-22,1
+2005,Manchester,E08000003,Dec-22,1
+2006,Oldham,E08000004,Dec-22,1
+2007,Rochdale,E08000005,Dec-22,1
+2008,Salford,E08000006,Dec-22,1
+2009,Stockport,E08000007,Dec-22,1
+2010,Tameside,E08000008,Dec-22,1
+2011,Trafford,E08000009,Dec-22,1
+2012,Wigan,E08000010,Dec-22,1
+2013,Knowsley,E08000011,Dec-22,1
+2014,Liverpool,E08000012,Dec-22,1
+2015,St. Helens,E08000013,Dec-22,1
+2016,Sefton,E08000014,Dec-22,1
+2017,Wirral,E08000015,Dec-22,1
+2018,Barnsley,E08000016,Dec-22,1
+2019,Doncaster,E08000017,Dec-22,1
+2020,Rotherham,E08000018,Dec-22,1
+2021,Sheffield,E08000019,Dec-22,1
+2022,Newcastle upon Tyne,E08000021,Dec-22,1
+2023,North Tyneside,E08000022,Dec-22,1
+2024,South Tyneside,E08000023,Dec-22,1
+2025,Sunderland,E08000024,Dec-22,1
+2026,Birmingham,E08000025,Dec-22,1
+2027,Coventry,E08000026,Dec-22,1
+2028,Dudley,E08000027,Dec-22,1
+2029,Sandwell,E08000028,Dec-22,1
+2030,Solihull,E08000029,Dec-22,1
+2031,Walsall,E08000030,Dec-22,1
+2032,Wolverhampton,E08000031,Dec-22,1
+2033,Bradford,E08000032,Dec-22,1
+2034,Calderdale,E08000033,Dec-22,1
+2035,Kirklees,E08000034,Dec-22,1
+2036,Leeds,E08000035,Dec-22,1
+2037,Wakefield,E08000036,Dec-22,1
+2038,Gateshead,E08000037,Dec-22,1
+2039,City of London,E09000001,Dec-22,1
+2040,Barking and Dagenham,E09000002,Dec-22,1
+2041,Barnet,E09000003,Dec-22,1
+2042,Bexley,E09000004,Dec-22,1
+2043,Brent,E09000005,Dec-22,1
+2044,Bromley,E09000006,Dec-22,1
+2045,Camden,E09000007,Dec-22,1
+2046,Croydon,E09000008,Dec-22,1
+2047,Ealing,E09000009,Dec-22,1
+2048,Enfield,E09000010,Dec-22,1
+2049,Greenwich,E09000011,Dec-22,1
+2050,Hackney,E09000012,Dec-22,1
+2051,Hammersmith and Fulham,E09000013,Dec-22,1
+2052,Haringey,E09000014,Dec-22,1
+2053,Harrow,E09000015,Dec-22,1
+2054,Havering,E09000016,Dec-22,1
+2055,Hillingdon,E09000017,Dec-22,1
+2056,Hounslow,E09000018,Dec-22,1
+2057,Islington,E09000019,Dec-22,1
+2058,Kensington and Chelsea,E09000020,Dec-22,1
+2059,Kingston upon Thames,E09000021,Dec-22,1
+2060,Lambeth,E09000022,Dec-22,1
+2061,Lewisham,E09000023,Dec-22,1
+2062,Merton,E09000024,Dec-22,1
+2063,Newham,E09000025,Dec-22,1
+2064,Redbridge,E09000026,Dec-22,1
+2065,Richmond upon Thames,E09000027,Dec-22,1
+2066,Southwark,E09000028,Dec-22,1
+2067,Sutton,E09000029,Dec-22,1
+2068,Tower Hamlets,E09000030,Dec-22,1
+2069,Waltham Forest,E09000031,Dec-22,1
+2070,Wandsworth,E09000032,Dec-22,1
+2071,Westminster,E09000033,Dec-22,1
+2072,Hartlepool,E06000001,Mar-23,1
+2073,Middlesbrough,E06000002,Mar-23,1
+2074,Redcar and Cleveland,E06000003,Mar-23,1
+2075,Stockton-on-Tees,E06000004,Mar-23,1
+2076,Darlington,E06000005,Mar-23,1
+2077,Halton,E06000006,Mar-23,1
+2078,Warrington,E06000007,Mar-23,1
+2079,Blackburn with Darwen,E06000008,Mar-23,1
+2080,Blackpool,E06000009,Mar-23,1
+2081,Kingston upon Hull,E06000010,Mar-23,1
+2082,East Riding of Yorkshire,E06000011,Mar-23,1
+2083,North East Lincolnshire,E06000012,Mar-23,1
+2084,North Lincolnshire,E06000013,Mar-23,1
+2085,York,E06000014,Mar-23,1
+2086,Derby,E06000015,Mar-23,1
+2087,Leicester,E06000016,Mar-23,1
+2088,Rutland,E06000017,Mar-23,1
+2089,Nottingham,E06000018,Mar-23,1
+2090,Herefordshire,E06000019,Mar-23,1
+2091,Telford and Wrekin,E06000020,Mar-23,1
+2092,Stoke-on-Trent,E06000021,Mar-23,1
+2093,Bath and North East Somerset,E06000022,Mar-23,1
+2094,Bristol,E06000023,Mar-23,1
+2095,North Somerset,E06000024,Mar-23,1
+2096,South Gloucestershire,E06000025,Mar-23,1
+2097,Plymouth,E06000026,Mar-23,1
+2098,Torbay,E06000027,Mar-23,1
+2099,Swindon,E06000030,Mar-23,1
+2100,Peterborough,E06000031,Mar-23,1
+2101,Luton,E06000032,Mar-23,1
+2102,Southend-on-Sea,E06000033,Mar-23,1
+2103,Thurrock,E06000034,Mar-23,1
+2104,Medway,E06000035,Mar-23,1
+2105,Bracknell Forest,E06000036,Mar-23,1
+2106,West Berkshire,E06000037,Mar-23,1
+2107,Reading,E06000038,Mar-23,1
+2108,Slough,E06000039,Mar-23,1
+2109,Windsor and Maidenhead,E06000040,Mar-23,1
+2110,Wokingham,E06000041,Mar-23,1
+2111,Milton Keynes,E06000042,Mar-23,1
+2112,Brighton and Hove,E06000043,Mar-23,1
+2113,Portsmouth,E06000044,Mar-23,1
+2114,Southampton,E06000045,Mar-23,1
+2115,Isle of Wight,E06000046,Mar-23,1
+2116,County Durham,E06000047,Mar-23,1
+2117,Cheshire East,E06000049,Mar-23,1
+2118,Cheshire West and Chester,E06000050,Mar-23,1
+2119,Shropshire,E06000051,Mar-23,1
+2120,Cornwall,E06000052,Mar-23,1
+2121,Isles of Scilly,E06000053,Mar-23,1
+2122,Wiltshire,E06000054,Mar-23,1
+2123,Bedford,E06000055,Mar-23,1
+2124,Central Bedfordshire,E06000056,Mar-23,1
+2125,Northumberland,E06000057,Mar-23,1
+2126,"Bournemouth, Christchurch and Poole",E06000058,Mar-23,1
+2127,Dorset,E06000059,Mar-23,1
+2128,Buckinghamshire,E06000060,Mar-23,1
+2129,North Northamptonshire,E06000061,Mar-23,1
+2130,West Northamptonshire,E06000062,Mar-23,1
+2131,Cumberland,E06000063,Mar-23,1
+2132,Westmorland and Furness,E06000064,Mar-23,1
+2133,North Yorkshire,E06000065,Mar-23,1
+2134,Somerset,E06000066,Mar-23,1
+2135,Cambridge,E07000008,Mar-23,1
+2136,East Cambridgeshire,E07000009,Mar-23,1
+2137,Fenland,E07000010,Mar-23,1
+2138,Huntingdonshire,E07000011,Mar-23,1
+2139,South Cambridgeshire,E07000012,Mar-23,1
+2140,Amber Valley,E07000032,Mar-23,1
+2141,Bolsover,E07000033,Mar-23,1
+2142,Chesterfield,E07000034,Mar-23,1
+2143,Derbyshire Dales,E07000035,Mar-23,1
+2144,Erewash,E07000036,Mar-23,1
+2145,High Peak,E07000037,Mar-23,1
+2146,North East Derbyshire,E07000038,Mar-23,1
+2147,South Derbyshire,E07000039,Mar-23,1
+2148,East Devon,E07000040,Mar-23,1
+2149,Exeter,E07000041,Mar-23,1
+2150,Mid Devon,E07000042,Mar-23,1
+2151,North Devon,E07000043,Mar-23,1
+2152,South Hams,E07000044,Mar-23,1
+2153,Teignbridge,E07000045,Mar-23,1
+2154,Torridge,E07000046,Mar-23,1
+2155,West Devon,E07000047,Mar-23,1
+2156,Eastbourne,E07000061,Mar-23,1
+2157,Hastings,E07000062,Mar-23,1
+2158,Lewes,E07000063,Mar-23,1
+2159,Rother,E07000064,Mar-23,1
+2160,Wealden,E07000065,Mar-23,1
+2161,Basildon,E07000066,Mar-23,1
+2162,Braintree,E07000067,Mar-23,1
+2163,Brentwood,E07000068,Mar-23,1
+2164,Castle Point,E07000069,Mar-23,1
+2165,Chelmsford,E07000070,Mar-23,1
+2166,Colchester,E07000071,Mar-23,1
+2167,Epping Forest,E07000072,Mar-23,1
+2168,Harlow,E07000073,Mar-23,1
+2169,Maldon,E07000074,Mar-23,1
+2170,Rochford,E07000075,Mar-23,1
+2171,Tendring,E07000076,Mar-23,1
+2172,Uttlesford,E07000077,Mar-23,1
+2173,Cheltenham,E07000078,Mar-23,1
+2174,Cotswold,E07000079,Mar-23,1
+2175,Forest of Dean,E07000080,Mar-23,1
+2176,Gloucester,E07000081,Mar-23,1
+2177,Stroud,E07000082,Mar-23,1
+2178,Tewkesbury,E07000083,Mar-23,1
+2179,Basingstoke and Deane,E07000084,Mar-23,1
+2180,East Hampshire,E07000085,Mar-23,1
+2181,Eastleigh,E07000086,Mar-23,1
+2182,Fareham,E07000087,Mar-23,1
+2183,Gosport,E07000088,Mar-23,1
+2184,Hart,E07000089,Mar-23,1
+2185,Havant,E07000090,Mar-23,1
+2186,New Forest,E07000091,Mar-23,1
+2187,Rushmoor,E07000092,Mar-23,1
+2188,Test Valley,E07000093,Mar-23,1
+2189,Winchester,E07000094,Mar-23,1
+2190,Broxbourne,E07000095,Mar-23,1
+2191,Dacorum,E07000096,Mar-23,1
+2192,Hertsmere,E07000098,Mar-23,1
+2193,North Hertfordshire,E07000099,Mar-23,1
+2194,Three Rivers,E07000102,Mar-23,1
+2195,Watford,E07000103,Mar-23,1
+2196,Ashford,E07000105,Mar-23,1
+2197,Canterbury,E07000106,Mar-23,1
+2198,Dartford,E07000107,Mar-23,1
+2199,Dover,E07000108,Mar-23,1
+2200,Gravesham,E07000109,Mar-23,1
+2201,Maidstone,E07000110,Mar-23,1
+2202,Sevenoaks,E07000111,Mar-23,1
+2203,Folkestone and Hythe,E07000112,Mar-23,1
+2204,Swale,E07000113,Mar-23,1
+2205,Thanet,E07000114,Mar-23,1
+2206,Tonbridge and Malling,E07000115,Mar-23,1
+2207,Tunbridge Wells,E07000116,Mar-23,1
+2208,Burnley,E07000117,Mar-23,1
+2209,Chorley,E07000118,Mar-23,1
+2210,Fylde,E07000119,Mar-23,1
+2211,Hyndburn,E07000120,Mar-23,1
+2212,Lancaster,E07000121,Mar-23,1
+2213,Pendle,E07000122,Mar-23,1
+2214,Preston,E07000123,Mar-23,1
+2215,Ribble Valley,E07000124,Mar-23,1
+2216,Rossendale,E07000125,Mar-23,1
+2217,South Ribble,E07000126,Mar-23,1
+2218,West Lancashire,E07000127,Mar-23,1
+2219,Wyre,E07000128,Mar-23,1
+2220,Blaby,E07000129,Mar-23,1
+2221,Charnwood,E07000130,Mar-23,1
+2222,Harborough,E07000131,Mar-23,1
+2223,Hinckley and Bosworth,E07000132,Mar-23,1
+2224,Melton,E07000133,Mar-23,1
+2225,North West Leicestershire,E07000134,Mar-23,1
+2226,Oadby and Wigston,E07000135,Mar-23,1
+2227,Boston,E07000136,Mar-23,1
+2228,East Lindsey,E07000137,Mar-23,1
+2229,Lincoln,E07000138,Mar-23,1
+2230,North Kesteven,E07000139,Mar-23,1
+2231,South Holland,E07000140,Mar-23,1
+2232,South Kesteven,E07000141,Mar-23,1
+2233,West Lindsey,E07000142,Mar-23,1
+2234,Breckland,E07000143,Mar-23,1
+2235,Broadland,E07000144,Mar-23,1
+2236,Great Yarmouth,E07000145,Mar-23,1
+2237,King's Lynn and West Norfolk,E07000146,Mar-23,1
+2238,North Norfolk,E07000147,Mar-23,1
+2239,Norwich,E07000148,Mar-23,1
+2240,South Norfolk,E07000149,Mar-23,1
+2241,Ashfield,E07000170,Mar-23,1
+2242,Bassetlaw,E07000171,Mar-23,1
+2243,Broxtowe,E07000172,Mar-23,1
+2244,Gedling,E07000173,Mar-23,1
+2245,Mansfield,E07000174,Mar-23,1
+2246,Newark and Sherwood,E07000175,Mar-23,1
+2247,Rushcliffe,E07000176,Mar-23,1
+2248,Cherwell,E07000177,Mar-23,1
+2249,Oxford,E07000178,Mar-23,1
+2250,South Oxfordshire,E07000179,Mar-23,1
+2251,Vale of White Horse,E07000180,Mar-23,1
+2252,West Oxfordshire,E07000181,Mar-23,1
+2253,Cannock Chase,E07000192,Mar-23,1
+2254,East Staffordshire,E07000193,Mar-23,1
+2255,Lichfield,E07000194,Mar-23,1
+2256,Newcastle-under-Lyme,E07000195,Mar-23,1
+2257,South Staffordshire,E07000196,Mar-23,1
+2258,Stafford,E07000197,Mar-23,1
+2259,Staffordshire Moorlands,E07000198,Mar-23,1
+2260,Tamworth,E07000199,Mar-23,1
+2261,Babergh,E07000200,Mar-23,1
+2262,Ipswich,E07000202,Mar-23,1
+2263,Mid Suffolk,E07000203,Mar-23,1
+2264,Elmbridge,E07000207,Mar-23,1
+2265,Epsom and Ewell,E07000208,Mar-23,1
+2266,Guildford,E07000209,Mar-23,1
+2267,Mole Valley,E07000210,Mar-23,1
+2268,Reigate and Banstead,E07000211,Mar-23,1
+2269,Runnymede,E07000212,Mar-23,1
+2270,Spelthorne,E07000213,Mar-23,1
+2271,Surrey Heath,E07000214,Mar-23,1
+2272,Tandridge,E07000215,Mar-23,1
+2273,Waverley,E07000216,Mar-23,1
+2274,Woking,E07000217,Mar-23,1
+2275,North Warwickshire,E07000218,Mar-23,1
+2276,Nuneaton and Bedworth,E07000219,Mar-23,1
+2277,Rugby,E07000220,Mar-23,1
+2278,Stratford-on-Avon,E07000221,Mar-23,1
+2279,Warwick,E07000222,Mar-23,1
+2280,Adur,E07000223,Mar-23,1
+2281,Arun,E07000224,Mar-23,1
+2282,Chichester,E07000225,Mar-23,1
+2283,Crawley,E07000226,Mar-23,1
+2284,Horsham,E07000227,Mar-23,1
+2285,Mid Sussex,E07000228,Mar-23,1
+2286,Worthing,E07000229,Mar-23,1
+2287,Bromsgrove,E07000234,Mar-23,1
+2288,Malvern Hills,E07000235,Mar-23,1
+2289,Redditch,E07000236,Mar-23,1
+2290,Worcester,E07000237,Mar-23,1
+2291,Wychavon,E07000238,Mar-23,1
+2292,Wyre Forest,E07000239,Mar-23,1
+2293,St Albans,E07000240,Mar-23,1
+2294,Welwyn Hatfield,E07000241,Mar-23,1
+2295,East Hertfordshire,E07000242,Mar-23,1
+2296,Stevenage,E07000243,Mar-23,1
+2297,East Suffolk,E07000244,Mar-23,1
+2298,West Suffolk,E07000245,Mar-23,1
+2299,Bolton,E08000001,Mar-23,1
+2300,Bury,E08000002,Mar-23,1
+2301,Manchester,E08000003,Mar-23,1
+2302,Oldham,E08000004,Mar-23,1
+2303,Rochdale,E08000005,Mar-23,1
+2304,Salford,E08000006,Mar-23,1
+2305,Stockport,E08000007,Mar-23,1
+2306,Tameside,E08000008,Mar-23,1
+2307,Trafford,E08000009,Mar-23,1
+2308,Wigan,E08000010,Mar-23,1
+2309,Knowsley,E08000011,Mar-23,1
+2310,Liverpool,E08000012,Mar-23,1
+2311,St. Helens,E08000013,Mar-23,1
+2312,Sefton,E08000014,Mar-23,1
+2313,Wirral,E08000015,Mar-23,1
+2314,Barnsley,E08000016,Mar-23,1
+2315,Doncaster,E08000017,Mar-23,1
+2316,Rotherham,E08000018,Mar-23,1
+2317,Sheffield,E08000019,Mar-23,1
+2318,Newcastle upon Tyne,E08000021,Mar-23,1
+2319,North Tyneside,E08000022,Mar-23,1
+2320,South Tyneside,E08000023,Mar-23,1
+2321,Sunderland,E08000024,Mar-23,1
+2322,Birmingham,E08000025,Mar-23,1
+2323,Coventry,E08000026,Mar-23,1
+2324,Dudley,E08000027,Mar-23,1
+2325,Sandwell,E08000028,Mar-23,1
+2326,Solihull,E08000029,Mar-23,1
+2327,Walsall,E08000030,Mar-23,1
+2328,Wolverhampton,E08000031,Mar-23,1
+2329,Bradford,E08000032,Mar-23,1
+2330,Calderdale,E08000033,Mar-23,1
+2331,Kirklees,E08000034,Mar-23,1
+2332,Leeds,E08000035,Mar-23,1
+2333,Wakefield,E08000036,Mar-23,1
+2334,Gateshead,E08000037,Mar-23,1
+2335,City of London,E09000001,Mar-23,1
+2336,Barking and Dagenham,E09000002,Mar-23,1
+2337,Barnet,E09000003,Mar-23,1
+2338,Bexley,E09000004,Mar-23,1
+2339,Brent,E09000005,Mar-23,1
+2340,Bromley,E09000006,Mar-23,1
+2341,Camden,E09000007,Mar-23,1
+2342,Croydon,E09000008,Mar-23,1
+2343,Ealing,E09000009,Mar-23,1
+2344,Enfield,E09000010,Mar-23,1
+2345,Greenwich,E09000011,Mar-23,1
+2346,Hackney,E09000012,Mar-23,1
+2347,Hammersmith and Fulham,E09000013,Mar-23,1
+2348,Haringey,E09000014,Mar-23,1
+2349,Harrow,E09000015,Mar-23,1
+2350,Havering,E09000016,Mar-23,1
+2351,Hillingdon,E09000017,Mar-23,1
+2352,Hounslow,E09000018,Mar-23,1
+2353,Islington,E09000019,Mar-23,1
+2354,Kensington and Chelsea,E09000020,Mar-23,1
+2355,Kingston upon Thames,E09000021,Mar-23,1
+2356,Lambeth,E09000022,Mar-23,1
+2357,Lewisham,E09000023,Mar-23,1
+2358,Merton,E09000024,Mar-23,1
+2359,Newham,E09000025,Mar-23,1
+2360,Redbridge,E09000026,Mar-23,1
+2361,Richmond upon Thames,E09000027,Mar-23,1
+2362,Southwark,E09000028,Mar-23,1
+2363,Sutton,E09000029,Mar-23,1
+2364,Tower Hamlets,E09000030,Mar-23,1
+2365,Waltham Forest,E09000031,Mar-23,1
+2366,Wandsworth,E09000032,Mar-23,1
+2367,Westminster,E09000033,Mar-23,1
+2368,Hartlepool,E06000001,Dec-23,1
+2369,Middlesbrough,E06000002,Dec-23,1
+2370,Redcar and Cleveland,E06000003,Dec-23,1
+2371,Stockton-on-Tees,E06000004,Dec-23,1
+2372,Darlington,E06000005,Dec-23,1
+2373,Halton,E06000006,Dec-23,1
+2374,Warrington,E06000007,Dec-23,1
+2375,Blackburn with Darwen,E06000008,Dec-23,1
+2376,Blackpool,E06000009,Dec-23,1
+2377,Kingston upon Hull,E06000010,Dec-23,1
+2378,East Riding of Yorkshire,E06000011,Dec-23,1
+2379,North East Lincolnshire,E06000012,Dec-23,1
+2380,North Lincolnshire,E06000013,Dec-23,1
+2381,York,E06000014,Dec-23,1
+2382,Derby,E06000015,Dec-23,1
+2383,Leicester,E06000016,Dec-23,1
+2384,Rutland,E06000017,Dec-23,1
+2385,Nottingham,E06000018,Dec-23,1
+2386,Herefordshire,E06000019,Dec-23,1
+2387,Telford and Wrekin,E06000020,Dec-23,1
+2388,Stoke-on-Trent,E06000021,Dec-23,1
+2389,Bath and North East Somerset,E06000022,Dec-23,1
+2390,Bristol,E06000023,Dec-23,1
+2391,North Somerset,E06000024,Dec-23,1
+2392,South Gloucestershire,E06000025,Dec-23,1
+2393,Plymouth,E06000026,Dec-23,1
+2394,Torbay,E06000027,Dec-23,1
+2395,Swindon,E06000030,Dec-23,1
+2396,Peterborough,E06000031,Dec-23,1
+2397,Luton,E06000032,Dec-23,1
+2398,Southend-on-Sea,E06000033,Dec-23,1
+2399,Thurrock,E06000034,Dec-23,1
+2400,Medway,E06000035,Dec-23,1
+2401,Bracknell Forest,E06000036,Dec-23,1
+2402,West Berkshire,E06000037,Dec-23,1
+2403,Reading,E06000038,Dec-23,1
+2404,Slough,E06000039,Dec-23,1
+2405,Windsor and Maidenhead,E06000040,Dec-23,1
+2406,Wokingham,E06000041,Dec-23,1
+2407,Milton Keynes,E06000042,Dec-23,1
+2408,Brighton and Hove,E06000043,Dec-23,1
+2409,Portsmouth,E06000044,Dec-23,1
+2410,Southampton,E06000045,Dec-23,1
+2411,Isle of Wight,E06000046,Dec-23,1
+2412,County Durham,E06000047,Dec-23,1
+2413,Cheshire East,E06000049,Dec-23,1
+2414,Cheshire West and Chester,E06000050,Dec-23,1
+2415,Shropshire,E06000051,Dec-23,1
+2416,Cornwall,E06000052,Dec-23,1
+2417,Isles of Scilly,E06000053,Dec-23,1
+2418,Wiltshire,E06000054,Dec-23,1
+2419,Bedford,E06000055,Dec-23,1
+2420,Central Bedfordshire,E06000056,Dec-23,1
+2421,Northumberland,E06000057,Dec-23,1
+2422,"Bournemouth, Christchurch and Poole",E06000058,Dec-23,1
+2423,Dorset,E06000059,Dec-23,1
+2424,Buckinghamshire,E06000060,Dec-23,1
+2425,North Northamptonshire,E06000061,Dec-23,1
+2426,West Northamptonshire,E06000062,Dec-23,1
+2427,Cumberland,E06000063,Dec-23,1
+2428,Westmorland and Furness,E06000064,Dec-23,1
+2429,North Yorkshire,E06000065,Dec-23,1
+2430,Somerset,E06000066,Dec-23,1
+2431,Cambridge,E07000008,Dec-23,1
+2432,East Cambridgeshire,E07000009,Dec-23,1
+2433,Fenland,E07000010,Dec-23,1
+2434,Huntingdonshire,E07000011,Dec-23,1
+2435,South Cambridgeshire,E07000012,Dec-23,1
+2436,Amber Valley,E07000032,Dec-23,1
+2437,Bolsover,E07000033,Dec-23,1
+2438,Chesterfield,E07000034,Dec-23,1
+2439,Derbyshire Dales,E07000035,Dec-23,1
+2440,Erewash,E07000036,Dec-23,1
+2441,High Peak,E07000037,Dec-23,1
+2442,North East Derbyshire,E07000038,Dec-23,1
+2443,South Derbyshire,E07000039,Dec-23,1
+2444,East Devon,E07000040,Dec-23,1
+2445,Exeter,E07000041,Dec-23,1
+2446,Mid Devon,E07000042,Dec-23,1
+2447,North Devon,E07000043,Dec-23,1
+2448,South Hams,E07000044,Dec-23,1
+2449,Teignbridge,E07000045,Dec-23,1
+2450,Torridge,E07000046,Dec-23,1
+2451,West Devon,E07000047,Dec-23,1
+2452,Eastbourne,E07000061,Dec-23,1
+2453,Hastings,E07000062,Dec-23,1
+2454,Lewes,E07000063,Dec-23,1
+2455,Rother,E07000064,Dec-23,1
+2456,Wealden,E07000065,Dec-23,1
+2457,Basildon,E07000066,Dec-23,1
+2458,Braintree,E07000067,Dec-23,1
+2459,Brentwood,E07000068,Dec-23,1
+2460,Castle Point,E07000069,Dec-23,1
+2461,Chelmsford,E07000070,Dec-23,1
+2462,Colchester,E07000071,Dec-23,1
+2463,Epping Forest,E07000072,Dec-23,1
+2464,Harlow,E07000073,Dec-23,1
+2465,Maldon,E07000074,Dec-23,1
+2466,Rochford,E07000075,Dec-23,1
+2467,Tendring,E07000076,Dec-23,1
+2468,Uttlesford,E07000077,Dec-23,1
+2469,Cheltenham,E07000078,Dec-23,1
+2470,Cotswold,E07000079,Dec-23,1
+2471,Forest of Dean,E07000080,Dec-23,1
+2472,Gloucester,E07000081,Dec-23,1
+2473,Stroud,E07000082,Dec-23,1
+2474,Tewkesbury,E07000083,Dec-23,1
+2475,Basingstoke and Deane,E07000084,Dec-23,1
+2476,East Hampshire,E07000085,Dec-23,1
+2477,Eastleigh,E07000086,Dec-23,1
+2478,Fareham,E07000087,Dec-23,1
+2479,Gosport,E07000088,Dec-23,1
+2480,Hart,E07000089,Dec-23,1
+2481,Havant,E07000090,Dec-23,1
+2482,New Forest,E07000091,Dec-23,1
+2483,Rushmoor,E07000092,Dec-23,1
+2484,Test Valley,E07000093,Dec-23,1
+2485,Winchester,E07000094,Dec-23,1
+2486,Broxbourne,E07000095,Dec-23,1
+2487,Dacorum,E07000096,Dec-23,1
+2488,Hertsmere,E07000098,Dec-23,1
+2489,North Hertfordshire,E07000099,Dec-23,1
+2490,Three Rivers,E07000102,Dec-23,1
+2491,Watford,E07000103,Dec-23,1
+2492,Ashford,E07000105,Dec-23,1
+2493,Canterbury,E07000106,Dec-23,1
+2494,Dartford,E07000107,Dec-23,1
+2495,Dover,E07000108,Dec-23,1
+2496,Gravesham,E07000109,Dec-23,1
+2497,Maidstone,E07000110,Dec-23,1
+2498,Sevenoaks,E07000111,Dec-23,1
+2499,Folkestone and Hythe,E07000112,Dec-23,1
+2500,Swale,E07000113,Dec-23,1
+2501,Thanet,E07000114,Dec-23,1
+2502,Tonbridge and Malling,E07000115,Dec-23,1
+2503,Tunbridge Wells,E07000116,Dec-23,1
+2504,Burnley,E07000117,Dec-23,1
+2505,Chorley,E07000118,Dec-23,1
+2506,Fylde,E07000119,Dec-23,1
+2507,Hyndburn,E07000120,Dec-23,1
+2508,Lancaster,E07000121,Dec-23,1
+2509,Pendle,E07000122,Dec-23,1
+2510,Preston,E07000123,Dec-23,1
+2511,Ribble Valley,E07000124,Dec-23,1
+2512,Rossendale,E07000125,Dec-23,1
+2513,South Ribble,E07000126,Dec-23,1
+2514,West Lancashire,E07000127,Dec-23,1
+2515,Wyre,E07000128,Dec-23,1
+2516,Blaby,E07000129,Dec-23,1
+2517,Charnwood,E07000130,Dec-23,1
+2518,Harborough,E07000131,Dec-23,1
+2519,Hinckley and Bosworth,E07000132,Dec-23,1
+2520,Melton,E07000133,Dec-23,1
+2521,North West Leicestershire,E07000134,Dec-23,1
+2522,Oadby and Wigston,E07000135,Dec-23,1
+2523,Boston,E07000136,Dec-23,1
+2524,East Lindsey,E07000137,Dec-23,1
+2525,Lincoln,E07000138,Dec-23,1
+2526,North Kesteven,E07000139,Dec-23,1
+2527,South Holland,E07000140,Dec-23,1
+2528,South Kesteven,E07000141,Dec-23,1
+2529,West Lindsey,E07000142,Dec-23,1
+2530,Breckland,E07000143,Dec-23,1
+2531,Broadland,E07000144,Dec-23,1
+2532,Great Yarmouth,E07000145,Dec-23,1
+2533,King's Lynn and West Norfolk,E07000146,Dec-23,1
+2534,North Norfolk,E07000147,Dec-23,1
+2535,Norwich,E07000148,Dec-23,1
+2536,South Norfolk,E07000149,Dec-23,1
+2537,Ashfield,E07000170,Dec-23,1
+2538,Bassetlaw,E07000171,Dec-23,1
+2539,Broxtowe,E07000172,Dec-23,1
+2540,Gedling,E07000173,Dec-23,1
+2541,Mansfield,E07000174,Dec-23,1
+2542,Newark and Sherwood,E07000175,Dec-23,1
+2543,Rushcliffe,E07000176,Dec-23,1
+2544,Cherwell,E07000177,Dec-23,1
+2545,Oxford,E07000178,Dec-23,1
+2546,South Oxfordshire,E07000179,Dec-23,1
+2547,Vale of White Horse,E07000180,Dec-23,1
+2548,West Oxfordshire,E07000181,Dec-23,1
+2549,Cannock Chase,E07000192,Dec-23,1
+2550,East Staffordshire,E07000193,Dec-23,1
+2551,Lichfield,E07000194,Dec-23,1
+2552,Newcastle-under-Lyme,E07000195,Dec-23,1
+2553,South Staffordshire,E07000196,Dec-23,1
+2554,Stafford,E07000197,Dec-23,1
+2555,Staffordshire Moorlands,E07000198,Dec-23,1
+2556,Tamworth,E07000199,Dec-23,1
+2557,Babergh,E07000200,Dec-23,1
+2558,Ipswich,E07000202,Dec-23,1
+2559,Mid Suffolk,E07000203,Dec-23,1
+2560,Elmbridge,E07000207,Dec-23,1
+2561,Epsom and Ewell,E07000208,Dec-23,1
+2562,Guildford,E07000209,Dec-23,1
+2563,Mole Valley,E07000210,Dec-23,1
+2564,Reigate and Banstead,E07000211,Dec-23,1
+2565,Runnymede,E07000212,Dec-23,1
+2566,Spelthorne,E07000213,Dec-23,1
+2567,Surrey Heath,E07000214,Dec-23,1
+2568,Tandridge,E07000215,Dec-23,1
+2569,Waverley,E07000216,Dec-23,1
+2570,Woking,E07000217,Dec-23,1
+2571,North Warwickshire,E07000218,Dec-23,1
+2572,Nuneaton and Bedworth,E07000219,Dec-23,1
+2573,Rugby,E07000220,Dec-23,1
+2574,Stratford-on-Avon,E07000221,Dec-23,1
+2575,Warwick,E07000222,Dec-23,1
+2576,Adur,E07000223,Dec-23,1
+2577,Arun,E07000224,Dec-23,1
+2578,Chichester,E07000225,Dec-23,1
+2579,Crawley,E07000226,Dec-23,1
+2580,Horsham,E07000227,Dec-23,1
+2581,Mid Sussex,E07000228,Dec-23,1
+2582,Worthing,E07000229,Dec-23,1
+2583,Bromsgrove,E07000234,Dec-23,1
+2584,Malvern Hills,E07000235,Dec-23,1
+2585,Redditch,E07000236,Dec-23,1
+2586,Worcester,E07000237,Dec-23,1
+2587,Wychavon,E07000238,Dec-23,1
+2588,Wyre Forest,E07000239,Dec-23,1
+2589,St Albans,E07000240,Dec-23,1
+2590,Welwyn Hatfield,E07000241,Dec-23,1
+2591,East Hertfordshire,E07000242,Dec-23,1
+2592,Stevenage,E07000243,Dec-23,1
+2593,East Suffolk,E07000244,Dec-23,1
+2594,West Suffolk,E07000245,Dec-23,1
+2595,Bolton,E08000001,Dec-23,1
+2596,Bury,E08000002,Dec-23,1
+2597,Manchester,E08000003,Dec-23,1
+2598,Oldham,E08000004,Dec-23,1
+2599,Rochdale,E08000005,Dec-23,1
+2600,Salford,E08000006,Dec-23,1
+2601,Stockport,E08000007,Dec-23,1
+2602,Tameside,E08000008,Dec-23,1
+2603,Trafford,E08000009,Dec-23,1
+2604,Wigan,E08000010,Dec-23,1
+2605,Knowsley,E08000011,Dec-23,1
+2606,Liverpool,E08000012,Dec-23,1
+2607,St. Helens,E08000013,Dec-23,1
+2608,Sefton,E08000014,Dec-23,1
+2609,Wirral,E08000015,Dec-23,1
+2610,Barnsley,E08000016,Dec-23,1
+2611,Doncaster,E08000017,Dec-23,1
+2612,Rotherham,E08000018,Dec-23,1
+2613,Sheffield,E08000019,Dec-23,1
+2614,Newcastle upon Tyne,E08000021,Dec-23,1
+2615,North Tyneside,E08000022,Dec-23,1
+2616,South Tyneside,E08000023,Dec-23,1
+2617,Sunderland,E08000024,Dec-23,1
+2618,Birmingham,E08000025,Dec-23,1
+2619,Coventry,E08000026,Dec-23,1
+2620,Dudley,E08000027,Dec-23,1
+2621,Sandwell,E08000028,Dec-23,1
+2622,Solihull,E08000029,Dec-23,1
+2623,Walsall,E08000030,Dec-23,1
+2624,Wolverhampton,E08000031,Dec-23,1
+2625,Bradford,E08000032,Dec-23,1
+2626,Calderdale,E08000033,Dec-23,1
+2627,Kirklees,E08000034,Dec-23,1
+2628,Leeds,E08000035,Dec-23,1
+2629,Wakefield,E08000036,Dec-23,1
+2630,Gateshead,E08000037,Dec-23,1
+2631,City of London,E09000001,Dec-23,1
+2632,Barking and Dagenham,E09000002,Dec-23,1
+2633,Barnet,E09000003,Dec-23,1
+2634,Bexley,E09000004,Dec-23,1
+2635,Brent,E09000005,Dec-23,1
+2636,Bromley,E09000006,Dec-23,1
+2637,Camden,E09000007,Dec-23,1
+2638,Croydon,E09000008,Dec-23,1
+2639,Ealing,E09000009,Dec-23,1
+2640,Enfield,E09000010,Dec-23,1
+2641,Greenwich,E09000011,Dec-23,1
+2642,Hackney,E09000012,Dec-23,1
+2643,Hammersmith and Fulham,E09000013,Dec-23,1
+2644,Haringey,E09000014,Dec-23,1
+2645,Harrow,E09000015,Dec-23,1
+2646,Havering,E09000016,Dec-23,1
+2647,Hillingdon,E09000017,Dec-23,1
+2648,Hounslow,E09000018,Dec-23,1
+2649,Islington,E09000019,Dec-23,1
+2650,Kensington and Chelsea,E09000020,Dec-23,1
+2651,Kingston upon Thames,E09000021,Dec-23,1
+2652,Lambeth,E09000022,Dec-23,1
+2653,Lewisham,E09000023,Dec-23,1
+2654,Merton,E09000024,Dec-23,1
+2655,Newham,E09000025,Dec-23,1
+2656,Redbridge,E09000026,Dec-23,1
+2657,Richmond upon Thames,E09000027,Dec-23,1
+2658,Southwark,E09000028,Dec-23,1
+2659,Sutton,E09000029,Dec-23,1
+2660,Tower Hamlets,E09000030,Dec-23,1
+2661,Waltham Forest,E09000031,Dec-23,1
+2662,Wandsworth,E09000032,Dec-23,1
+2663,Westminster,E09000033,Dec-23,1
+2664,Hartlepool,E06000001,Mar-24,1
+2665,Middlesbrough,E06000002,Mar-24,1
+2666,Redcar and Cleveland,E06000003,Mar-24,1
+2667,Stockton-on-Tees,E06000004,Mar-24,1
+2668,Darlington,E06000005,Mar-24,1
+2669,Halton,E06000006,Mar-24,1
+2670,Warrington,E06000007,Mar-24,1
+2671,Blackburn with Darwen,E06000008,Mar-24,1
+2672,Blackpool,E06000009,Mar-24,1
+2673,Kingston upon Hull,E06000010,Mar-24,1
+2674,East Riding of Yorkshire,E06000011,Mar-24,1
+2675,North East Lincolnshire,E06000012,Mar-24,1
+2676,North Lincolnshire,E06000013,Mar-24,1
+2677,York,E06000014,Mar-24,1
+2678,Derby,E06000015,Mar-24,1
+2679,Leicester,E06000016,Mar-24,1
+2680,Rutland,E06000017,Mar-24,1
+2681,Nottingham,E06000018,Mar-24,1
+2682,Herefordshire,E06000019,Mar-24,1
+2683,Telford and Wrekin,E06000020,Mar-24,1
+2684,Stoke-on-Trent,E06000021,Mar-24,1
+2685,Bath and North East Somerset,E06000022,Mar-24,1
+2686,Bristol,E06000023,Mar-24,1
+2687,North Somerset,E06000024,Mar-24,1
+2688,South Gloucestershire,E06000025,Mar-24,1
+2689,Plymouth,E06000026,Mar-24,1
+2690,Torbay,E06000027,Mar-24,1
+2691,Swindon,E06000030,Mar-24,1
+2692,Peterborough,E06000031,Mar-24,1
+2693,Luton,E06000032,Mar-24,1
+2694,Southend-on-Sea,E06000033,Mar-24,1
+2695,Thurrock,E06000034,Mar-24,1
+2696,Medway,E06000035,Mar-24,1
+2697,Bracknell Forest,E06000036,Mar-24,1
+2698,West Berkshire,E06000037,Mar-24,1
+2699,Reading,E06000038,Mar-24,1
+2700,Slough,E06000039,Mar-24,1
+2701,Windsor and Maidenhead,E06000040,Mar-24,1
+2702,Wokingham,E06000041,Mar-24,1
+2703,Milton Keynes,E06000042,Mar-24,1
+2704,Brighton and Hove,E06000043,Mar-24,1
+2705,Portsmouth,E06000044,Mar-24,1
+2706,Southampton,E06000045,Mar-24,1
+2707,Isle of Wight,E06000046,Mar-24,1
+2708,County Durham,E06000047,Mar-24,1
+2709,Cheshire East,E06000049,Mar-24,1
+2710,Cheshire West and Chester,E06000050,Mar-24,1
+2711,Shropshire,E06000051,Mar-24,1
+2712,Cornwall,E06000052,Mar-24,1
+2713,Isles of Scilly,E06000053,Mar-24,1
+2714,Wiltshire,E06000054,Mar-24,1
+2715,Bedford,E06000055,Mar-24,1
+2716,Central Bedfordshire,E06000056,Mar-24,1
+2717,Northumberland,E06000057,Mar-24,1
+2718,"Bournemouth, Christchurch and Poole",E06000058,Mar-24,1
+2719,Dorset,E06000059,Mar-24,1
+2720,Buckinghamshire,E06000060,Mar-24,1
+2721,North Northamptonshire,E06000061,Mar-24,1
+2722,West Northamptonshire,E06000062,Mar-24,1
+2723,Cumberland,E06000063,Mar-24,1
+2724,Westmorland and Furness,E06000064,Mar-24,1
+2725,North Yorkshire,E06000065,Mar-24,1
+2726,Somerset,E06000066,Mar-24,1
+2727,Cambridge,E07000008,Mar-24,1
+2728,East Cambridgeshire,E07000009,Mar-24,1
+2729,Fenland,E07000010,Mar-24,1
+2730,Huntingdonshire,E07000011,Mar-24,1
+2731,South Cambridgeshire,E07000012,Mar-24,1
+2732,Amber Valley,E07000032,Mar-24,1
+2733,Bolsover,E07000033,Mar-24,1
+2734,Chesterfield,E07000034,Mar-24,1
+2735,Derbyshire Dales,E07000035,Mar-24,1
+2736,Erewash,E07000036,Mar-24,1
+2737,High Peak,E07000037,Mar-24,1
+2738,North East Derbyshire,E07000038,Mar-24,1
+2739,South Derbyshire,E07000039,Mar-24,1
+2740,East Devon,E07000040,Mar-24,1
+2741,Exeter,E07000041,Mar-24,1
+2742,Mid Devon,E07000042,Mar-24,1
+2743,North Devon,E07000043,Mar-24,1
+2744,South Hams,E07000044,Mar-24,1
+2745,Teignbridge,E07000045,Mar-24,1
+2746,Torridge,E07000046,Mar-24,1
+2747,West Devon,E07000047,Mar-24,1
+2748,Eastbourne,E07000061,Mar-24,1
+2749,Hastings,E07000062,Mar-24,1
+2750,Lewes,E07000063,Mar-24,1
+2751,Rother,E07000064,Mar-24,1
+2752,Wealden,E07000065,Mar-24,1
+2753,Basildon,E07000066,Mar-24,1
+2754,Braintree,E07000067,Mar-24,1
+2755,Brentwood,E07000068,Mar-24,1
+2756,Castle Point,E07000069,Mar-24,1
+2757,Chelmsford,E07000070,Mar-24,1
+2758,Colchester,E07000071,Mar-24,1
+2759,Epping Forest,E07000072,Mar-24,1
+2760,Harlow,E07000073,Mar-24,1
+2761,Maldon,E07000074,Mar-24,1
+2762,Rochford,E07000075,Mar-24,1
+2763,Tendring,E07000076,Mar-24,1
+2764,Uttlesford,E07000077,Mar-24,1
+2765,Cheltenham,E07000078,Mar-24,1
+2766,Cotswold,E07000079,Mar-24,1
+2767,Forest of Dean,E07000080,Mar-24,1
+2768,Gloucester,E07000081,Mar-24,1
+2769,Stroud,E07000082,Mar-24,1
+2770,Tewkesbury,E07000083,Mar-24,1
+2771,Basingstoke and Deane,E07000084,Mar-24,1
+2772,East Hampshire,E07000085,Mar-24,1
+2773,Eastleigh,E07000086,Mar-24,1
+2774,Fareham,E07000087,Mar-24,1
+2775,Gosport,E07000088,Mar-24,1
+2776,Hart,E07000089,Mar-24,1
+2777,Havant,E07000090,Mar-24,1
+2778,New Forest,E07000091,Mar-24,1
+2779,Rushmoor,E07000092,Mar-24,1
+2780,Test Valley,E07000093,Mar-24,1
+2781,Winchester,E07000094,Mar-24,1
+2782,Broxbourne,E07000095,Mar-24,1
+2783,Dacorum,E07000096,Mar-24,1
+2784,Hertsmere,E07000098,Mar-24,1
+2785,North Hertfordshire,E07000099,Mar-24,1
+2786,Three Rivers,E07000102,Mar-24,1
+2787,Watford,E07000103,Mar-24,1
+2788,Ashford,E07000105,Mar-24,1
+2789,Canterbury,E07000106,Mar-24,1
+2790,Dartford,E07000107,Mar-24,1
+2791,Dover,E07000108,Mar-24,1
+2792,Gravesham,E07000109,Mar-24,1
+2793,Maidstone,E07000110,Mar-24,1
+2794,Sevenoaks,E07000111,Mar-24,1
+2795,Folkestone and Hythe,E07000112,Mar-24,1
+2796,Swale,E07000113,Mar-24,1
+2797,Thanet,E07000114,Mar-24,1
+2798,Tonbridge and Malling,E07000115,Mar-24,1
+2799,Tunbridge Wells,E07000116,Mar-24,1
+2800,Burnley,E07000117,Mar-24,1
+2801,Chorley,E07000118,Mar-24,1
+2802,Fylde,E07000119,Mar-24,1
+2803,Hyndburn,E07000120,Mar-24,1
+2804,Lancaster,E07000121,Mar-24,1
+2805,Pendle,E07000122,Mar-24,1
+2806,Preston,E07000123,Mar-24,1
+2807,Ribble Valley,E07000124,Mar-24,1
+2808,Rossendale,E07000125,Mar-24,1
+2809,South Ribble,E07000126,Mar-24,1
+2810,West Lancashire,E07000127,Mar-24,1
+2811,Wyre,E07000128,Mar-24,1
+2812,Blaby,E07000129,Mar-24,1
+2813,Charnwood,E07000130,Mar-24,1
+2814,Harborough,E07000131,Mar-24,1
+2815,Hinckley and Bosworth,E07000132,Mar-24,1
+2816,Melton,E07000133,Mar-24,1
+2817,North West Leicestershire,E07000134,Mar-24,1
+2818,Oadby and Wigston,E07000135,Mar-24,1
+2819,Boston,E07000136,Mar-24,1
+2820,East Lindsey,E07000137,Mar-24,1
+2821,Lincoln,E07000138,Mar-24,1
+2822,North Kesteven,E07000139,Mar-24,1
+2823,South Holland,E07000140,Mar-24,1
+2824,South Kesteven,E07000141,Mar-24,1
+2825,West Lindsey,E07000142,Mar-24,1
+2826,Breckland,E07000143,Mar-24,1
+2827,Broadland,E07000144,Mar-24,1
+2828,Great Yarmouth,E07000145,Mar-24,1
+2829,King's Lynn and West Norfolk,E07000146,Mar-24,1
+2830,North Norfolk,E07000147,Mar-24,1
+2831,Norwich,E07000148,Mar-24,1
+2832,South Norfolk,E07000149,Mar-24,1
+2833,Ashfield,E07000170,Mar-24,1
+2834,Bassetlaw,E07000171,Mar-24,1
+2835,Broxtowe,E07000172,Mar-24,1
+2836,Gedling,E07000173,Mar-24,1
+2837,Mansfield,E07000174,Mar-24,1
+2838,Newark and Sherwood,E07000175,Mar-24,1
+2839,Rushcliffe,E07000176,Mar-24,1
+2840,Cherwell,E07000177,Mar-24,1
+2841,Oxford,E07000178,Mar-24,1
+2842,South Oxfordshire,E07000179,Mar-24,1
+2843,Vale of White Horse,E07000180,Mar-24,1
+2844,West Oxfordshire,E07000181,Mar-24,1
+2845,Cannock Chase,E07000192,Mar-24,1
+2846,East Staffordshire,E07000193,Mar-24,1
+2847,Lichfield,E07000194,Mar-24,1
+2848,Newcastle-under-Lyme,E07000195,Mar-24,1
+2849,South Staffordshire,E07000196,Mar-24,1
+2850,Stafford,E07000197,Mar-24,1
+2851,Staffordshire Moorlands,E07000198,Mar-24,1
+2852,Tamworth,E07000199,Mar-24,1
+2853,Babergh,E07000200,Mar-24,1
+2854,Ipswich,E07000202,Mar-24,1
+2855,Mid Suffolk,E07000203,Mar-24,1
+2856,Elmbridge,E07000207,Mar-24,1
+2857,Epsom and Ewell,E07000208,Mar-24,1
+2858,Guildford,E07000209,Mar-24,1
+2859,Mole Valley,E07000210,Mar-24,1
+2860,Reigate and Banstead,E07000211,Mar-24,1
+2861,Runnymede,E07000212,Mar-24,1
+2862,Spelthorne,E07000213,Mar-24,1
+2863,Surrey Heath,E07000214,Mar-24,1
+2864,Tandridge,E07000215,Mar-24,1
+2865,Waverley,E07000216,Mar-24,1
+2866,Woking,E07000217,Mar-24,1
+2867,North Warwickshire,E07000218,Mar-24,1
+2868,Nuneaton and Bedworth,E07000219,Mar-24,1
+2869,Rugby,E07000220,Mar-24,1
+2870,Stratford-on-Avon,E07000221,Mar-24,1
+2871,Warwick,E07000222,Mar-24,1
+2872,Adur,E07000223,Mar-24,1
+2873,Arun,E07000224,Mar-24,1
+2874,Chichester,E07000225,Mar-24,1
+2875,Crawley,E07000226,Mar-24,1
+2876,Horsham,E07000227,Mar-24,1
+2877,Mid Sussex,E07000228,Mar-24,1
+2878,Worthing,E07000229,Mar-24,1
+2879,Bromsgrove,E07000234,Mar-24,1
+2880,Malvern Hills,E07000235,Mar-24,1
+2881,Redditch,E07000236,Mar-24,1
+2882,Worcester,E07000237,Mar-24,1
+2883,Wychavon,E07000238,Mar-24,1
+2884,Wyre Forest,E07000239,Mar-24,1
+2885,St Albans,E07000240,Mar-24,1
+2886,Welwyn Hatfield,E07000241,Mar-24,1
+2887,East Hertfordshire,E07000242,Mar-24,1
+2888,Stevenage,E07000243,Mar-24,1
+2889,East Suffolk,E07000244,Mar-24,1
+2890,West Suffolk,E07000245,Mar-24,1
+2891,Bolton,E08000001,Mar-24,1
+2892,Bury,E08000002,Mar-24,1
+2893,Manchester,E08000003,Mar-24,1
+2894,Oldham,E08000004,Mar-24,1
+2895,Rochdale,E08000005,Mar-24,1
+2896,Salford,E08000006,Mar-24,1
+2897,Stockport,E08000007,Mar-24,1
+2898,Tameside,E08000008,Mar-24,1
+2899,Trafford,E08000009,Mar-24,1
+2900,Wigan,E08000010,Mar-24,1
+2901,Knowsley,E08000011,Mar-24,1
+2902,Liverpool,E08000012,Mar-24,1
+2903,St. Helens,E08000013,Mar-24,1
+2904,Sefton,E08000014,Mar-24,1
+2905,Wirral,E08000015,Mar-24,1
+2906,Barnsley,E08000016,Mar-24,1
+2907,Doncaster,E08000017,Mar-24,1
+2908,Rotherham,E08000018,Mar-24,1
+2909,Sheffield,E08000019,Mar-24,1
+2910,Newcastle upon Tyne,E08000021,Mar-24,1
+2911,North Tyneside,E08000022,Mar-24,1
+2912,South Tyneside,E08000023,Mar-24,1
+2913,Sunderland,E08000024,Mar-24,1
+2914,Birmingham,E08000025,Mar-24,1
+2915,Coventry,E08000026,Mar-24,1
+2916,Dudley,E08000027,Mar-24,1
+2917,Sandwell,E08000028,Mar-24,1
+2918,Solihull,E08000029,Mar-24,1
+2919,Walsall,E08000030,Mar-24,1
+2920,Wolverhampton,E08000031,Mar-24,1
+2921,Bradford,E08000032,Mar-24,1
+2922,Calderdale,E08000033,Mar-24,1
+2923,Kirklees,E08000034,Mar-24,1
+2924,Leeds,E08000035,Mar-24,1
+2925,Wakefield,E08000036,Mar-24,1
+2926,Gateshead,E08000037,Mar-24,1
+2927,City of London,E09000001,Mar-24,1
+2928,Barking and Dagenham,E09000002,Mar-24,1
+2929,Barnet,E09000003,Mar-24,1
+2930,Bexley,E09000004,Mar-24,1
+2931,Brent,E09000005,Mar-24,1
+2932,Bromley,E09000006,Mar-24,1
+2933,Camden,E09000007,Mar-24,1
+2934,Croydon,E09000008,Mar-24,1
+2935,Ealing,E09000009,Mar-24,1
+2936,Enfield,E09000010,Mar-24,1
+2937,Greenwich,E09000011,Mar-24,1
+2938,Hackney,E09000012,Mar-24,1
+2939,Hammersmith and Fulham,E09000013,Mar-24,1
+2940,Haringey,E09000014,Mar-24,1
+2941,Harrow,E09000015,Mar-24,1
+2942,Havering,E09000016,Mar-24,1
+2943,Hillingdon,E09000017,Mar-24,1
+2944,Hounslow,E09000018,Mar-24,1
+2945,Islington,E09000019,Mar-24,1
+2946,Kensington and Chelsea,E09000020,Mar-24,1
+2947,Kingston upon Thames,E09000021,Mar-24,1
+2948,Lambeth,E09000022,Mar-24,1
+2949,Lewisham,E09000023,Mar-24,1
+2950,Merton,E09000024,Mar-24,1
+2951,Newham,E09000025,Mar-24,1
+2952,Redbridge,E09000026,Mar-24,1
+2953,Richmond upon Thames,E09000027,Mar-24,1
+2954,Southwark,E09000028,Mar-24,1
+2955,Sutton,E09000029,Mar-24,1
+2956,Tower Hamlets,E09000030,Mar-24,1
+2957,Waltham Forest,E09000031,Mar-24,1
+2958,Wandsworth,E09000032,Mar-24,1
+2959,Westminster,E09000033,Mar-24,1
