@@ -20,8 +20,9 @@
   hr {
     width: 75px;
     border: none;
-    border-top: 2px solid;
-    margin: 100px auto 80px auto;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    margin: 10px auto 80px auto;
   }
 </style>
 
