@@ -32120,10 +32120,10 @@ var app = (function () {
 
     			option.__value = null;
     			option.value = option.__value;
-    			add_location(option, file, 272, 5, 7225);
+    			add_location(option, file, 272, 5, 7228);
     			if (/*selected*/ ctx[6] === void 0) add_render_callback(() => /*select_1_change_handler*/ ctx[25].call(select_1));
-    			add_location(select_1, file, 271, 4, 7152);
-    			add_location(p, file, 269, 3, 7098);
+    			add_location(select_1, file, 271, 4, 7155);
+    			add_location(p, file, 269, 3, 7101);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -32210,7 +32210,7 @@ var app = (function () {
     			t1 = space();
     			option.__value = option_value_value = /*place*/ ctx[49].properties.AREANM;
     			option.value = option.__value;
-    			add_location(option, file, 276, 5, 7328);
+    			add_location(option, file, 276, 5, 7331);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -32952,18 +32952,18 @@ var app = (function () {
     			t13 = space();
     			p2 = element("p");
     			p2.textContent = "View the underlying data here";
-    			add_location(h3, file, 266, 3, 6942);
-    			add_location(p0, file, 267, 2, 6979);
+    			add_location(h3, file, 266, 3, 6945);
+    			add_location(p0, file, 267, 2, 6982);
     			attr_dev(div0, "data-id", "map04");
-    			add_location(div0, file, 265, 2, 6916);
+    			add_location(div0, file, 265, 2, 6919);
     			attr_dev(h20, "class", "svelte-1hjzx48");
-    			add_location(h20, file, 306, 4, 8213);
-    			add_location(p1, file, 307, 4, 8297);
+    			add_location(h20, file, 306, 4, 8216);
+    			add_location(p1, file, 307, 4, 8300);
     			attr_dev(div1, "class", "chart svelte-1hjzx48");
-    			add_location(div1, file, 286, 3, 7510);
-    			add_location(div2, file, 285, 2, 7500);
+    			add_location(div1, file, 286, 3, 7513);
+    			add_location(div2, file, 285, 2, 7503);
     			attr_dev(div3, "class", "map svelte-1hjzx48");
-    			add_location(div3, file, 312, 3, 8370);
+    			add_location(div3, file, 312, 3, 8373);
     			if (!src_url_equal(img.src, img_src_value = "./data/change_scale.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Change in childcare accessibility");
     			set_style(img, "height", "55px");
@@ -32971,17 +32971,17 @@ var app = (function () {
     			set_style(img, "margin-top", "15px");
     			set_style(img, "margin-left", "10px");
     			attr_dev(img, "aria-hidden", "true");
-    			add_location(img, file, 400, 5, 10635);
-    			add_location(picture, file, 399, 4, 10619);
-    			add_location(div4, file, 398, 3, 10608);
+    			add_location(img, file, 400, 5, 10638);
+    			add_location(picture, file, 399, 4, 10622);
+    			add_location(div4, file, 398, 3, 10611);
     			attr_dev(h21, "class", "svelte-1hjzx48");
-    			add_location(h21, file, 404, 3, 10845);
-    			add_location(p2, file, 405, 3, 10912);
-    			add_location(div5, file, 311, 2, 8360);
+    			add_location(h21, file, 404, 3, 10848);
+    			add_location(p2, file, 405, 3, 10915);
+    			add_location(div5, file, 311, 2, 8363);
     			attr_dev(div6, "class", "grid svelte-1hjzx48");
-    			add_location(div6, file, 284, 2, 7478);
+    			add_location(div6, file, 284, 2, 7481);
     			attr_dev(div7, "slot", "foreground");
-    			add_location(div7, file, 264, 1, 6889);
+    			add_location(div7, file, 264, 1, 6892);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div7, anchor);
@@ -34403,7 +34403,7 @@ var app = (function () {
     			t2 = space();
     			div0 = element("div");
     			h10 = element("h1");
-    			h10.textContent = "Local area change in childcare accessibility since March 2020";
+    			h10.textContent = "Local area change in childcare accessibility since 31 March 2020";
     			t4 = space();
     			create_component(scroller.$$.fragment);
     			t5 = space();
@@ -34451,7 +34451,7 @@ var app = (function () {
     			t22 = space();
     			div10 = element("div");
     			p1 = element("p");
-    			t23 = text("We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repositry which is avialble ");
+    			t23 = text("We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repositry which is available ");
     			a = element("a");
     			a.textContent = "here";
     			t25 = text(".");
@@ -34472,15 +34472,15 @@ var app = (function () {
     			add_location(h10, file, 259, 1, 6772);
     			add_location(div0, file, 258, 0, 6764);
     			attr_dev(section20, "class", "svelte-1hjzx48");
-    			add_location(section20, file, 410, 0, 10985);
+    			add_location(section20, file, 410, 0, 10988);
     			attr_dev(section21, "class", "svelte-1hjzx48");
-    			add_location(section21, file, 412, 0, 11010);
-    			add_location(h11, file, 416, 1, 11045);
-    			add_location(div1, file, 415, 0, 11037);
+    			add_location(section21, file, 412, 0, 11013);
+    			add_location(h11, file, 416, 1, 11048);
+    			add_location(div1, file, 415, 0, 11040);
     			attr_dev(section1, "class", "svelte-1hjzx48");
-    			add_location(section1, file, 418, 0, 11107);
+    			add_location(section1, file, 418, 0, 11110);
     			attr_dev(div2, "class", "map svelte-1hjzx48");
-    			add_location(div2, file, 424, 3, 11176);
+    			add_location(div2, file, 424, 3, 11179);
     			if (!src_url_equal(img1.src, img1_src_value = "./data/viridis_scale.png")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "Childcare accessibility");
     			set_style(img1, "height", "40px");
@@ -34488,24 +34488,24 @@ var app = (function () {
     			set_style(img1, "margin-top", "15px");
     			set_style(img1, "margin-left", "10px");
     			attr_dev(img1, "aria-hidden", "true");
-    			add_location(img1, file, 516, 7, 13863);
-    			add_location(picture1, file, 515, 6, 13845);
-    			add_location(div3, file, 514, 5, 13832);
+    			add_location(img1, file, 516, 7, 13866);
+    			add_location(picture1, file, 515, 6, 13848);
+    			add_location(div3, file, 514, 5, 13835);
     			attr_dev(h20, "class", "svelte-1hjzx48");
-    			add_location(h20, file, 520, 5, 14072);
-    			add_location(p0, file, 521, 5, 14161);
-    			add_location(div4, file, 423, 2, 11166);
+    			add_location(h20, file, 520, 5, 14075);
+    			add_location(p0, file, 521, 5, 14164);
+    			add_location(div4, file, 423, 2, 11169);
     			attr_dev(h21, "class", "svelte-1hjzx48");
-    			add_location(h21, file, 589, 4, 16033);
+    			add_location(h21, file, 589, 4, 16036);
     			attr_dev(div5, "class", "map svelte-1hjzx48");
-    			add_location(div5, file, 525, 3, 14245);
-    			add_location(div6, file, 524, 2, 14235);
+    			add_location(div5, file, 525, 3, 14248);
+    			add_location(div6, file, 524, 2, 14238);
     			attr_dev(div7, "class", "grid svelte-1hjzx48");
-    			add_location(div7, file, 523, 3, 14213);
+    			add_location(div7, file, 523, 3, 14216);
     			attr_dev(div8, "class", "grid svelte-1hjzx48");
-    			add_location(div8, file, 422, 1, 11144);
+    			add_location(div8, file, 422, 1, 11147);
     			attr_dev(section2, "class", "svelte-1hjzx48");
-    			add_location(section2, file, 421, 0, 11132);
+    			add_location(section2, file, 421, 0, 11135);
     			if (!src_url_equal(img2.src, img2_src_value = "./data/ons-logo-black-en.svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "Childcare accessibility");
     			set_style(img2, "height", "30px");
@@ -34514,18 +34514,18 @@ var app = (function () {
     			set_style(img2, "margin-left", "10px");
     			set_style(img2, "margin-right", "10px");
     			attr_dev(img2, "aria-hidden", "true");
-    			add_location(img2, file, 597, 2, 16223);
-    			add_location(picture2, file, 596, 1, 16210);
-    			add_location(div9, file, 595, 1, 16202);
+    			add_location(img2, file, 597, 2, 16226);
+    			add_location(picture2, file, 596, 1, 16213);
+    			add_location(div9, file, 595, 1, 16205);
     			attr_dev(a, "href", "https://github.com/ONSvisual/svelte-maps/tree/main");
     			attr_dev(a, "class", "svelte-1hjzx48");
-    			add_location(a, file, 602, 200, 16645);
-    			add_location(p1, file, 602, 2, 16447);
-    			add_location(div10, file, 601, 1, 16438);
-    			add_location(p2, file, 607, 2, 16753);
-    			add_location(div11, file, 606, 1, 16744);
+    			add_location(a, file, 602, 201, 16649);
+    			add_location(p1, file, 602, 2, 16450);
+    			add_location(div10, file, 601, 1, 16441);
+    			add_location(p2, file, 607, 2, 16757);
+    			add_location(div11, file, 606, 1, 16748);
     			attr_dev(section3, "class", "svelte-1hjzx48");
-    			add_location(section3, file, 605, 0, 16732);
+    			add_location(section3, file, 605, 0, 16736);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
