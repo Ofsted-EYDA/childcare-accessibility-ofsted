@@ -30,6 +30,11 @@ export function getColor(value, breaks, colors) {
   return color ? color : 'lightgrey';
 }
 
+export function getMotion() {
+  let mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)"); // Check if browser prefers reduced motion
+	return !mediaQuery || mediaQuery.matches ? false : true; // return true for motion, false for no motion
+}
+
 export function sleep (ms = 1000) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }

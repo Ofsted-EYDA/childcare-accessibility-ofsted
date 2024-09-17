@@ -1,5 +1,6 @@
 <script>
 	// Components for working with Mapbox layers
+	import { onMount } from 'svelte';
 	import { getData, getColor, getTopo, getBreaks } from "./js/utils.js";
 	import Map from './Map.svelte';
 	import MapSource from './MapSource.svelte';
@@ -10,6 +11,8 @@
 	import Em from "./layout/Em.svelte";
 	import { LineChart } from "@onsvisual/svelte-charts";
 	import timeData from "./timeData";
+	import Scroller from "./layout/Scroller.svelte";
+	import { getMotion } from "./js/utils.js";
 
 	// Defining colours
 	const colors = {
@@ -28,13 +31,65 @@
     function doHover(e) {
         hovered = e.detail.id;
     }
+	function dropSelect() {
+		let name = selected.name;
+		console.log(name + ' selected via dropdown');
+	}
+	function fitById(id) {
+		if (geojson2 && id) {
+			let feature = geojson2.features.find(d => d.properties.AREANM == id);
+			let bounds = bbox(feature.geometry);
+			fitBounds(bounds);
+		}
+	}
+	function fitBounds(bounds) {
+		if (map) {
+			map.fitBounds(bounds, {animate: animation});
+		}
+	}
 
+	function handleSelection(value) {
+    const location = locations.find(loc => loc.value === value);
+    if (location) {
+      selectedLocation = location;
+      mapCenter = location.coords;
+      mapZoom = location.zoom;
+    }
+  }
+
+	// Update map view when center or zoom changes
+	onMount(() => {
+    if (map) {
+      map.setView(center, zoom);
+    }
+  });
+
+  function runActions(codes = []) {
+		codes.forEach(code => {
+			if (id[code] != idPrev[code]) {
+				if (actions[code][id[code]]) {
+					actions[code][id[code]]();
+				}
+				idPrev[code] = id[code];
+			}
+		});
+	};
+
+	function handleZoomChange(newZoom) {
+    selectedZoom = Number(newZoom);
+  }
+
+  function handleCenterChange(newCenter) {
+    selectedCenter = JSON.parse(newCenter);
+  }
+	
 	// defining uttla data and bounds (from json)
 	const utlaData = "./data/data_utla.csv";
 	const utlaBounds = {
 	  url: "./data/geo_utla.json",
 	  layer: "geog",
-	  code: "AREACD"
+	  code: "AREACD",
+	  name: "AREANM"
 	};
 	
 	// defining lsoa data and bounds (vector tiles)
@@ -78,18 +133,18 @@
 
 	// Data
 	let data = {lsoa: {}, lad: {}, utla: {}};
-	let geojson;
 	let geojson2;
 
 	// State
 	let zoom;
 	let center = {};
 	let hovered, selected;
-	let animation = true;
 	let hover = true;
 	let select = true;
 	let explore = false;
 	let mapHighlighted = [];
+	let id = {};
+	let animation = getMotion();
 
 	let showSources = true;
 	let showLayers = true;
@@ -176,6 +231,17 @@
 		yAxis: {label: "overall_accessibility_score"}
 	};
 
+	// Actions for Scroller components
+	const actions = {
+		map: { // Actions for <Scroller/> with id="map"
+			map04: () => {
+				fitBounds(selected);
+				mapHighlighted = [];
+				explore = true;
+			}
+		}
+	}
+
 </script>
 
 <picture>
@@ -189,114 +255,82 @@
 	
 </section>
 
-<section>
-	<div class="grid">
-		<div>
-			<div class="map">
-			  {#if geojson2 && data.utla}
-			  <Map id="map1" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map1} controls={true}>
-				{#if showSources}
-			<MapSource
-				id="ula"
-				type="geojson"
-				data={geojson2}
-				promoteId={utlaBounds.code}
-				maxzoom={8}>
-				{#if showLayers}
-			<MapLayer
-				id="utla-fill"
-				data={data.utla}
-				type="fill"
-				hover={true}
-				select={true}
-				minzoom={4}
-				maxzoom={8}
-				paint={{
-					'fill-color': ['case',
-						['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
-						'rgba(255, 255, 255, 0)'
-					],
-					'fill-opacity': 0.8
-				}}
-					order={baseMap.key === "omt" ? "water_name" : null}
-					visible={visLayers}
-			/>
-			<MapLayer
-				id="utla-bg"
-				data={data.utla}
-				type="fill"
-				minzoom={8}
-				maxzoom={13}
-				paint={{
-					'fill-color': ['case',
-						['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
-						'rgba(255, 255, 255, 0)'
-					],
-					'fill-opacity': 0.2
-				}}
-					order={baseMap.key === "omt" ? "water_name" : null}
-					visible={visLayers}
-			/>
-				{/if}
-			</MapSource>
-				{/if}
-				<MapSource
-				  	id="lsoa"
-				  	type="vector"
-				  	url={lsoaBuildings11.url}
-				  	layer={lsoaBuildings11.layer}
-				  	promoteId={lsoaBuildings11.code}
-					minzoom={8}
-				  	maxzoom={13}>
-				  	{#if showLayers && data}
-				  	<MapLayer
-				  		id="lsoa"
-				  		data={data.lsoaDecilesMarch24}
-				  		type="fill"
-				  		minzoom={8}
-				  		paint={{
-				  			'fill-color': ['case',
-				  				['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
-				  				'rgba(255, 255, 255, 0)'
-				  			],
-				  			'fill-opacity': 0.9
-				  		}}
-							order={baseMap.key === "omt" ? "water_name" : null}
-							visible={visLayers}
-				    />
-				  	{/if}
-			  	</MapSource>
-		  </Map>
-			  {/if}
-			</div>
-			<div>
-				<picture>
-					<img src="./data/viridis_scale.png" alt="Childcare accessibility"
-					style="height:40px; margin-bottom: 0px; margin-top: 15px; margin-left: 10px;" aria-hidden="true">
-				</picture>
-			</div>
-			<h2>Childcare accessibility as at 31 March 2024 (accessible places per child)</h2>
-			<p>View the underlying data here</p>
+
+<div>
+	<h1>Local area change in childcare accessibility since March 2020</h1>
+</div>
+
+
+<Scroller bind:id={id['map']}>
+	<div slot="foreground">
+		<div data-id="map04">
+			<h3>Select a local authority</h3>
+		<p>Use the selection box below to see a local authority's change in childcare accessibility.</p>
+		{#if geojson2}
+			<p>
+				<!-- svelte-ignore a11y-no-onchange -->
+				<select bind:value={selected} on:change={() => fitById(selected)}>
+					<option 
+						value={null}>Select one
+					</option>
+					{#each geojson2.features as place}
+					<option value={place.properties.AREANM}>
+						{place.properties.AREANM}
+					</option>
+					{/each}
+				</select>
+			</p>
+		{/if}
 		</div>
+		<div class="grid">
+		<div>
+			<div class="chart">
+				<LineChart data={timeData.map(d => ({
+					year: new Date(`${d.Month}`),
+					value: d.overall_accessibility_score,
+					group: d.LocalAuthority
+				}))}
+				xKey="year" yKey="value" zKey="group" mode="default" event_hover={undefined}
+				height="500px"
+				color="lightgrey"
+				lineWidth={1} xTicks={5} snapTicks={false}
+				colorHover="#d13d6a"
+				colorSelect='#170c59'
+				{animation} labels
+				{hover} {select}
+				{selected} on:select={doSelect}
+				{hovered} on:hover={doHover}
+				padding={{ top: 20, bottom: 25, left: 35, right: 80 }}
+				xScale="time"
+				xFormatTickString='20%y'
+				subtitle = "Childcare accessibility (places per child)"/>
+				<h2>Change in childcare accessibility since March 2020 by local authority</h2>
+				<p>View the underlying data here</p>
+				</div>
+	</div>
 
 		<div>
 			<div class="map">
-			  <Map id="map2" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>
+			  <Map id="map" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>
 					{#if showSources}
 
 				<MapSource
 					id="utla"
 					type="geojson"
 					data={geojson2}
-					promoteId={utlaBounds.code}
+					promoteId={utlaBounds.name}
 					maxzoom={7}>
-					{#if showLayers && data.utla}
+					{#if showLayers}
 				<MapLayer
 					id="utla-fill"
 					data={data.utla_change_code}
 					type="fill"
+					hover={true}
 					minzoom={4}
 					maxzoom={8}
+					bind:hovered
+					select={true}
+					bind:selected
 					paint={{
 						'fill-color': ['case',
 							['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
@@ -306,13 +340,19 @@
 					}}
 						order={baseMap.key === "omt" ? "water_name" : null}
 						visible={visLayers}
-				/>
+				>
+				<MapTooltip content={`Local Authority: ${hovered}`}/>
+				</MapLayer>
 				<MapLayer
 					id="lad-bg"
 					data={data.utla_change_code}
 					type="fill"
 					minzoom={7}
 					maxzoom={13}
+					hover={true}
+					bind:hovered
+					select={true}
+					bind:selected
 					paint={{
 						'fill-color': ['case',
 							['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
@@ -322,7 +362,9 @@
 					}}
 						order={baseMap.key === "omt" ? "water_name" : null}
 						visible={visLayers}
-				/>
+				>
+				<MapTooltip content={`Local Authority: ${hovered}`}/>
+				</MapLayer>
 					{/if}
 				</MapSource>
 					{/if}
@@ -364,10 +406,16 @@
 			<p>View the underlying data here</p>
 		</div>
   </div>
-</section>
+</Scroller>
 
-<section>
-</section>
+<section2>
+</section2>
+<section2>
+</section2>
+
+<div>
+	<h1>Local childcare accessibility 31 March 2024</h1>
+</div>
 <section>
 </section>
 
@@ -375,59 +423,183 @@
 	<div class="grid">
 		<div>
 			<div class="map">
-			  {#if geojson2 && data.utla}
-			  <Map id="map3" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map3} controls={true} minzoom={7}>
+				{#if geojson2}
+			  <Map id="map1" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>
+				  {#if showSources}
+					  <MapSource
+					  id="ula"
+					  type="geojson"
+					  data={geojson2}
+					  promoteId={utlaBounds.name}
+					  maxzoom={8}
+					  {selected}
+					  {animation} labels
+			  `       {hover} {select}
+					  on:select={doSelect}
+					  {hovered} on:hover={doHover}>
+						  {#if showLayers}
+						  <MapLayer
+						  {animation}
+						  id="utla-fill"
+						  data={data.utla}
+						  type="fill"
+						  select {selected} on:select={doSelect}
+						  hover {hovered} on:hover={doHover}
+						  highlight highlighted={mapHighlighted}
+						  maxzoom={8}
+						  paint={{
+							  'fill-color': ['case',
+								  ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+								  'rgba(255, 255, 255, 0)'
+							  ],
+							  'fill-opacity': 0.8
+						  }}
+						  order={baseMap.key === "omt" ? "water_name" : null}
+						  visible={visLayers}
+						  >
+							  <MapTooltip content={`Local Authority: ${hovered}`}/>
+						  </MapLayer>
+						  <MapLayer
+						  id="utla-bg"
+						  data={data.utla}
+						  type="fill"
+						  hover={true}
+						  minzoom={8}
+						  bind:hovered
+						  select={true}
+						  bind:selected
+						  paint={{
+							  'fill-color': ['case',
+								  ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+								  'rgba(255, 255, 255, 0)'
+							  ],
+							  'fill-opacity': 0.2
+						  }}
+							  order={baseMap.key === "omt" ? "water_name" : null}
+							  visible={visLayers}
+						  >
+							  <MapTooltip content={`Local Authority: ${hovered}`}/>
+						  </MapLayer>
+						  {/if}
+					  </MapSource>
+						  {/if}
+					  <MapSource
+						  id="lsoa"
+						  type="vector"
+						  url={lsoaBuildings11.url}
+						  layer={lsoaBuildings11.layer}
+						  promoteId={lsoaBuildings11.code}
+						  minzoom={8}
+						  maxzoom={13}>
+					  {#if showLayers && data}
+						  <MapLayer
+							  id="lsoa"
+							  data={data.lsoaDecilesMarch24}
+							  type="fill"
+							  minzoom={8}
+							  paint={{
+								  'fill-color': ['case',
+									  ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+									  'rgba(255, 255, 255, 0)'
+								  ],
+								  'fill-opacity': 0.9
+							  }}
+								  order={baseMap.key === "omt" ? "water_name" : null}
+								  visible={visLayers}
+						  />
+					  {/if}
+					  </MapSource>
+			  </Map>
+				{/if}
+			  </div>
+			  <div>
+				  <picture>
+					  <img src="./data/viridis_scale.png" alt="Childcare accessibility"
+					  style="height:40px; margin-bottom: 0px; margin-top: 15px; margin-left: 10px;" aria-hidden="true">
+				  </picture>
+			  </div>
+			  <h2>Childcare accessibility as at 31 March 2024 (accessible places per child)</h2>
+			  <p>View the underlying data here</p>
+	  </div>
+	  <div class="grid">
+		<div>
+			<div class="map">
+				{#if geojson2}
+			  <Map id="map3" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>
 				<MapSource
-				  	id="lsoa"
-				  	type="vector"
-				  	url={lsoaBounds.url}
-				  	layer={lsoaBounds.layer}
-				  	promoteId={lsoaBounds.code}
-					minzoom={7}
-				  	maxzoom={13}>
-				  	{#if showLayers && data}
-				  	<MapLayer
-				  		id="lsoa"
-				  		data={data.d_or_o}
-				  		type="fill"
-				  		minzoom={7}
-				  		paint={{
-				  			'fill-color': ['case',
-				  				['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
-				  				'rgba(255, 255, 255, 0)'
-				  			],
-				  			'fill-opacity': 0.6
-				  		}}
-							order={baseMap.key === "omt" ? "water_name" : null}
-							visible={visLayers}
-				    />
-				  	{/if}
-			  	</MapSource>
-		  </Map>
-			  {/if}
-			</div>
-			<h2>Childcare <Em color={colors.d_and_o[1]}>deserts</Em> and <Em color={colors.d_and_o[2]}>oases</Em> as at 31 March 2024</h2>
-		</div>
-		<div class="map">
-			<LineChart data={timeData.map(d => ({
-				year: new Date(`${d.Month}`),
-				value: d.overall_accessibility_score,
-				group: d.LocalAuthority
-			}))}
-			xKey="year" yKey="value" zKey="group" mode="default" event_hover={undefined}
-			height="475px"
-			color="lightgrey"
-			lineWidth={1} xTicks={5} snapTicks={false}
-			colorHover="red"
-			{animation} labels
-			{hover} {select}
-			padding={{ top: 0, bottom: 25, left: 35, right: 100 }}
-			xScale="time"
-			xFormatTickString='20%y'
-			subtitle = "Childcare accessibility (places per child)"/>
-			<h2>Change in childcare accessibility since March 2020 by local authority</h2>
-			</div>
-  </div>
+						  id="lsoa"
+						  type="vector"
+						  url={lsoaBounds.url}
+						  layer={lsoaBounds.layer}
+						  promoteId={lsoaBounds.code}
+						  >
+					  {#if showLayers && data}
+						  <MapLayer
+							  id="lsoa2"
+							  data={data.d_or_o}
+							  type="fill"
+							  paint={{
+								  'fill-color': ['case',
+									  ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+									  'rgba(255, 255, 255, 0)'
+								  ],
+								  'fill-opacity': 0.6
+							  }}
+								  order={baseMap.key === "omt" ? "water_name" : null}
+								  visible={visLayers}
+						  />
+					  {/if}
+					  </MapSource>
+				  {#if showSources}
+					  <MapSource
+					  id="ula"
+					  type="geojson"
+					  data={geojson2}
+					  promoteId={utlaBounds.name}>
+					  <MapLayer
+						  id="utla-blank-fill"
+						  type="fill"
+						  data={data.utla}
+						  select {selected} on:select={doSelect}
+						  hover {hovered} on:hover={doHover}
+						  maxzoom={13}
+						  paint={{
+							'fill-color': ['case',
+								['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],
+								'rgba(255, 255, 255, 0)'
+							],
+							'fill-opacity': 0
+						}}
+						>
+							<MapTooltip content={`Local Authority: ${hovered}`}/>
+						  </MapLayer>
+						  <MapLayer
+						  id="utla-line"
+						  type="line"
+						  maxzoom={13}
+						  paint={{
+							'line-color': 'black',
+							'line-width': 1.5
+						}}
+						  >
+						  </MapLayer>
+					  </MapSource>
+						  {/if}
+			  </Map>
+				{/if}
+				<h2>Childcare <Em color={colors.d_and_o[1]}>deserts</Em> and <Em color={colors.d_and_o[2]}>oases</Em> as at 31 March 2024</h2>
+			  </div>
+	  </div>
+</section>
+
+<section>
+	<picture>
+		<img src="./data/ons-logo-black-en.svg" alt="Childcare accessibility"
+		style="height:30px; margin-bottom: 0px; margin-top: 15px; margin-left: 10px; margin-right: 10px;" aria-hidden="true">
+	</picture>
+	<div>
+		<p>We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repositry which is avialble <a href="https://github.com/ONSvisual/svelte-maps/tree/main">here</a>.</p>
+	</div>
 </section>
 
 <section>
@@ -435,6 +607,8 @@
 		<p></p>
 	</div>
 </section>
+
+
 
 <style>
 	section {
@@ -449,6 +623,20 @@
 	  background-size: cover;
 	  margin: 0;
 		margin-bottom: 20px;
+	  padding: 0;
+	}
+	section2 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  margin: 0;
+		margin-bottom: 0px;
 	  padding: 0;
 	}
 	button {
@@ -475,6 +663,9 @@
 	}
 	.map {
 		height: 500px;
+	}
+	.chart {
+		height: 700px;
 	}
 	a:hover {
 		cursor: pointer;
