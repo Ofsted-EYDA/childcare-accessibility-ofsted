@@ -600,7 +600,7 @@
 	</picture>
 	</div>
 	<div>
-		<p>We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repositry which is available <a href="https://github.com/ONSvisual/svelte-maps/tree/main">here</a>.</p>
+		<p>We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repository which is available <a href="https://github.com/ONSvisual/svelte-maps/tree/main">here</a>.</p>
 	</div>
 
 <section>
