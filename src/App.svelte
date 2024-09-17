@@ -257,7 +257,7 @@
 
 
 <div>
-	<h1>Local area change in childcare accessibility since March 2020</h1>
+	<h1>Local area change in childcare accessibility since 31 March 2020</h1>
 </div>
 
 
@@ -600,7 +600,7 @@
 	</picture>
 	</div>
 	<div>
-		<p>We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repositry which is avialble <a href="https://github.com/ONSvisual/svelte-maps/tree/main">here</a>.</p>
+		<p>We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repositry which is available <a href="https://github.com/ONSvisual/svelte-maps/tree/main">here</a>.</p>
 	</div>
 
 <section>
