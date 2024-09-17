@@ -592,15 +592,16 @@
 	  </div>
 </section>
 
-<section>
+
+	<div>
 	<picture>
 		<img src="./data/ons-logo-black-en.svg" alt="Childcare accessibility"
 		style="height:30px; margin-bottom: 0px; margin-top: 15px; margin-left: 10px; margin-right: 10px;" aria-hidden="true">
 	</picture>
+	</div>
 	<div>
 		<p>We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repositry which is avialble <a href="https://github.com/ONSvisual/svelte-maps/tree/main">here</a>.</p>
 	</div>
-</section>
 
 <section>
 	<div>
