@@ -34451,7 +34451,7 @@ var app = (function () {
     			t22 = space();
     			div10 = element("div");
     			p1 = element("p");
-    			t23 = text("We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repositry which is available ");
+    			t23 = text("We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repository which is available ");
     			a = element("a");
     			a.textContent = "here";
     			t25 = text(".");
@@ -34519,13 +34519,13 @@ var app = (function () {
     			add_location(div9, file, 595, 1, 16211);
     			attr_dev(a, "href", "https://github.com/ONSvisual/svelte-maps/tree/main");
     			attr_dev(a, "class", "svelte-1hjzx48");
-    			add_location(a, file, 602, 201, 16655);
+    			add_location(a, file, 602, 202, 16656);
     			add_location(p1, file, 602, 2, 16456);
     			add_location(div10, file, 601, 1, 16447);
-    			add_location(p2, file, 607, 2, 16763);
-    			add_location(div11, file, 606, 1, 16754);
+    			add_location(p2, file, 607, 2, 16764);
+    			add_location(div11, file, 606, 1, 16755);
     			attr_dev(section3, "class", "svelte-1hjzx48");
-    			add_location(section3, file, 605, 0, 16742);
+    			add_location(section3, file, 605, 0, 16743);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
