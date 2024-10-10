@@ -640,7 +640,7 @@
 						  {/if}
 			  </Map>
 				{/if}
-				<h2>Childcare <Em color={colors.d_and_o[1]}>deserts</Em> and <Em color={colors.d_and_o[2]}>oases</Em> as at 31 March 2024</h2>
+				<h2>Childcare <Em color={colors.d_and_o[1]}>deserts</Em> and <Em color={colors.d_and_o[2]}>oases</Em></h2>
 			  </div>
 	  </div>
 </section>
