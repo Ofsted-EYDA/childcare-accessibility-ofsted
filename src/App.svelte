@@ -359,7 +359,7 @@
 				>
 				{#if hovered}
 				{#if currentRow}
-					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: ${currentRow.score_change}%</strong>`}/>
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: ${currentRow.score_change.toFixed(1)}%</strong>`}/>
 				{:else}
 					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: N/A</strong>`}/>
 				{/if}
@@ -389,7 +389,7 @@
 				>
 				{#if hovered}
 				{#if currentRow}
-					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: ${currentRow.score_change}%</strong>`}/>
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: ${currentRow.score_change.toFixed(1)}%</strong>`}/>
 				{:else}
 					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: N/A</strong>`}/>
 				{/if}
@@ -491,7 +491,7 @@
 						  >
 						  {#if hovered}
 							{#if currentRow}
-								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: ${currentRow.March24Score}</strong>`}/>
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: ${currentRow.March24Score.toFixed(1)}</strong>`}/>
 							{:else}
 								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: N/A</strong>`}/>
 							{/if}
@@ -520,7 +520,7 @@
 						  >
 						  {#if hovered}
 							{#if currentRow}
-								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: ${currentRow.March24Score}</strong>`}/>
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: ${currentRow.March24Score.toFixed(1)}</strong>`}/>
 							{:else}
 								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: N/A</strong>`}/>
 							{/if}
