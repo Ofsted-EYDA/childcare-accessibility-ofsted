@@ -145,11 +145,17 @@
 	let mapHighlighted = [];
 	let id = {};
 	let animation = getMotion();
+	let currentRow = null;
 
 	let showSources = true;
 	let showLayers = true;
 	let visLayers = true;
 	let baseMap = baseMaps[0];
+
+	// Reactive statement to update currentRow when hovered changes
+    $: if (hovered) {
+        currentRow = data.utla.find(row => row.AREANM === hovered) || null;
+    }
 
 	// Get geometry for geojson maps
 	getTopo(utlaBounds.url, utlaBounds.layer)
@@ -178,6 +184,16 @@
 		});
 		data.utla = res;
 	});
+
+	getData(utlaData)
+	.then(res => {
+		res.forEach(d => {
+			d.color = colors.div10[d.score_change_code];
+			d.AREACD = d.AREACD;
+		});
+		data.utla_change_code = res;
+	});
+
 
 	getData(utlaData)
 	.then(res => {
@@ -273,7 +289,7 @@
 					<option 
 						value={null}>Select one
 					</option>
-					{#each geojson2.features as place}
+					{#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}
 					<option value={place.properties.AREANM}>
 						{place.properties.AREANM}
 					</option>
@@ -303,7 +319,7 @@
 				padding={{ top: 20, bottom: 25, left: 35, right: 80 }}
 				xScale="time"
 				xFormatTickString='20%y'
-				subtitle = "Childcare accessibility (places per child)"/>
+				subtitle = "Childcare accessibility (places per 100 children)"/>
 				<h2>Change in childcare accessibility since March 2020 by local authority</h2>
 				<p>View the underlying data here</p>
 				</div>
@@ -341,7 +357,15 @@
 						order={baseMap.key === "omt" ? "water_name" : null}
 						visible={visLayers}
 				>
-				<MapTooltip content={`Local Authority: ${hovered}`}/>
+				{#if hovered}
+				{#if currentRow}
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: ${currentRow.score_change}%</strong>`}/>
+				{:else}
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: N/A</strong>`}/>
+				{/if}
+				{:else}
+					<MapTooltip content="Hover over a local authority to see data."/>
+				{/if}
 				</MapLayer>
 				<MapLayer
 					id="lad-bg"
@@ -363,7 +387,15 @@
 						order={baseMap.key === "omt" ? "water_name" : null}
 						visible={visLayers}
 				>
-				<MapTooltip content={`Local Authority: ${hovered}`}/>
+				{#if hovered}
+				{#if currentRow}
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: ${currentRow.score_change}%</strong>`}/>
+				{:else}
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: N/A</strong>`}/>
+				{/if}
+				{:else}
+					<MapTooltip content="Hover over a local authority to see data."/>
+				{/if}
 				</MapLayer>
 					{/if}
 				</MapSource>
@@ -457,7 +489,15 @@
 						  order={baseMap.key === "omt" ? "water_name" : null}
 						  visible={visLayers}
 						  >
-							  <MapTooltip content={`Local Authority: ${hovered}`}/>
+						  {#if hovered}
+							{#if currentRow}
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: ${currentRow.March24Score}</strong>`}/>
+							{:else}
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: N/A</strong>`}/>
+							{/if}
+						{:else}
+							<MapTooltip content="Hover over a local authority to see data."/>
+						{/if}
 						  </MapLayer>
 						  <MapLayer
 						  id="utla-bg"
@@ -478,7 +518,15 @@
 							  order={baseMap.key === "omt" ? "water_name" : null}
 							  visible={visLayers}
 						  >
-							  <MapTooltip content={`Local Authority: ${hovered}`}/>
+						  {#if hovered}
+							{#if currentRow}
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: ${currentRow.March24Score}</strong>`}/>
+							{:else}
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: N/A</strong>`}/>
+							{/if}
+						{:else}
+							<MapTooltip content="Hover over a local authority to see data."/>
+						{/if}
 						  </MapLayer>
 						  {/if}
 					  </MapSource>
