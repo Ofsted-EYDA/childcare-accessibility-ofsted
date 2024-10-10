@@ -32928,11 +32928,11 @@ var app = (function () {
 
 	function get_each_context(ctx, list, i) {
 		const child_ctx = ctx.slice();
-		child_ctx[50] = list[i];
+		child_ctx[51] = list[i];
 		return child_ctx;
 	}
 
-	// (285:2) {#if geojson2}
+	// (290:2) {#if geojson2}
 	function create_if_block_18(ctx) {
 		let p;
 		let select_1;
@@ -32959,10 +32959,10 @@ var app = (function () {
 
 				option.__value = null;
 				set_input_value(option, option.__value);
-				add_location(option, file, 288, 5, 7610);
+				add_location(option, file, 293, 5, 7768);
 				if (/*selected*/ ctx[6] === void 0) add_render_callback(() => /*select_1_change_handler*/ ctx[26].call(select_1));
-				add_location(select_1, file, 287, 4, 7537);
-				add_location(p, file, 285, 3, 7483);
+				add_location(select_1, file, 292, 4, 7695);
+				add_location(p, file, 290, 3, 7641);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, p, anchor);
@@ -33029,17 +33029,17 @@ var app = (function () {
 			block,
 			id: create_if_block_18.name,
 			type: "if",
-			source: "(285:2) {#if geojson2}",
+			source: "(290:2) {#if geojson2}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (292:5) {#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}
+	// (297:5) {#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}
 	function create_each_block(ctx) {
 		let option;
-		let t0_value = /*place*/ ctx[50].properties.AREANM + "";
+		let t0_value = /*place*/ ctx[51].properties.AREANM + "";
 		let t0;
 		let t1;
 		let option_value_value;
@@ -33049,9 +33049,9 @@ var app = (function () {
 				option = element("option");
 				t0 = text(t0_value);
 				t1 = space();
-				option.__value = option_value_value = /*place*/ ctx[50].properties.AREANM;
+				option.__value = option_value_value = /*place*/ ctx[51].properties.AREANM;
 				set_input_value(option, option.__value);
-				add_location(option, file, 292, 5, 7792);
+				add_location(option, file, 297, 5, 7950);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, option, anchor);
@@ -33059,9 +33059,9 @@ var app = (function () {
 				append_dev(option, t1);
 			},
 			p: function update(ctx, dirty) {
-				if (dirty[0] & /*geojson2*/ 32 && t0_value !== (t0_value = /*place*/ ctx[50].properties.AREANM + "")) set_data_dev(t0, t0_value);
+				if (dirty[0] & /*geojson2*/ 32 && t0_value !== (t0_value = /*place*/ ctx[51].properties.AREANM + "")) set_data_dev(t0, t0_value);
 
-				if (dirty[0] & /*geojson2*/ 32 && option_value_value !== (option_value_value = /*place*/ ctx[50].properties.AREANM)) {
+				if (dirty[0] & /*geojson2*/ 32 && option_value_value !== (option_value_value = /*place*/ ctx[51].properties.AREANM)) {
 					prop_dev(option, "__value", option_value_value);
 					set_input_value(option, option.__value);
 				}
@@ -33077,14 +33077,14 @@ var app = (function () {
 			block,
 			id: create_each_block.name,
 			type: "each",
-			source: "(292:5) {#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}",
+			source: "(297:5) {#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (331:5) {#if showSources}
+	// (336:5) {#if showSources}
 	function create_if_block_12(ctx) {
 		let mapsource;
 		let current;
@@ -33114,7 +33114,7 @@ var app = (function () {
 				const mapsource_changes = {};
 				if (dirty[0] & /*geojson2*/ 32) mapsource_changes.data = /*geojson2*/ ctx[5];
 
-				if (dirty[0] & /*data, hovered, selected, currentRow*/ 579 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*data, hovered, selected, currentRow*/ 579 | dirty[1] & /*$$scope*/ 8388608) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -33138,14 +33138,14 @@ var app = (function () {
 			block,
 			id: create_if_block_12.name,
 			type: "if",
-			source: "(331:5) {#if showSources}",
+			source: "(336:5) {#if showSources}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (339:5) {#if showLayers}
+	// (344:5) {#if showLayers}
 	function create_if_block_13(ctx) {
 		let maplayer0;
 		let updating_hovered;
@@ -33258,7 +33258,7 @@ var app = (function () {
 				const maplayer0_changes = {};
 				if (dirty[0] & /*data*/ 1) maplayer0_changes.data = /*data*/ ctx[0].utla_change_code;
 
-				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 8388608) {
 					maplayer0_changes.$$scope = { dirty, ctx };
 				}
 
@@ -33278,7 +33278,7 @@ var app = (function () {
 				const maplayer1_changes = {};
 				if (dirty[0] & /*data*/ 1) maplayer1_changes.data = /*data*/ ctx[0].utla_change_code;
 
-				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 8388608) {
 					maplayer1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -33321,14 +33321,14 @@ var app = (function () {
 			block,
 			id: create_if_block_13.name,
 			type: "if",
-			source: "(339:5) {#if showLayers}",
+			source: "(344:5) {#if showLayers}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (366:4) {:else}
+	// (371:4) {:else}
 	function create_else_block_7(ctx) {
 		let maptooltip;
 		let current;
@@ -33367,14 +33367,14 @@ var app = (function () {
 			block,
 			id: create_else_block_7.name,
 			type: "else",
-			source: "(366:4) {:else}",
+			source: "(371:4) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (360:4) {#if hovered}
+	// (365:4) {#if hovered}
 	function create_if_block_16(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -33450,14 +33450,14 @@ var app = (function () {
 			block,
 			id: create_if_block_16.name,
 			type: "if",
-			source: "(360:4) {#if hovered}",
+			source: "(365:4) {#if hovered}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (363:4) {:else}
+	// (368:4) {:else}
 	function create_else_block_6(ctx) {
 		let maptooltip;
 		let current;
@@ -33500,21 +33500,21 @@ var app = (function () {
 			block,
 			id: create_else_block_6.name,
 			type: "else",
-			source: "(363:4) {:else}",
+			source: "(368:4) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (361:4) {#if currentRow}
+	// (366:4) {#if currentRow}
 	function create_if_block_17(ctx) {
 		let maptooltip;
 		let current;
 
 		maptooltip = new MapTooltip({
 				props: {
-					content: `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Change in<br> childcare accessibility: ${/*currentRow*/ ctx[9].score_change}%</strong>`
+					content: `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Change in<br> childcare accessibility: ${/*currentRow*/ ctx[9].score_change.toFixed(1)}%</strong>`
 				},
 				$$inline: true
 			});
@@ -33529,7 +33529,7 @@ var app = (function () {
 			},
 			p: function update(ctx, dirty) {
 				const maptooltip_changes = {};
-				if (dirty[0] & /*hovered, currentRow*/ 514) maptooltip_changes.content = `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Change in<br> childcare accessibility: ${/*currentRow*/ ctx[9].score_change}%</strong>`;
+				if (dirty[0] & /*hovered, currentRow*/ 514) maptooltip_changes.content = `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Change in<br> childcare accessibility: ${/*currentRow*/ ctx[9].score_change.toFixed(1)}%</strong>`;
 				maptooltip.$set(maptooltip_changes);
 			},
 			i: function intro(local) {
@@ -33550,14 +33550,14 @@ var app = (function () {
 			block,
 			id: create_if_block_17.name,
 			type: "if",
-			source: "(361:4) {#if currentRow}",
+			source: "(366:4) {#if currentRow}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (340:4) <MapLayer       id="utla-fill"       data={data.utla_change_code}       type="fill"       hover={true}       minzoom={4}       maxzoom={8}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.8       }}        order={baseMap.key === "omt" ? "water_name" : null}        visible={visLayers}      >
+	// (345:4) <MapLayer       id="utla-fill"       data={data.utla_change_code}       type="fill"       hover={true}       minzoom={4}       maxzoom={8}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.8       }}        order={baseMap.key === "omt" ? "water_name" : null}        visible={visLayers}      >
 	function create_default_slot_15(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -33633,14 +33633,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_15.name,
 			type: "slot",
-			source: "(340:4) <MapLayer       id=\\\"utla-fill\\\"       data={data.utla_change_code}       type=\\\"fill\\\"       hover={true}       minzoom={4}       maxzoom={8}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.8       }}        order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}        visible={visLayers}      >",
+			source: "(345:4) <MapLayer       id=\\\"utla-fill\\\"       data={data.utla_change_code}       type=\\\"fill\\\"       hover={true}       minzoom={4}       maxzoom={8}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.8       }}        order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}        visible={visLayers}      >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (396:4) {:else}
+	// (401:4) {:else}
 	function create_else_block_5(ctx) {
 		let maptooltip;
 		let current;
@@ -33679,14 +33679,14 @@ var app = (function () {
 			block,
 			id: create_else_block_5.name,
 			type: "else",
-			source: "(396:4) {:else}",
+			source: "(401:4) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (390:4) {#if hovered}
+	// (395:4) {#if hovered}
 	function create_if_block_14(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -33762,14 +33762,14 @@ var app = (function () {
 			block,
 			id: create_if_block_14.name,
 			type: "if",
-			source: "(390:4) {#if hovered}",
+			source: "(395:4) {#if hovered}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (393:4) {:else}
+	// (398:4) {:else}
 	function create_else_block_4(ctx) {
 		let maptooltip;
 		let current;
@@ -33812,21 +33812,21 @@ var app = (function () {
 			block,
 			id: create_else_block_4.name,
 			type: "else",
-			source: "(393:4) {:else}",
+			source: "(398:4) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (391:4) {#if currentRow}
+	// (396:4) {#if currentRow}
 	function create_if_block_15(ctx) {
 		let maptooltip;
 		let current;
 
 		maptooltip = new MapTooltip({
 				props: {
-					content: `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Change in<br> childcare accessibility: ${/*currentRow*/ ctx[9].score_change}%</strong>`
+					content: `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Change in<br> childcare accessibility: ${/*currentRow*/ ctx[9].score_change.toFixed(1)}%</strong>`
 				},
 				$$inline: true
 			});
@@ -33841,7 +33841,7 @@ var app = (function () {
 			},
 			p: function update(ctx, dirty) {
 				const maptooltip_changes = {};
-				if (dirty[0] & /*hovered, currentRow*/ 514) maptooltip_changes.content = `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Change in<br> childcare accessibility: ${/*currentRow*/ ctx[9].score_change}%</strong>`;
+				if (dirty[0] & /*hovered, currentRow*/ 514) maptooltip_changes.content = `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Change in<br> childcare accessibility: ${/*currentRow*/ ctx[9].score_change.toFixed(1)}%</strong>`;
 				maptooltip.$set(maptooltip_changes);
 			},
 			i: function intro(local) {
@@ -33862,14 +33862,14 @@ var app = (function () {
 			block,
 			id: create_if_block_15.name,
 			type: "if",
-			source: "(391:4) {#if currentRow}",
+			source: "(396:4) {#if currentRow}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (370:4) <MapLayer       id="lad-bg"       data={data.utla_change_code}       type="fill"       minzoom={7}       maxzoom={13}       hover={true}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.2       }}        order={baseMap.key === "omt" ? "water_name" : null}        visible={visLayers}      >
+	// (375:4) <MapLayer       id="lad-bg"       data={data.utla_change_code}       type="fill"       minzoom={7}       maxzoom={13}       hover={true}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.2       }}        order={baseMap.key === "omt" ? "water_name" : null}        visible={visLayers}      >
 	function create_default_slot_14(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -33945,14 +33945,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_14.name,
 			type: "slot",
-			source: "(370:4) <MapLayer       id=\\\"lad-bg\\\"       data={data.utla_change_code}       type=\\\"fill\\\"       minzoom={7}       maxzoom={13}       hover={true}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.2       }}        order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}        visible={visLayers}      >",
+			source: "(375:4) <MapLayer       id=\\\"lad-bg\\\"       data={data.utla_change_code}       type=\\\"fill\\\"       minzoom={7}       maxzoom={13}       hover={true}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.2       }}        order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}        visible={visLayers}      >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (333:4) <MapSource       id="utla"       type="geojson"       data={geojson2}       promoteId={utlaBounds.name}       maxzoom={7}>
+	// (338:4) <MapSource       id="utla"       type="geojson"       data={geojson2}       promoteId={utlaBounds.name}       maxzoom={7}>
 	function create_default_slot_13(ctx) {
 		let if_block_anchor;
 		let current;
@@ -33993,14 +33993,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_13.name,
 			type: "slot",
-			source: "(333:4) <MapSource       id=\\\"utla\\\"       type=\\\"geojson\\\"       data={geojson2}       promoteId={utlaBounds.name}       maxzoom={7}>",
+			source: "(338:4) <MapSource       id=\\\"utla\\\"       type=\\\"geojson\\\"       data={geojson2}       promoteId={utlaBounds.name}       maxzoom={7}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (411:7) {#if showLayers && data}
+	// (416:7) {#if showLayers && data}
 	function create_if_block_11(ctx) {
 		let maplayer;
 		let current;
@@ -34057,14 +34057,14 @@ var app = (function () {
 			block,
 			id: create_if_block_11.name,
 			type: "if",
-			source: "(411:7) {#if showLayers && data}",
+			source: "(416:7) {#if showLayers && data}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (403:4) <MapSource         id="lsoa"         type="vector"         url={lsoaBuildings11.url}         layer={lsoaBuildings11.layer}         promoteId={lsoaBuildings11.code}       minzoom={8}         maxzoom={13}>
+	// (408:4) <MapSource         id="lsoa"         type="vector"         url={lsoaBuildings11.url}         layer={lsoaBuildings11.layer}         promoteId={lsoaBuildings11.code}       minzoom={8}         maxzoom={13}>
 	function create_default_slot_12(ctx) {
 		let if_block_anchor;
 		let current;
@@ -34126,14 +34126,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_12.name,
 			type: "slot",
-			source: "(403:4) <MapSource         id=\\\"lsoa\\\"         type=\\\"vector\\\"         url={lsoaBuildings11.url}         layer={lsoaBuildings11.layer}         promoteId={lsoaBuildings11.code}       minzoom={8}         maxzoom={13}>",
+			source: "(408:4) <MapSource         id=\\\"lsoa\\\"         type=\\\"vector\\\"         url={lsoaBuildings11.url}         layer={lsoaBuildings11.layer}         promoteId={lsoaBuildings11.code}       minzoom={8}         maxzoom={13}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (330:5) <Map id="map" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>
+	// (335:5) <Map id="map" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>
 	function create_default_slot_11(ctx) {
 		let t;
 		let mapsource;
@@ -34144,9 +34144,9 @@ var app = (function () {
 				props: {
 					id: "lsoa",
 					type: "vector",
-					url: /*lsoaBuildings11*/ ctx[16].url,
-					layer: /*lsoaBuildings11*/ ctx[16].layer,
-					promoteId: /*lsoaBuildings11*/ ctx[16].code,
+					url: /*lsoaBuildings11*/ ctx[15].url,
+					layer: /*lsoaBuildings11*/ ctx[15].layer,
+					promoteId: /*lsoaBuildings11*/ ctx[15].code,
 					minzoom: 8,
 					maxzoom: 13,
 					$$slots: { default: [create_default_slot_12] },
@@ -34171,7 +34171,7 @@ var app = (function () {
 				if (/*showSources*/ ctx[22]) if_block.p(ctx, dirty);
 				const mapsource_changes = {};
 
-				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 8388608) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34202,14 +34202,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_11.name,
 			type: "slot",
-			source: "(330:5) <Map id=\\\"map\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>",
+			source: "(335:5) <Map id=\\\"map\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (281:1) 
+	// (286:1) 
 	function create_foreground_slot(ctx) {
 		let div7;
 		let div0;
@@ -34331,18 +34331,18 @@ var app = (function () {
 				t13 = space();
 				p2 = element("p");
 				p2.textContent = "View the underlying data here";
-				add_location(h3, file, 282, 3, 7327);
-				add_location(p0, file, 283, 2, 7364);
+				add_location(h3, file, 287, 3, 7485);
+				add_location(p0, file, 288, 2, 7522);
 				attr_dev(div0, "data-id", "map04");
-				add_location(div0, file, 281, 2, 7301);
+				add_location(div0, file, 286, 2, 7459);
 				attr_dev(h20, "class", "svelte-1hjzx48");
-				add_location(h20, file, 322, 4, 8684);
-				add_location(p1, file, 323, 4, 8768);
+				add_location(h20, file, 327, 4, 8842);
+				add_location(p1, file, 328, 4, 8926);
 				attr_dev(div1, "class", "chart svelte-1hjzx48");
-				add_location(div1, file, 302, 3, 7974);
-				add_location(div2, file, 301, 2, 7964);
+				add_location(div1, file, 307, 3, 8132);
+				add_location(div2, file, 306, 2, 8122);
 				attr_dev(div3, "class", "map svelte-1hjzx48");
-				add_location(div3, file, 328, 3, 8841);
+				add_location(div3, file, 333, 3, 8999);
 				if (!src_url_equal(img.src, img_src_value = "./data/change_scale.png")) attr_dev(img, "src", img_src_value);
 				attr_dev(img, "alt", "Change in childcare accessibility");
 				set_style(img, "height", "55px");
@@ -34350,17 +34350,17 @@ var app = (function () {
 				set_style(img, "margin-top", "15px");
 				set_style(img, "margin-left", "10px");
 				attr_dev(img, "aria-hidden", "true");
-				add_location(img, file, 432, 5, 11854);
-				add_location(picture, file, 431, 4, 11838);
-				add_location(div4, file, 430, 3, 11827);
+				add_location(img, file, 437, 5, 12034);
+				add_location(picture, file, 436, 4, 12018);
+				add_location(div4, file, 435, 3, 12007);
 				attr_dev(h21, "class", "svelte-1hjzx48");
-				add_location(h21, file, 436, 3, 12064);
-				add_location(p2, file, 437, 3, 12131);
-				add_location(div5, file, 327, 2, 8831);
+				add_location(h21, file, 441, 3, 12244);
+				add_location(p2, file, 442, 3, 12311);
+				add_location(div5, file, 332, 2, 8989);
 				attr_dev(div6, "class", "grid svelte-1hjzx48");
-				add_location(div6, file, 300, 2, 7942);
+				add_location(div6, file, 305, 2, 8100);
 				attr_dev(div7, "slot", "foreground");
-				add_location(div7, file, 280, 1, 7274);
+				add_location(div7, file, 285, 1, 7432);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, div7, anchor);
@@ -34413,7 +34413,7 @@ var app = (function () {
 				linechart.$set(linechart_changes);
 				const map_1_changes = {};
 
-				if (dirty[0] & /*data, geojson2, hovered, selected, currentRow*/ 611 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*data, geojson2, hovered, selected, currentRow*/ 611 | dirty[1] & /*$$scope*/ 8388608) {
 					map_1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34451,14 +34451,14 @@ var app = (function () {
 			block,
 			id: create_foreground_slot.name,
 			type: "slot",
-			source: "(281:1) ",
+			source: "(286:1) ",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (458:4) {#if geojson2}
+	// (463:4) {#if geojson2}
 	function create_if_block_3(ctx) {
 		let map_1;
 		let updating_map1;
@@ -34500,7 +34500,7 @@ var app = (function () {
 				const map_1_changes = {};
 				if (dirty[0] & /*selected*/ 64) map_1_changes.selected = /*selected*/ ctx[6];
 
-				if (dirty[0] & /*data, geojson2, selected, hovered, currentRow, mapHighlighted*/ 739 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*data, geojson2, selected, hovered, currentRow, mapHighlighted*/ 739 | dirty[1] & /*$$scope*/ 8388608) {
 					map_1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34530,14 +34530,14 @@ var app = (function () {
 			block,
 			id: create_if_block_3.name,
 			type: "if",
-			source: "(458:4) {#if geojson2}",
+			source: "(463:4) {#if geojson2}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (460:6) {#if showSources}
+	// (465:6) {#if showSources}
 	function create_if_block_5(ctx) {
 		let mapsource;
 		let current;
@@ -34579,7 +34579,7 @@ var app = (function () {
 				if (dirty[0] & /*selected*/ 64) mapsource_changes.selected = /*selected*/ ctx[6];
 				if (dirty[0] & /*hovered*/ 2) mapsource_changes.hovered = /*hovered*/ ctx[1];
 
-				if (dirty[0] & /*data, hovered, selected, currentRow, mapHighlighted*/ 707 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*data, hovered, selected, currentRow, mapHighlighted*/ 707 | dirty[1] & /*$$scope*/ 8388608) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34603,14 +34603,14 @@ var app = (function () {
 			block,
 			id: create_if_block_5.name,
 			type: "if",
-			source: "(460:6) {#if showSources}",
+			source: "(465:6) {#if showSources}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (472:8) {#if showLayers}
+	// (477:8) {#if showLayers}
 	function create_if_block_6(ctx) {
 		let maplayer0;
 		let t;
@@ -34713,7 +34713,7 @@ var app = (function () {
 				if (dirty[0] & /*hovered*/ 2) maplayer0_changes.hovered = /*hovered*/ ctx[1];
 				if (dirty[0] & /*mapHighlighted*/ 128) maplayer0_changes.highlighted = /*mapHighlighted*/ ctx[7];
 
-				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 8388608) {
 					maplayer0_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34721,7 +34721,7 @@ var app = (function () {
 				const maplayer1_changes = {};
 				if (dirty[0] & /*data*/ 1) maplayer1_changes.data = /*data*/ ctx[0].utla;
 
-				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 8388608) {
 					maplayer1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34764,14 +34764,14 @@ var app = (function () {
 			block,
 			id: create_if_block_6.name,
 			type: "if",
-			source: "(472:8) {#if showLayers}",
+			source: "(477:8) {#if showLayers}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (498:6) {:else}
+	// (503:6) {:else}
 	function create_else_block_3(ctx) {
 		let maptooltip;
 		let current;
@@ -34810,14 +34810,14 @@ var app = (function () {
 			block,
 			id: create_else_block_3.name,
 			type: "else",
-			source: "(498:6) {:else}",
+			source: "(503:6) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (492:8) {#if hovered}
+	// (497:8) {#if hovered}
 	function create_if_block_9(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -34893,14 +34893,14 @@ var app = (function () {
 			block,
 			id: create_if_block_9.name,
 			type: "if",
-			source: "(492:8) {#if hovered}",
+			source: "(497:8) {#if hovered}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (495:7) {:else}
+	// (500:7) {:else}
 	function create_else_block_2(ctx) {
 		let maptooltip;
 		let current;
@@ -34943,21 +34943,21 @@ var app = (function () {
 			block,
 			id: create_else_block_2.name,
 			type: "else",
-			source: "(495:7) {:else}",
+			source: "(500:7) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (493:7) {#if currentRow}
+	// (498:7) {#if currentRow}
 	function create_if_block_10(ctx) {
 		let maptooltip;
 		let current;
 
 		maptooltip = new MapTooltip({
 				props: {
-					content: `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Accessible places<br> per 100 children: ${/*currentRow*/ ctx[9].March24Score}</strong>`
+					content: `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Accessible places<br> per 100 children: ${/*currentRow*/ ctx[9].March24Score.toFixed(1)}</strong>`
 				},
 				$$inline: true
 			});
@@ -34972,7 +34972,7 @@ var app = (function () {
 			},
 			p: function update(ctx, dirty) {
 				const maptooltip_changes = {};
-				if (dirty[0] & /*hovered, currentRow*/ 514) maptooltip_changes.content = `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Accessible places<br> per 100 children: ${/*currentRow*/ ctx[9].March24Score}</strong>`;
+				if (dirty[0] & /*hovered, currentRow*/ 514) maptooltip_changes.content = `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Accessible places<br> per 100 children: ${/*currentRow*/ ctx[9].March24Score.toFixed(1)}</strong>`;
 				maptooltip.$set(maptooltip_changes);
 			},
 			i: function intro(local) {
@@ -34993,14 +34993,14 @@ var app = (function () {
 			block,
 			id: create_if_block_10.name,
 			type: "if",
-			source: "(493:7) {#if currentRow}",
+			source: "(498:7) {#if currentRow}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (473:8) <MapLayer          {animation}          id="utla-fill"          data={data.utla}          type="fill"          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          highlight highlighted={mapHighlighted}          maxzoom={8}          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.8          }}          order={baseMap.key === "omt" ? "water_name" : null}          visible={visLayers}          >
+	// (478:8) <MapLayer          {animation}          id="utla-fill"          data={data.utla}          type="fill"          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          highlight highlighted={mapHighlighted}          maxzoom={8}          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.8          }}          order={baseMap.key === "omt" ? "water_name" : null}          visible={visLayers}          >
 	function create_default_slot_10(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -35076,14 +35076,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_10.name,
 			type: "slot",
-			source: "(473:8) <MapLayer          {animation}          id=\\\"utla-fill\\\"          data={data.utla}          type=\\\"fill\\\"          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          highlight highlighted={mapHighlighted}          maxzoom={8}          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.8          }}          order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}          visible={visLayers}          >",
+			source: "(478:8) <MapLayer          {animation}          id=\\\"utla-fill\\\"          data={data.utla}          type=\\\"fill\\\"          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          highlight highlighted={mapHighlighted}          maxzoom={8}          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.8          }}          order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}          visible={visLayers}          >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (527:6) {:else}
+	// (532:6) {:else}
 	function create_else_block_1(ctx) {
 		let maptooltip;
 		let current;
@@ -35122,14 +35122,14 @@ var app = (function () {
 			block,
 			id: create_else_block_1.name,
 			type: "else",
-			source: "(527:6) {:else}",
+			source: "(532:6) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (521:8) {#if hovered}
+	// (526:8) {#if hovered}
 	function create_if_block_7(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -35205,14 +35205,14 @@ var app = (function () {
 			block,
 			id: create_if_block_7.name,
 			type: "if",
-			source: "(521:8) {#if hovered}",
+			source: "(526:8) {#if hovered}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (524:7) {:else}
+	// (529:7) {:else}
 	function create_else_block(ctx) {
 		let maptooltip;
 		let current;
@@ -35255,21 +35255,21 @@ var app = (function () {
 			block,
 			id: create_else_block.name,
 			type: "else",
-			source: "(524:7) {:else}",
+			source: "(529:7) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (522:7) {#if currentRow}
+	// (527:7) {#if currentRow}
 	function create_if_block_8(ctx) {
 		let maptooltip;
 		let current;
 
 		maptooltip = new MapTooltip({
 				props: {
-					content: `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Accessible places<br> per 100 children: ${/*currentRow*/ ctx[9].March24Score}</strong>`
+					content: `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Accessible places<br> per 100 children: ${/*currentRow*/ ctx[9].March24Score.toFixed(1)}</strong>`
 				},
 				$$inline: true
 			});
@@ -35284,7 +35284,7 @@ var app = (function () {
 			},
 			p: function update(ctx, dirty) {
 				const maptooltip_changes = {};
-				if (dirty[0] & /*hovered, currentRow*/ 514) maptooltip_changes.content = `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Accessible places<br> per 100 children: ${/*currentRow*/ ctx[9].March24Score}</strong>`;
+				if (dirty[0] & /*hovered, currentRow*/ 514) maptooltip_changes.content = `Local Authority: ${/*hovered*/ ctx[1]}<br> <strong>Accessible places<br> per 100 children: ${/*currentRow*/ ctx[9].March24Score.toFixed(1)}</strong>`;
 				maptooltip.$set(maptooltip_changes);
 			},
 			i: function intro(local) {
@@ -35305,14 +35305,14 @@ var app = (function () {
 			block,
 			id: create_if_block_8.name,
 			type: "if",
-			source: "(522:7) {#if currentRow}",
+			source: "(527:7) {#if currentRow}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (502:8) <MapLayer          id="utla-bg"          data={data.utla}          type="fill"          hover={true}          minzoom={8}          bind:hovered          select={true}          bind:selected          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.2          }}           order={baseMap.key === "omt" ? "water_name" : null}           visible={visLayers}          >
+	// (507:8) <MapLayer          id="utla-bg"          data={data.utla}          type="fill"          hover={true}          minzoom={8}          bind:hovered          select={true}          bind:selected          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.2          }}           order={baseMap.key === "omt" ? "water_name" : null}           visible={visLayers}          >
 	function create_default_slot_9(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -35388,14 +35388,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_9.name,
 			type: "slot",
-			source: "(502:8) <MapLayer          id=\\\"utla-bg\\\"          data={data.utla}          type=\\\"fill\\\"          hover={true}          minzoom={8}          bind:hovered          select={true}          bind:selected          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.2          }}           order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}           visible={visLayers}          >",
+			source: "(507:8) <MapLayer          id=\\\"utla-bg\\\"          data={data.utla}          type=\\\"fill\\\"          hover={true}          minzoom={8}          bind:hovered          select={true}          bind:selected          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.2          }}           order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}           visible={visLayers}          >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (461:7) <MapSource         id="ula"         type="geojson"         data={geojson2}         promoteId={utlaBounds.name}         maxzoom={8}         {selected}         {animation} labels       `       {hover} {select}         on:select={doSelect}         {hovered} on:hover={doHover}>
+	// (466:7) <MapSource         id="ula"         type="geojson"         data={geojson2}         promoteId={utlaBounds.name}         maxzoom={8}         {selected}         {animation} labels       `       {hover} {select}         on:select={doSelect}         {hovered} on:hover={doHover}>
 	function create_default_slot_8(ctx) {
 		let if_block_anchor;
 		let current;
@@ -35436,14 +35436,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_8.name,
 			type: "slot",
-			source: "(461:7) <MapSource         id=\\\"ula\\\"         type=\\\"geojson\\\"         data={geojson2}         promoteId={utlaBounds.name}         maxzoom={8}         {selected}         {animation} labels       `       {hover} {select}         on:select={doSelect}         {hovered} on:hover={doHover}>",
+			source: "(466:7) <MapSource         id=\\\"ula\\\"         type=\\\"geojson\\\"         data={geojson2}         promoteId={utlaBounds.name}         maxzoom={8}         {selected}         {animation} labels       `       {hover} {select}         on:select={doSelect}         {hovered} on:hover={doHover}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (542:7) {#if showLayers && data}
+	// (547:7) {#if showLayers && data}
 	function create_if_block_4(ctx) {
 		let maplayer;
 		let current;
@@ -35500,14 +35500,14 @@ var app = (function () {
 			block,
 			id: create_if_block_4.name,
 			type: "if",
-			source: "(542:7) {#if showLayers && data}",
+			source: "(547:7) {#if showLayers && data}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (534:7) <MapSource          id="lsoa"          type="vector"          url={lsoaBuildings11.url}          layer={lsoaBuildings11.layer}          promoteId={lsoaBuildings11.code}          minzoom={8}          maxzoom={13}>
+	// (539:7) <MapSource          id="lsoa"          type="vector"          url={lsoaBuildings11.url}          layer={lsoaBuildings11.layer}          promoteId={lsoaBuildings11.code}          minzoom={8}          maxzoom={13}>
 	function create_default_slot_7(ctx) {
 		let if_block_anchor;
 		let current;
@@ -35569,14 +35569,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_7.name,
 			type: "slot",
-			source: "(534:7) <MapSource          id=\\\"lsoa\\\"          type=\\\"vector\\\"          url={lsoaBuildings11.url}          layer={lsoaBuildings11.layer}          promoteId={lsoaBuildings11.code}          minzoom={8}          maxzoom={13}>",
+			source: "(539:7) <MapSource          id=\\\"lsoa\\\"          type=\\\"vector\\\"          url={lsoaBuildings11.url}          layer={lsoaBuildings11.layer}          promoteId={lsoaBuildings11.code}          minzoom={8}          maxzoom={13}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (459:5) <Map id="map1" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>
+	// (464:5) <Map id="map1" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>
 	function create_default_slot_6(ctx) {
 		let t;
 		let mapsource;
@@ -35587,9 +35587,9 @@ var app = (function () {
 				props: {
 					id: "lsoa",
 					type: "vector",
-					url: /*lsoaBuildings11*/ ctx[16].url,
-					layer: /*lsoaBuildings11*/ ctx[16].layer,
-					promoteId: /*lsoaBuildings11*/ ctx[16].code,
+					url: /*lsoaBuildings11*/ ctx[15].url,
+					layer: /*lsoaBuildings11*/ ctx[15].layer,
+					promoteId: /*lsoaBuildings11*/ ctx[15].code,
 					minzoom: 8,
 					maxzoom: 13,
 					$$slots: { default: [create_default_slot_7] },
@@ -35614,7 +35614,7 @@ var app = (function () {
 				if (/*showSources*/ ctx[22]) if_block.p(ctx, dirty);
 				const mapsource_changes = {};
 
-				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 8388608) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -35645,14 +35645,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_6.name,
 			type: "slot",
-			source: "(459:5) <Map id=\\\"map1\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>",
+			source: "(464:5) <Map id=\\\"map1\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (575:4) {#if geojson2}
+	// (580:4) {#if geojson2}
 	function create_if_block(ctx) {
 		let map_1;
 		let updating_map3;
@@ -35695,7 +35695,7 @@ var app = (function () {
 				const map_1_changes = {};
 				if (dirty[0] & /*selected*/ 64) map_1_changes.selected = /*selected*/ ctx[6];
 
-				if (dirty[0] & /*geojson2, data, selected, hovered*/ 99 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*geojson2, data, selected, hovered*/ 99 | dirty[1] & /*$$scope*/ 8388608) {
 					map_1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -35725,14 +35725,14 @@ var app = (function () {
 			block,
 			id: create_if_block.name,
 			type: "if",
-			source: "(575:4) {#if geojson2}",
+			source: "(580:4) {#if geojson2}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (584:7) {#if showLayers && data}
+	// (589:7) {#if showLayers && data}
 	function create_if_block_2(ctx) {
 		let maplayer;
 		let current;
@@ -35788,14 +35788,14 @@ var app = (function () {
 			block,
 			id: create_if_block_2.name,
 			type: "if",
-			source: "(584:7) {#if showLayers && data}",
+			source: "(589:7) {#if showLayers && data}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (577:4) <MapSource          id="lsoa"          type="vector"          url={lsoaBounds.url}          layer={lsoaBounds.layer}          promoteId={lsoaBounds.code}          >
+	// (582:4) <MapSource          id="lsoa"          type="vector"          url={oaBounds.url}          layer={oaBounds.layer}          promoteId={oaBounds.code}          >
 	function create_default_slot_5(ctx) {
 		let if_block_anchor;
 		let current;
@@ -35857,14 +35857,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_5.name,
 			type: "slot",
-			source: "(577:4) <MapSource          id=\\\"lsoa\\\"          type=\\\"vector\\\"          url={lsoaBounds.url}          layer={lsoaBounds.layer}          promoteId={lsoaBounds.code}          >",
+			source: "(582:4) <MapSource          id=\\\"lsoa\\\"          type=\\\"vector\\\"          url={oaBounds.url}          layer={oaBounds.layer}          promoteId={oaBounds.code}          >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (601:6) {#if showSources}
+	// (606:6) {#if showSources}
 	function create_if_block_1(ctx) {
 		let mapsource;
 		let current;
@@ -35893,7 +35893,7 @@ var app = (function () {
 				const mapsource_changes = {};
 				if (dirty[0] & /*geojson2*/ 32) mapsource_changes.data = /*geojson2*/ ctx[5];
 
-				if (dirty[0] & /*data, selected, hovered*/ 67 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*data, selected, hovered*/ 67 | dirty[1] & /*$$scope*/ 8388608) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -35917,14 +35917,14 @@ var app = (function () {
 			block,
 			id: create_if_block_1.name,
 			type: "if",
-			source: "(601:6) {#if showSources}",
+			source: "(606:6) {#if showSources}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (607:7) <MapLayer          id="utla-blank-fill"          type="fill"          data={data.utla}          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          maxzoom={13}          paint={{         'fill-color': ['case',          ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],          'rgba(255, 255, 255, 0)'         ],         'fill-opacity': 0        }}        >
+	// (612:7) <MapLayer          id="utla-blank-fill"          type="fill"          data={data.utla}          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          maxzoom={13}          paint={{         'fill-color': ['case',          ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],          'rgba(255, 255, 255, 0)'         ],         'fill-opacity': 0        }}        >
 	function create_default_slot_4(ctx) {
 		let maptooltip;
 		let current;
@@ -35967,14 +35967,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_4.name,
 			type: "slot",
-			source: "(607:7) <MapLayer          id=\\\"utla-blank-fill\\\"          type=\\\"fill\\\"          data={data.utla}          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          maxzoom={13}          paint={{         'fill-color': ['case',          ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],          'rgba(255, 255, 255, 0)'         ],         'fill-opacity': 0        }}        >",
+			source: "(612:7) <MapLayer          id=\\\"utla-blank-fill\\\"          type=\\\"fill\\\"          data={data.utla}          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          maxzoom={13}          paint={{         'fill-color': ['case',          ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],          'rgba(255, 255, 255, 0)'         ],         'fill-opacity': 0        }}        >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (602:7) <MapSource         id="ula"         type="geojson"         data={geojson2}         promoteId={utlaBounds.name}>
+	// (607:7) <MapSource         id="ula"         type="geojson"         data={geojson2}         promoteId={utlaBounds.name}>
 	function create_default_slot_3(ctx) {
 		let maplayer0;
 		let t;
@@ -36037,7 +36037,7 @@ var app = (function () {
 				if (dirty[0] & /*selected*/ 64) maplayer0_changes.selected = /*selected*/ ctx[6];
 				if (dirty[0] & /*hovered*/ 2) maplayer0_changes.hovered = /*hovered*/ ctx[1];
 
-				if (dirty[0] & /*hovered*/ 2 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*hovered*/ 2 | dirty[1] & /*$$scope*/ 8388608) {
 					maplayer0_changes.$$scope = { dirty, ctx };
 				}
 
@@ -36068,14 +36068,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_3.name,
 			type: "slot",
-			source: "(602:7) <MapSource         id=\\\"ula\\\"         type=\\\"geojson\\\"         data={geojson2}         promoteId={utlaBounds.name}>",
+			source: "(607:7) <MapSource         id=\\\"ula\\\"         type=\\\"geojson\\\"         data={geojson2}         promoteId={utlaBounds.name}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (576:5) <Map id="map3" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>
+	// (581:5) <Map id="map3" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>
 	function create_default_slot_2(ctx) {
 		let mapsource;
 		let t;
@@ -36086,9 +36086,9 @@ var app = (function () {
 				props: {
 					id: "lsoa",
 					type: "vector",
-					url: /*lsoaBounds*/ ctx[15].url,
-					layer: /*lsoaBounds*/ ctx[15].layer,
-					promoteId: /*lsoaBounds*/ ctx[15].code,
+					url: /*oaBounds*/ ctx[16].url,
+					layer: /*oaBounds*/ ctx[16].layer,
+					promoteId: /*oaBounds*/ ctx[16].code,
 					$$slots: { default: [create_default_slot_5] },
 					$$scope: { ctx }
 				},
@@ -36114,7 +36114,7 @@ var app = (function () {
 			p: function update(ctx, dirty) {
 				const mapsource_changes = {};
 
-				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 8388608) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -36147,14 +36147,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_2.name,
 			type: "slot",
-			source: "(576:5) <Map id=\\\"map3\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>",
+			source: "(581:5) <Map id=\\\"map3\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (638:18) <Em color={colors.d_and_o[1]}>
+	// (643:18) <Em color={colors.d_and_o[1]}>
 	function create_default_slot_1(ctx) {
 		let t;
 
@@ -36176,14 +36176,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_1.name,
 			type: "slot",
-			source: "(638:18) <Em color={colors.d_and_o[1]}>",
+			source: "(643:18) <Em color={colors.d_and_o[1]}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (638:65) <Em color={colors.d_and_o[2]}>
+	// (643:65) <Em color={colors.d_and_o[2]}>
 	function create_default_slot(ctx) {
 		let t;
 
@@ -36205,7 +36205,7 @@ var app = (function () {
 			block,
 			id: create_default_slot.name,
 			type: "slot",
-			source: "(638:65) <Em color={colors.d_and_o[2]}>",
+			source: "(643:65) <Em color={colors.d_and_o[2]}>",
 			ctx
 		});
 
@@ -36260,19 +36260,18 @@ var app = (function () {
 		let t19;
 		let em1;
 		let t20;
-		let t21;
 		let section3;
 		let div9;
 		let p1;
-		let t22;
+		let t21;
 		let div10;
-		let t23;
+		let t22;
 		let div11;
 		let p2;
-		let t24;
+		let t23;
 		let a;
+		let t25;
 		let t26;
-		let t27;
 		let section4;
 		let div12;
 		let p3;
@@ -36379,22 +36378,21 @@ var app = (function () {
 				create_component(em0.$$.fragment);
 				t19 = text(" and ");
 				create_component(em1.$$.fragment);
-				t20 = text(" as at 31 March 2024");
-				t21 = space();
+				t20 = space();
 				section3 = element("section");
 				div9 = element("div");
 				p1 = element("p");
-				t22 = space();
+				t21 = space();
 				div10 = element("div");
 				div10.innerHTML = ``;
-				t23 = space();
+				t22 = space();
 				div11 = element("div");
 				p2 = element("p");
-				t24 = text("We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repository which is available ");
+				t23 = text("We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repository which is available ");
 				a = element("a");
 				a.textContent = "here";
-				t26 = text(".");
-				t27 = space();
+				t25 = text(".");
+				t26 = space();
 				section4 = element("section");
 				div12 = element("div");
 				p3 = element("p");
@@ -36404,22 +36402,22 @@ var app = (function () {
 				set_style(img0, "margin-bottom", "20px");
 				set_style(img0, "margin-top", "10px");
 				attr_dev(img0, "aria-hidden", "true");
-				add_location(img0, file, 263, 1, 6757);
-				add_location(picture0, file, 262, 0, 6745);
+				add_location(img0, file, 268, 1, 6915);
+				add_location(picture0, file, 267, 0, 6903);
 				attr_dev(section0, "class", "svelte-1hjzx48");
-				add_location(section0, file, 269, 0, 7116);
-				add_location(h10, file, 275, 1, 7154);
-				add_location(div0, file, 274, 0, 7146);
+				add_location(section0, file, 274, 0, 7274);
+				add_location(h10, file, 280, 1, 7312);
+				add_location(div0, file, 279, 0, 7304);
 				attr_dev(section20, "class", "svelte-1hjzx48");
-				add_location(section20, file, 442, 0, 12204);
+				add_location(section20, file, 447, 0, 12384);
 				attr_dev(section21, "class", "svelte-1hjzx48");
-				add_location(section21, file, 444, 0, 12229);
-				add_location(h11, file, 448, 1, 12264);
-				add_location(div1, file, 447, 0, 12256);
+				add_location(section21, file, 449, 0, 12409);
+				add_location(h11, file, 453, 1, 12444);
+				add_location(div1, file, 452, 0, 12436);
 				attr_dev(section1, "class", "svelte-1hjzx48");
-				add_location(section1, file, 450, 0, 12332);
+				add_location(section1, file, 455, 0, 12512);
 				attr_dev(div2, "class", "map svelte-1hjzx48");
-				add_location(div2, file, 456, 3, 12401);
+				add_location(div2, file, 461, 3, 12581);
 				if (!src_url_equal(img1.src, img1_src_value = "./data/viridis_scale.png")) attr_dev(img1, "src", img1_src_value);
 				attr_dev(img1, "alt", "Childcare accessibility");
 				set_style(img1, "height", "40px");
@@ -36427,38 +36425,38 @@ var app = (function () {
 				set_style(img1, "margin-top", "15px");
 				set_style(img1, "margin-left", "10px");
 				attr_dev(img1, "aria-hidden", "true");
-				add_location(img1, file, 564, 7, 15878);
-				add_location(picture1, file, 563, 6, 15860);
-				add_location(div3, file, 562, 5, 15847);
+				add_location(img1, file, 569, 7, 16080);
+				add_location(picture1, file, 568, 6, 16062);
+				add_location(div3, file, 567, 5, 16049);
 				attr_dev(h20, "class", "svelte-1hjzx48");
-				add_location(h20, file, 568, 5, 16087);
-				add_location(p0, file, 569, 5, 16176);
-				add_location(div4, file, 455, 2, 12391);
+				add_location(h20, file, 573, 5, 16289);
+				add_location(p0, file, 574, 5, 16378);
+				add_location(div4, file, 460, 2, 12571);
 				attr_dev(h21, "class", "svelte-1hjzx48");
-				add_location(h21, file, 637, 4, 18048);
+				add_location(h21, file, 642, 4, 18244);
 				attr_dev(div5, "class", "map svelte-1hjzx48");
-				add_location(div5, file, 573, 3, 16260);
-				add_location(div6, file, 572, 2, 16250);
+				add_location(div5, file, 578, 3, 16462);
+				add_location(div6, file, 577, 2, 16452);
 				attr_dev(div7, "class", "grid svelte-1hjzx48");
-				add_location(div7, file, 571, 3, 16228);
+				add_location(div7, file, 576, 3, 16430);
 				attr_dev(div8, "class", "grid svelte-1hjzx48");
-				add_location(div8, file, 454, 1, 12369);
+				add_location(div8, file, 459, 1, 12549);
 				attr_dev(section2, "class", "svelte-1hjzx48");
-				add_location(section2, file, 453, 0, 12357);
-				add_location(p1, file, 644, 2, 18235);
-				add_location(div9, file, 643, 1, 18226);
+				add_location(section2, file, 458, 0, 12537);
+				add_location(p1, file, 649, 2, 18411);
+				add_location(div9, file, 648, 1, 18402);
 				attr_dev(section3, "class", "svelte-1hjzx48");
-				add_location(section3, file, 642, 0, 18214);
-				add_location(div10, file, 649, 1, 18270);
+				add_location(section3, file, 647, 0, 18390);
+				add_location(div10, file, 654, 1, 18446);
 				attr_dev(a, "href", "https://github.com/ONSvisual/svelte-maps/tree/main");
 				attr_dev(a, "class", "svelte-1hjzx48");
-				add_location(a, file, 652, 202, 18496);
-				add_location(p2, file, 652, 2, 18296);
-				add_location(div11, file, 651, 1, 18287);
-				add_location(p3, file, 657, 2, 18604);
-				add_location(div12, file, 656, 1, 18595);
+				add_location(a, file, 657, 202, 18672);
+				add_location(p2, file, 657, 2, 18472);
+				add_location(div11, file, 656, 1, 18463);
+				add_location(p3, file, 662, 2, 18780);
+				add_location(div12, file, 661, 1, 18771);
 				attr_dev(section4, "class", "svelte-1hjzx48");
-				add_location(section4, file, 655, 0, 18583);
+				add_location(section4, file, 660, 0, 18759);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -36509,20 +36507,19 @@ var app = (function () {
 				mount_component(em0, h21, null);
 				append_dev(h21, t19);
 				mount_component(em1, h21, null);
-				append_dev(h21, t20);
-				insert_dev(target, t21, anchor);
+				insert_dev(target, t20, anchor);
 				insert_dev(target, section3, anchor);
 				append_dev(section3, div9);
 				append_dev(div9, p1);
-				insert_dev(target, t22, anchor);
+				insert_dev(target, t21, anchor);
 				insert_dev(target, div10, anchor);
-				insert_dev(target, t23, anchor);
+				insert_dev(target, t22, anchor);
 				insert_dev(target, div11, anchor);
 				append_dev(div11, p2);
-				append_dev(p2, t24);
+				append_dev(p2, t23);
 				append_dev(p2, a);
-				append_dev(p2, t26);
-				insert_dev(target, t27, anchor);
+				append_dev(p2, t25);
+				insert_dev(target, t26, anchor);
 				insert_dev(target, section4, anchor);
 				append_dev(section4, div12);
 				append_dev(div12, p3);
@@ -36531,7 +36528,7 @@ var app = (function () {
 			p: function update(ctx, dirty) {
 				const scroller_changes = {};
 
-				if (dirty[0] & /*map2, data, geojson2, hovered, selected, currentRow*/ 619 | dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[0] & /*map2, data, geojson2, hovered, selected, currentRow*/ 619 | dirty[1] & /*$$scope*/ 8388608) {
 					scroller_changes.$$scope = { dirty, ctx };
 				}
 
@@ -36591,14 +36588,14 @@ var app = (function () {
 
 				const em0_changes = {};
 
-				if (dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[1] & /*$$scope*/ 8388608) {
 					em0_changes.$$scope = { dirty, ctx };
 				}
 
 				em0.$set(em0_changes);
 				const em1_changes = {};
 
-				if (dirty[1] & /*$$scope*/ 4194304) {
+				if (dirty[1] & /*$$scope*/ 8388608) {
 					em1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -36642,13 +36639,13 @@ var app = (function () {
 					detach_dev(section1);
 					detach_dev(t10);
 					detach_dev(section2);
-					detach_dev(t21);
+					detach_dev(t20);
 					detach_dev(section3);
-					detach_dev(t22);
+					detach_dev(t21);
 					detach_dev(div10);
-					detach_dev(t23);
+					detach_dev(t22);
 					detach_dev(div11);
-					detach_dev(t27);
+					detach_dev(t26);
 					detach_dev(section4);
 				}
 
@@ -36808,6 +36805,12 @@ var app = (function () {
 
 		const ladBounds = {
 			url: "https://cdn.ons.gov.uk/maptiles/administrative/2023/ltla/v1/boundaries/{z}/{x}/{y}.pbf",
+			layer: "oa",
+			code: "areacd"
+		};
+
+		const oaBounds = {
+			url: "https://cdn.ons.gov.uk/maptiles/administrative/2021/oa/v3/boundaries/{z}/{x}/{y}.pbf",
 			layer: "boundaries",
 			code: "areacd"
 		};
@@ -36912,7 +36915,7 @@ var app = (function () {
 		getData(dandoData).then(res => {
 			res.forEach(d => {
 				d.color = colors.d_and_o[d.d_or_o];
-				d.AREACD = d.code;
+				d.areacd = d.areacd;
 			});
 
 			$$invalidate(0, data.d_or_o = res, data);
@@ -37061,6 +37064,7 @@ var app = (function () {
 			lsoaBounds,
 			lsoaBuildings11,
 			ladBounds,
+			oaBounds,
 			bounds,
 			baseMaps,
 			map1,
@@ -37141,8 +37145,8 @@ var app = (function () {
 			doHover,
 			fitById,
 			utlaBounds,
-			lsoaBounds,
 			lsoaBuildings11,
+			oaBounds,
 			bounds,
 			zoom,
 			hover,
