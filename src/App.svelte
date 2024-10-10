@@ -108,6 +108,11 @@
     };
 	const ladBounds = {
 		url: "https://cdn.ons.gov.uk/maptiles/administrative/2023/ltla/v1/boundaries/{z}/{x}/{y}.pbf",
+		layer: "oa",
+		code: "areacd"
+	};
+	const oaBounds = {
+		url: "https://cdn.ons.gov.uk/maptiles/administrative/2021/oa/v3/boundaries/{z}/{x}/{y}.pbf",
 		layer: "boundaries",
 		code: "areacd"
 	};
@@ -218,7 +223,7 @@
 	.then(res => {
 		res.forEach(d => {
 			d.color = colors.d_and_o[d.d_or_o];
-			d.AREACD = d.code;
+			d.areacd = d.areacd;
 		});
 		data.d_or_o = res;
 	});
@@ -577,9 +582,9 @@
 				<MapSource
 						  id="lsoa"
 						  type="vector"
-						  url={lsoaBounds.url}
-						  layer={lsoaBounds.layer}
-						  promoteId={lsoaBounds.code}
+						  url={oaBounds.url}
+						  layer={oaBounds.layer}
+						  promoteId={oaBounds.code}
 						  >
 					  {#if showLayers && data}
 						  <MapLayer
