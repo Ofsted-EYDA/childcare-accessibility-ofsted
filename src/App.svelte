@@ -108,6 +108,11 @@
     };
 	const ladBounds = {
 		url: "https://cdn.ons.gov.uk/maptiles/administrative/2023/ltla/v1/boundaries/{z}/{x}/{y}.pbf",
+		layer: "oa",
+		code: "areacd"
+	};
+	const oaBounds = {
+		url: "https://cdn.ons.gov.uk/maptiles/administrative/2021/oa/v3/boundaries/{z}/{x}/{y}.pbf",
 		layer: "boundaries",
 		code: "areacd"
 	};
@@ -145,11 +150,17 @@
 	let mapHighlighted = [];
 	let id = {};
 	let animation = getMotion();
+	let currentRow = null;
 
 	let showSources = true;
 	let showLayers = true;
 	let visLayers = true;
 	let baseMap = baseMaps[0];
+
+	// Reactive statement to update currentRow when hovered changes
+    $: if (hovered) {
+        currentRow = data.utla.find(row => row.AREANM === hovered) || null;
+    }
 
 	// Get geometry for geojson maps
 	getTopo(utlaBounds.url, utlaBounds.layer)
@@ -188,6 +199,16 @@
 		data.utla_change_code = res;
 	});
 
+
+	getData(utlaData)
+	.then(res => {
+		res.forEach(d => {
+			d.color = colors.div10[d.score_change_code];
+			d.AREACD = d.AREACD;
+		});
+		data.utla_change_code = res;
+	});
+
 	// Get data for vector tiles map
 	getData(lsoaAccessibilityScores)
 	.then(res => {
@@ -202,7 +223,7 @@
 	.then(res => {
 		res.forEach(d => {
 			d.color = colors.d_and_o[d.d_or_o];
-			d.AREACD = d.code;
+			d.areacd = d.areacd;
 		});
 		data.d_or_o = res;
 	});
@@ -273,7 +294,7 @@
 					<option 
 						value={null}>Select one
 					</option>
-					{#each geojson2.features as place}
+					{#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}
 					<option value={place.properties.AREANM}>
 						{place.properties.AREANM}
 					</option>
@@ -303,7 +324,7 @@
 				padding={{ top: 20, bottom: 25, left: 35, right: 80 }}
 				xScale="time"
 				xFormatTickString='20%y'
-				subtitle = "Childcare accessibility (places per child)"/>
+				subtitle = "Childcare accessibility (places per 100 children)"/>
 				<h2>Change in childcare accessibility since March 2020 by local authority</h2>
 				<p>View the underlying data here</p>
 				</div>
@@ -341,7 +362,15 @@
 						order={baseMap.key === "omt" ? "water_name" : null}
 						visible={visLayers}
 				>
-				<MapTooltip content={`Local Authority: ${hovered}`}/>
+				{#if hovered}
+				{#if currentRow}
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: ${currentRow.score_change.toFixed(1)}%</strong>`}/>
+				{:else}
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: N/A</strong>`}/>
+				{/if}
+				{:else}
+					<MapTooltip content="Hover over a local authority to see data."/>
+				{/if}
 				</MapLayer>
 				<MapLayer
 					id="lad-bg"
@@ -363,7 +392,15 @@
 						order={baseMap.key === "omt" ? "water_name" : null}
 						visible={visLayers}
 				>
-				<MapTooltip content={`Local Authority: ${hovered}`}/>
+				{#if hovered}
+				{#if currentRow}
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: ${currentRow.score_change.toFixed(1)}%</strong>`}/>
+				{:else}
+					<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Change in<br> childcare accessibility: N/A</strong>`}/>
+				{/if}
+				{:else}
+					<MapTooltip content="Hover over a local authority to see data."/>
+				{/if}
 				</MapLayer>
 					{/if}
 				</MapSource>
@@ -457,7 +494,15 @@
 						  order={baseMap.key === "omt" ? "water_name" : null}
 						  visible={visLayers}
 						  >
-							  <MapTooltip content={`Local Authority: ${hovered}`}/>
+						  {#if hovered}
+							{#if currentRow}
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: ${currentRow.March24Score.toFixed(1)}</strong>`}/>
+							{:else}
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: N/A</strong>`}/>
+							{/if}
+						{:else}
+							<MapTooltip content="Hover over a local authority to see data."/>
+						{/if}
 						  </MapLayer>
 						  <MapLayer
 						  id="utla-bg"
@@ -478,7 +523,15 @@
 							  order={baseMap.key === "omt" ? "water_name" : null}
 							  visible={visLayers}
 						  >
-							  <MapTooltip content={`Local Authority: ${hovered}`}/>
+						  {#if hovered}
+							{#if currentRow}
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: ${currentRow.March24Score.toFixed(1)}</strong>`}/>
+							{:else}
+								<MapTooltip content={`Local Authority: ${hovered}<br> <strong>Accessible places<br> per 100 children: N/A</strong>`}/>
+							{/if}
+						{:else}
+							<MapTooltip content="Hover over a local authority to see data."/>
+						{/if}
 						  </MapLayer>
 						  {/if}
 					  </MapSource>
@@ -529,9 +582,9 @@
 				<MapSource
 						  id="lsoa"
 						  type="vector"
-						  url={lsoaBounds.url}
-						  layer={lsoaBounds.layer}
-						  promoteId={lsoaBounds.code}
+						  url={oaBounds.url}
+						  layer={oaBounds.layer}
+						  promoteId={oaBounds.code}
 						  >
 					  {#if showLayers && data}
 						  <MapLayer
@@ -587,17 +640,19 @@
 						  {/if}
 			  </Map>
 				{/if}
-				<h2>Childcare <Em color={colors.d_and_o[1]}>deserts</Em> and <Em color={colors.d_and_o[2]}>oases</Em> as at 31 March 2024</h2>
+				<h2>Childcare <Em color={colors.d_and_o[1]}>deserts</Em> and <Em color={colors.d_and_o[2]}>oases</Em></h2>
 			  </div>
 	  </div>
 </section>
 
+<section>
+	<div>
+		<p></p>
+	</div>
+</section>
+
 
 	<div>
-	<picture>
-		<img src="./data/ons-logo-black-en.svg" alt="Childcare accessibility"
-		style="height:30px; margin-bottom: 0px; margin-top: 15px; margin-left: 10px; margin-right: 10px;" aria-hidden="true">
-	</picture>
 	</div>
 	<div>
 		<p>We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repository which is available <a href="https://github.com/ONSvisual/svelte-maps/tree/main">here</a>.</p>
