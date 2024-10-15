@@ -151,6 +151,7 @@
 	let id = {};
 	let animation = getMotion();
 	let currentRow = null;
+	let caveat = "There are <5 LSOAs excluded from this visualisation as they had a childcare accessibility score of 0 in March 2020."
 
 	let showSources = true;
 	let showLayers = true;
@@ -440,6 +441,7 @@
 				</picture>
 			</div>
 			<h2>Change in childcare accessibility since 31 March 2020</h2>
+			<p>{caveat}</p>
 			<p>View the underlying data here</p>
 		</div>
   </div>
