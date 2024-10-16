@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35731/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
 	'use strict';
 
@@ -32928,11 +32928,11 @@ var app = (function () {
 
 	function get_each_context(ctx, list, i) {
 		const child_ctx = ctx.slice();
-		child_ctx[51] = list[i];
+		child_ctx[52] = list[i];
 		return child_ctx;
 	}
 
-	// (290:2) {#if geojson2}
+	// (293:2) {#if geojson2}
 	function create_if_block_18(ctx) {
 		let p;
 		let select_1;
@@ -32959,10 +32959,10 @@ var app = (function () {
 
 				option.__value = null;
 				set_input_value(option, option.__value);
-				add_location(option, file, 293, 5, 7768);
-				if (/*selected*/ ctx[6] === void 0) add_render_callback(() => /*select_1_change_handler*/ ctx[26].call(select_1));
-				add_location(select_1, file, 292, 4, 7695);
-				add_location(p, file, 290, 3, 7641);
+				add_location(option, file, 296, 5, 8141);
+				if (/*selected*/ ctx[6] === void 0) add_render_callback(() => /*select_1_change_handler*/ ctx[27].call(select_1));
+				add_location(select_1, file, 295, 4, 8068);
+				add_location(p, file, 293, 3, 8014);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, p, anchor);
@@ -32979,8 +32979,8 @@ var app = (function () {
 
 				if (!mounted) {
 					dispose = [
-						listen_dev(select_1, "change", /*select_1_change_handler*/ ctx[26]),
-						listen_dev(select_1, "change", /*change_handler*/ ctx[27], false, false, false, false)
+						listen_dev(select_1, "change", /*select_1_change_handler*/ ctx[27]),
+						listen_dev(select_1, "change", /*change_handler*/ ctx[28], false, false, false, false)
 					];
 
 					mounted = true;
@@ -33029,17 +33029,17 @@ var app = (function () {
 			block,
 			id: create_if_block_18.name,
 			type: "if",
-			source: "(290:2) {#if geojson2}",
+			source: "(293:2) {#if geojson2}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (297:5) {#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}
+	// (300:5) {#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}
 	function create_each_block(ctx) {
 		let option;
-		let t0_value = /*place*/ ctx[51].properties.AREANM + "";
+		let t0_value = /*place*/ ctx[52].properties.AREANM + "";
 		let t0;
 		let t1;
 		let option_value_value;
@@ -33049,9 +33049,9 @@ var app = (function () {
 				option = element("option");
 				t0 = text(t0_value);
 				t1 = space();
-				option.__value = option_value_value = /*place*/ ctx[51].properties.AREANM;
+				option.__value = option_value_value = /*place*/ ctx[52].properties.AREANM;
 				set_input_value(option, option.__value);
-				add_location(option, file, 297, 5, 7950);
+				add_location(option, file, 300, 5, 8323);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, option, anchor);
@@ -33059,9 +33059,9 @@ var app = (function () {
 				append_dev(option, t1);
 			},
 			p: function update(ctx, dirty) {
-				if (dirty[0] & /*geojson2*/ 32 && t0_value !== (t0_value = /*place*/ ctx[51].properties.AREANM + "")) set_data_dev(t0, t0_value);
+				if (dirty[0] & /*geojson2*/ 32 && t0_value !== (t0_value = /*place*/ ctx[52].properties.AREANM + "")) set_data_dev(t0, t0_value);
 
-				if (dirty[0] & /*geojson2*/ 32 && option_value_value !== (option_value_value = /*place*/ ctx[51].properties.AREANM)) {
+				if (dirty[0] & /*geojson2*/ 32 && option_value_value !== (option_value_value = /*place*/ ctx[52].properties.AREANM)) {
 					prop_dev(option, "__value", option_value_value);
 					set_input_value(option, option.__value);
 				}
@@ -33077,14 +33077,14 @@ var app = (function () {
 			block,
 			id: create_each_block.name,
 			type: "each",
-			source: "(297:5) {#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}",
+			source: "(300:5) {#each geojson2.features.slice().sort((a, b) => a.properties.AREANM.localeCompare(b.properties.AREANM)) as place}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (336:5) {#if showSources}
+	// (338:5) {#if showSources}
 	function create_if_block_12(ctx) {
 		let mapsource;
 		let current;
@@ -33114,7 +33114,7 @@ var app = (function () {
 				const mapsource_changes = {};
 				if (dirty[0] & /*geojson2*/ 32) mapsource_changes.data = /*geojson2*/ ctx[5];
 
-				if (dirty[0] & /*data, hovered, selected, currentRow*/ 579 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*data, hovered, selected, currentRow*/ 579 | dirty[1] & /*$$scope*/ 16777216) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -33138,14 +33138,14 @@ var app = (function () {
 			block,
 			id: create_if_block_12.name,
 			type: "if",
-			source: "(336:5) {#if showSources}",
+			source: "(338:5) {#if showSources}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (344:5) {#if showLayers}
+	// (346:5) {#if showLayers}
 	function create_if_block_13(ctx) {
 		let maplayer0;
 		let updating_hovered;
@@ -33157,11 +33157,11 @@ var app = (function () {
 		let current;
 
 		function maplayer0_hovered_binding(value) {
-			/*maplayer0_hovered_binding*/ ctx[29](value);
+			/*maplayer0_hovered_binding*/ ctx[30](value);
 		}
 
 		function maplayer0_selected_binding(value) {
-			/*maplayer0_selected_binding*/ ctx[30](value);
+			/*maplayer0_selected_binding*/ ctx[31](value);
 		}
 
 		let maplayer0_props = {
@@ -33181,8 +33181,8 @@ var app = (function () {
 				],
 				'fill-opacity': 0.8
 			},
-			order: /*baseMap*/ ctx[25].key === "omt" ? "water_name" : null,
-			visible: /*visLayers*/ ctx[24],
+			order: /*baseMap*/ ctx[26].key === "omt" ? "water_name" : null,
+			visible: /*visLayers*/ ctx[25],
 			$$slots: { default: [create_default_slot_15] },
 			$$scope: { ctx }
 		};
@@ -33200,11 +33200,11 @@ var app = (function () {
 		binding_callbacks.push(() => bind(maplayer0, 'selected', maplayer0_selected_binding));
 
 		function maplayer1_hovered_binding(value) {
-			/*maplayer1_hovered_binding*/ ctx[31](value);
+			/*maplayer1_hovered_binding*/ ctx[32](value);
 		}
 
 		function maplayer1_selected_binding(value) {
-			/*maplayer1_selected_binding*/ ctx[32](value);
+			/*maplayer1_selected_binding*/ ctx[33](value);
 		}
 
 		let maplayer1_props = {
@@ -33224,8 +33224,8 @@ var app = (function () {
 				],
 				'fill-opacity': 0.2
 			},
-			order: /*baseMap*/ ctx[25].key === "omt" ? "water_name" : null,
-			visible: /*visLayers*/ ctx[24],
+			order: /*baseMap*/ ctx[26].key === "omt" ? "water_name" : null,
+			visible: /*visLayers*/ ctx[25],
 			$$slots: { default: [create_default_slot_14] },
 			$$scope: { ctx }
 		};
@@ -33258,7 +33258,7 @@ var app = (function () {
 				const maplayer0_changes = {};
 				if (dirty[0] & /*data*/ 1) maplayer0_changes.data = /*data*/ ctx[0].utla_change_code;
 
-				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 16777216) {
 					maplayer0_changes.$$scope = { dirty, ctx };
 				}
 
@@ -33278,7 +33278,7 @@ var app = (function () {
 				const maplayer1_changes = {};
 				if (dirty[0] & /*data*/ 1) maplayer1_changes.data = /*data*/ ctx[0].utla_change_code;
 
-				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 16777216) {
 					maplayer1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -33321,14 +33321,14 @@ var app = (function () {
 			block,
 			id: create_if_block_13.name,
 			type: "if",
-			source: "(344:5) {#if showLayers}",
+			source: "(346:5) {#if showLayers}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (371:4) {:else}
+	// (373:4) {:else}
 	function create_else_block_7(ctx) {
 		let maptooltip;
 		let current;
@@ -33367,14 +33367,14 @@ var app = (function () {
 			block,
 			id: create_else_block_7.name,
 			type: "else",
-			source: "(371:4) {:else}",
+			source: "(373:4) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (365:4) {#if hovered}
+	// (367:4) {#if hovered}
 	function create_if_block_16(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -33450,14 +33450,14 @@ var app = (function () {
 			block,
 			id: create_if_block_16.name,
 			type: "if",
-			source: "(365:4) {#if hovered}",
+			source: "(367:4) {#if hovered}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (368:4) {:else}
+	// (370:4) {:else}
 	function create_else_block_6(ctx) {
 		let maptooltip;
 		let current;
@@ -33500,14 +33500,14 @@ var app = (function () {
 			block,
 			id: create_else_block_6.name,
 			type: "else",
-			source: "(368:4) {:else}",
+			source: "(370:4) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (366:4) {#if currentRow}
+	// (368:4) {#if currentRow}
 	function create_if_block_17(ctx) {
 		let maptooltip;
 		let current;
@@ -33550,14 +33550,14 @@ var app = (function () {
 			block,
 			id: create_if_block_17.name,
 			type: "if",
-			source: "(366:4) {#if currentRow}",
+			source: "(368:4) {#if currentRow}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (345:4) <MapLayer       id="utla-fill"       data={data.utla_change_code}       type="fill"       hover={true}       minzoom={4}       maxzoom={8}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.8       }}        order={baseMap.key === "omt" ? "water_name" : null}        visible={visLayers}      >
+	// (347:4) <MapLayer       id="utla-fill"       data={data.utla_change_code}       type="fill"       hover={true}       minzoom={4}       maxzoom={8}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.8       }}        order={baseMap.key === "omt" ? "water_name" : null}        visible={visLayers}      >
 	function create_default_slot_15(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -33633,14 +33633,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_15.name,
 			type: "slot",
-			source: "(345:4) <MapLayer       id=\\\"utla-fill\\\"       data={data.utla_change_code}       type=\\\"fill\\\"       hover={true}       minzoom={4}       maxzoom={8}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.8       }}        order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}        visible={visLayers}      >",
+			source: "(347:4) <MapLayer       id=\\\"utla-fill\\\"       data={data.utla_change_code}       type=\\\"fill\\\"       hover={true}       minzoom={4}       maxzoom={8}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.8       }}        order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}        visible={visLayers}      >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (401:4) {:else}
+	// (403:4) {:else}
 	function create_else_block_5(ctx) {
 		let maptooltip;
 		let current;
@@ -33679,14 +33679,14 @@ var app = (function () {
 			block,
 			id: create_else_block_5.name,
 			type: "else",
-			source: "(401:4) {:else}",
+			source: "(403:4) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (395:4) {#if hovered}
+	// (397:4) {#if hovered}
 	function create_if_block_14(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -33762,14 +33762,14 @@ var app = (function () {
 			block,
 			id: create_if_block_14.name,
 			type: "if",
-			source: "(395:4) {#if hovered}",
+			source: "(397:4) {#if hovered}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (398:4) {:else}
+	// (400:4) {:else}
 	function create_else_block_4(ctx) {
 		let maptooltip;
 		let current;
@@ -33812,14 +33812,14 @@ var app = (function () {
 			block,
 			id: create_else_block_4.name,
 			type: "else",
-			source: "(398:4) {:else}",
+			source: "(400:4) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (396:4) {#if currentRow}
+	// (398:4) {#if currentRow}
 	function create_if_block_15(ctx) {
 		let maptooltip;
 		let current;
@@ -33862,14 +33862,14 @@ var app = (function () {
 			block,
 			id: create_if_block_15.name,
 			type: "if",
-			source: "(396:4) {#if currentRow}",
+			source: "(398:4) {#if currentRow}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (375:4) <MapLayer       id="lad-bg"       data={data.utla_change_code}       type="fill"       minzoom={7}       maxzoom={13}       hover={true}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.2       }}        order={baseMap.key === "omt" ? "water_name" : null}        visible={visLayers}      >
+	// (377:4) <MapLayer       id="lad-bg"       data={data.utla_change_code}       type="fill"       minzoom={7}       maxzoom={13}       hover={true}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.2       }}        order={baseMap.key === "omt" ? "water_name" : null}        visible={visLayers}      >
 	function create_default_slot_14(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -33945,18 +33945,18 @@ var app = (function () {
 			block,
 			id: create_default_slot_14.name,
 			type: "slot",
-			source: "(375:4) <MapLayer       id=\\\"lad-bg\\\"       data={data.utla_change_code}       type=\\\"fill\\\"       minzoom={7}       maxzoom={13}       hover={true}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.2       }}        order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}        visible={visLayers}      >",
+			source: "(377:4) <MapLayer       id=\\\"lad-bg\\\"       data={data.utla_change_code}       type=\\\"fill\\\"       minzoom={7}       maxzoom={13}       hover={true}       bind:hovered       select={true}       bind:selected       paint={{        'fill-color': ['case',         ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],         'rgba(255, 255, 255, 0)'        ],        'fill-opacity': 0.2       }}        order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}        visible={visLayers}      >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (338:4) <MapSource       id="utla"       type="geojson"       data={geojson2}       promoteId={utlaBounds.name}       maxzoom={7}>
+	// (340:4) <MapSource       id="utla"       type="geojson"       data={geojson2}       promoteId={utlaBounds.name}       maxzoom={7}>
 	function create_default_slot_13(ctx) {
 		let if_block_anchor;
 		let current;
-		let if_block = /*showLayers*/ ctx[23] && create_if_block_13(ctx);
+		let if_block = /*showLayers*/ ctx[24] && create_if_block_13(ctx);
 
 		const block = {
 			c: function create() {
@@ -33969,7 +33969,7 @@ var app = (function () {
 				current = true;
 			},
 			p: function update(ctx, dirty) {
-				if (/*showLayers*/ ctx[23]) if_block.p(ctx, dirty);
+				if (/*showLayers*/ ctx[24]) if_block.p(ctx, dirty);
 			},
 			i: function intro(local) {
 				if (current) return;
@@ -33993,14 +33993,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_13.name,
 			type: "slot",
-			source: "(338:4) <MapSource       id=\\\"utla\\\"       type=\\\"geojson\\\"       data={geojson2}       promoteId={utlaBounds.name}       maxzoom={7}>",
+			source: "(340:4) <MapSource       id=\\\"utla\\\"       type=\\\"geojson\\\"       data={geojson2}       promoteId={utlaBounds.name}       maxzoom={7}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (416:7) {#if showLayers && data}
+	// (418:7) {#if showLayers && data}
 	function create_if_block_11(ctx) {
 		let maplayer;
 		let current;
@@ -34020,8 +34020,8 @@ var app = (function () {
 						],
 						'fill-opacity': 0.9
 					},
-					order: /*baseMap*/ ctx[25].key === "omt" ? "water_name" : null,
-					visible: /*visLayers*/ ctx[24]
+					order: /*baseMap*/ ctx[26].key === "omt" ? "water_name" : null,
+					visible: /*visLayers*/ ctx[25]
 				},
 				$$inline: true
 			});
@@ -34057,18 +34057,18 @@ var app = (function () {
 			block,
 			id: create_if_block_11.name,
 			type: "if",
-			source: "(416:7) {#if showLayers && data}",
+			source: "(418:7) {#if showLayers && data}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (408:4) <MapSource         id="lsoa"         type="vector"         url={lsoaBuildings11.url}         layer={lsoaBuildings11.layer}         promoteId={lsoaBuildings11.code}       minzoom={8}         maxzoom={13}>
+	// (410:4) <MapSource         id="lsoa"         type="vector"         url={lsoaBuildings11.url}         layer={lsoaBuildings11.layer}         promoteId={lsoaBuildings11.code}       minzoom={8}         maxzoom={13}>
 	function create_default_slot_12(ctx) {
 		let if_block_anchor;
 		let current;
-		let if_block = /*showLayers*/ ctx[23] && /*data*/ ctx[0] && create_if_block_11(ctx);
+		let if_block = /*showLayers*/ ctx[24] && /*data*/ ctx[0] && create_if_block_11(ctx);
 
 		const block = {
 			c: function create() {
@@ -34081,7 +34081,7 @@ var app = (function () {
 				current = true;
 			},
 			p: function update(ctx, dirty) {
-				if (/*showLayers*/ ctx[23] && /*data*/ ctx[0]) {
+				if (/*showLayers*/ ctx[24] && /*data*/ ctx[0]) {
 					if (if_block) {
 						if_block.p(ctx, dirty);
 
@@ -34126,19 +34126,19 @@ var app = (function () {
 			block,
 			id: create_default_slot_12.name,
 			type: "slot",
-			source: "(408:4) <MapSource         id=\\\"lsoa\\\"         type=\\\"vector\\\"         url={lsoaBuildings11.url}         layer={lsoaBuildings11.layer}         promoteId={lsoaBuildings11.code}       minzoom={8}         maxzoom={13}>",
+			source: "(410:4) <MapSource         id=\\\"lsoa\\\"         type=\\\"vector\\\"         url={lsoaBuildings11.url}         layer={lsoaBuildings11.layer}         promoteId={lsoaBuildings11.code}       minzoom={8}         maxzoom={13}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (335:5) <Map id="map" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>
+	// (337:5) <Map id="map" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>
 	function create_default_slot_11(ctx) {
 		let t;
 		let mapsource;
 		let current;
-		let if_block = /*showSources*/ ctx[22] && create_if_block_12(ctx);
+		let if_block = /*showSources*/ ctx[23] && create_if_block_12(ctx);
 
 		mapsource = new MapSource({
 				props: {
@@ -34168,10 +34168,10 @@ var app = (function () {
 				current = true;
 			},
 			p: function update(ctx, dirty) {
-				if (/*showSources*/ ctx[22]) if_block.p(ctx, dirty);
+				if (/*showSources*/ ctx[23]) if_block.p(ctx, dirty);
 				const mapsource_changes = {};
 
-				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 16777216) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34202,14 +34202,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_11.name,
 			type: "slot",
-			source: "(335:5) <Map id=\\\"map\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>",
+			source: "(337:5) <Map id=\\\"map\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map={map2} controls={true}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (286:1) 
+	// (289:1) 
 	function create_foreground_slot(ctx) {
 		let div7;
 		let div0;
@@ -34225,27 +34225,25 @@ var app = (function () {
 		let t5;
 		let h20;
 		let t7;
-		let p1;
-		let t9;
 		let div5;
 		let div3;
 		let map_1;
 		let updating_map;
-		let t10;
+		let t8;
 		let div4;
 		let picture;
 		let img;
 		let img_src_value;
-		let t11;
+		let t9;
 		let h21;
-		let t13;
-		let p2;
+		let t11;
+		let p1;
 		let current;
 		let if_block = /*geojson2*/ ctx[5] && create_if_block_18(ctx);
 
 		linechart = new LineChart({
 				props: {
-					data: timeData.map(/*func_1*/ ctx[28]),
+					data: timeData.map(/*func_1*/ ctx[29]),
 					xKey: "year",
 					yKey: "value",
 					zKey: "group",
@@ -34276,12 +34274,12 @@ var app = (function () {
 		linechart.$on("hover", /*doHover*/ ctx[12]);
 
 		function map_1_map_binding(value) {
-			/*map_1_map_binding*/ ctx[33](value);
+			/*map_1_map_binding*/ ctx[34](value);
 		}
 
 		let map_1_props = {
 			id: "map",
-			style: /*baseMap*/ ctx[25].path,
+			style: /*baseMap*/ ctx[26].path,
 			location: { bounds: /*bounds*/ ctx[17].ew },
 			controls: true,
 			$$slots: { default: [create_default_slot_11] },
@@ -34315,34 +34313,30 @@ var app = (function () {
 				h20 = element("h2");
 				h20.textContent = "Change in childcare accessibility since March 2020 by local authority";
 				t7 = space();
-				p1 = element("p");
-				p1.textContent = "View the underlying data here";
-				t9 = space();
 				div5 = element("div");
 				div3 = element("div");
 				create_component(map_1.$$.fragment);
-				t10 = space();
+				t8 = space();
 				div4 = element("div");
 				picture = element("picture");
 				img = element("img");
-				t11 = space();
+				t9 = space();
 				h21 = element("h2");
 				h21.textContent = "Change in childcare accessibility since 31 March 2020";
-				t13 = space();
-				p2 = element("p");
-				p2.textContent = "View the underlying data here";
-				add_location(h3, file, 287, 3, 7485);
-				add_location(p0, file, 288, 2, 7522);
+				t11 = space();
+				p1 = element("p");
+				p1.textContent = `${/*caveat*/ ctx[22]}`;
+				add_location(h3, file, 290, 3, 7858);
+				add_location(p0, file, 291, 2, 7895);
 				attr_dev(div0, "data-id", "map04");
-				add_location(div0, file, 286, 2, 7459);
+				add_location(div0, file, 289, 2, 7832);
 				attr_dev(h20, "class", "svelte-1hjzx48");
-				add_location(h20, file, 327, 4, 8842);
-				add_location(p1, file, 328, 4, 8926);
+				add_location(h20, file, 330, 4, 9215);
 				attr_dev(div1, "class", "chart svelte-1hjzx48");
-				add_location(div1, file, 307, 3, 8132);
-				add_location(div2, file, 306, 2, 8122);
+				add_location(div1, file, 310, 3, 8505);
+				add_location(div2, file, 309, 2, 8495);
 				attr_dev(div3, "class", "map svelte-1hjzx48");
-				add_location(div3, file, 333, 3, 8999);
+				add_location(div3, file, 335, 3, 9330);
 				if (!src_url_equal(img.src, img_src_value = "./data/change_scale.png")) attr_dev(img, "src", img_src_value);
 				attr_dev(img, "alt", "Change in childcare accessibility");
 				set_style(img, "height", "55px");
@@ -34350,17 +34344,17 @@ var app = (function () {
 				set_style(img, "margin-top", "15px");
 				set_style(img, "margin-left", "10px");
 				attr_dev(img, "aria-hidden", "true");
-				add_location(img, file, 437, 5, 12034);
-				add_location(picture, file, 436, 4, 12018);
-				add_location(div4, file, 435, 3, 12007);
+				add_location(img, file, 439, 5, 12365);
+				add_location(picture, file, 438, 4, 12349);
+				add_location(div4, file, 437, 3, 12338);
 				attr_dev(h21, "class", "svelte-1hjzx48");
-				add_location(h21, file, 441, 3, 12244);
-				add_location(p2, file, 442, 3, 12311);
-				add_location(div5, file, 332, 2, 8989);
+				add_location(h21, file, 443, 3, 12575);
+				add_location(p1, file, 444, 3, 12642);
+				add_location(div5, file, 334, 2, 9320);
 				attr_dev(div6, "class", "grid svelte-1hjzx48");
-				add_location(div6, file, 305, 2, 8100);
+				add_location(div6, file, 308, 2, 8473);
 				attr_dev(div7, "slot", "foreground");
-				add_location(div7, file, 285, 1, 7432);
+				add_location(div7, file, 288, 1, 7805);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, div7, anchor);
@@ -34377,20 +34371,18 @@ var app = (function () {
 				mount_component(linechart, div1, null);
 				append_dev(div1, t5);
 				append_dev(div1, h20);
-				append_dev(div1, t7);
-				append_dev(div1, p1);
-				append_dev(div6, t9);
+				append_dev(div6, t7);
 				append_dev(div6, div5);
 				append_dev(div5, div3);
 				mount_component(map_1, div3, null);
-				append_dev(div5, t10);
+				append_dev(div5, t8);
 				append_dev(div5, div4);
 				append_dev(div4, picture);
 				append_dev(picture, img);
-				append_dev(div5, t11);
+				append_dev(div5, t9);
 				append_dev(div5, h21);
-				append_dev(div5, t13);
-				append_dev(div5, p2);
+				append_dev(div5, t11);
+				append_dev(div5, p1);
 				current = true;
 			},
 			p: function update(ctx, dirty) {
@@ -34413,7 +34405,7 @@ var app = (function () {
 				linechart.$set(linechart_changes);
 				const map_1_changes = {};
 
-				if (dirty[0] & /*data, geojson2, hovered, selected, currentRow*/ 611 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*data, geojson2, hovered, selected, currentRow*/ 611 | dirty[1] & /*$$scope*/ 16777216) {
 					map_1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34451,26 +34443,26 @@ var app = (function () {
 			block,
 			id: create_foreground_slot.name,
 			type: "slot",
-			source: "(286:1) ",
+			source: "(289:1) ",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (463:4) {#if geojson2}
+	// (465:4) {#if geojson2}
 	function create_if_block_3(ctx) {
 		let map_1;
 		let updating_map1;
 		let current;
 
 		function map_1_map1_binding(value) {
-			/*map_1_map1_binding*/ ctx[37](value);
+			/*map_1_map1_binding*/ ctx[38](value);
 		}
 
 		let map_1_props = {
 			id: "map1",
-			style: /*baseMap*/ ctx[25].path,
+			style: /*baseMap*/ ctx[26].path,
 			location: { bounds: /*bounds*/ ctx[17].ew },
 			controls: true,
 			explore: true,
@@ -34500,7 +34492,7 @@ var app = (function () {
 				const map_1_changes = {};
 				if (dirty[0] & /*selected*/ 64) map_1_changes.selected = /*selected*/ ctx[6];
 
-				if (dirty[0] & /*data, geojson2, selected, hovered, currentRow, mapHighlighted*/ 739 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*data, geojson2, selected, hovered, currentRow, mapHighlighted*/ 739 | dirty[1] & /*$$scope*/ 16777216) {
 					map_1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34530,14 +34522,14 @@ var app = (function () {
 			block,
 			id: create_if_block_3.name,
 			type: "if",
-			source: "(463:4) {#if geojson2}",
+			source: "(465:4) {#if geojson2}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (465:6) {#if showSources}
+	// (467:6) {#if showSources}
 	function create_if_block_5(ctx) {
 		let mapsource;
 		let current;
@@ -34579,7 +34571,7 @@ var app = (function () {
 				if (dirty[0] & /*selected*/ 64) mapsource_changes.selected = /*selected*/ ctx[6];
 				if (dirty[0] & /*hovered*/ 2) mapsource_changes.hovered = /*hovered*/ ctx[1];
 
-				if (dirty[0] & /*data, hovered, selected, currentRow, mapHighlighted*/ 707 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*data, hovered, selected, currentRow, mapHighlighted*/ 707 | dirty[1] & /*$$scope*/ 16777216) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34603,14 +34595,14 @@ var app = (function () {
 			block,
 			id: create_if_block_5.name,
 			type: "if",
-			source: "(465:6) {#if showSources}",
+			source: "(467:6) {#if showSources}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (477:8) {#if showLayers}
+	// (479:8) {#if showLayers}
 	function create_if_block_6(ctx) {
 		let maplayer0;
 		let t;
@@ -34641,8 +34633,8 @@ var app = (function () {
 						],
 						'fill-opacity': 0.8
 					},
-					order: /*baseMap*/ ctx[25].key === "omt" ? "water_name" : null,
-					visible: /*visLayers*/ ctx[24],
+					order: /*baseMap*/ ctx[26].key === "omt" ? "water_name" : null,
+					visible: /*visLayers*/ ctx[25],
 					$$slots: { default: [create_default_slot_10] },
 					$$scope: { ctx }
 				},
@@ -34653,11 +34645,11 @@ var app = (function () {
 		maplayer0.$on("hover", /*doHover*/ ctx[12]);
 
 		function maplayer1_hovered_binding_1(value) {
-			/*maplayer1_hovered_binding_1*/ ctx[35](value);
+			/*maplayer1_hovered_binding_1*/ ctx[36](value);
 		}
 
 		function maplayer1_selected_binding_1(value) {
-			/*maplayer1_selected_binding_1*/ ctx[36](value);
+			/*maplayer1_selected_binding_1*/ ctx[37](value);
 		}
 
 		let maplayer1_props = {
@@ -34676,8 +34668,8 @@ var app = (function () {
 				],
 				'fill-opacity': 0.2
 			},
-			order: /*baseMap*/ ctx[25].key === "omt" ? "water_name" : null,
-			visible: /*visLayers*/ ctx[24],
+			order: /*baseMap*/ ctx[26].key === "omt" ? "water_name" : null,
+			visible: /*visLayers*/ ctx[25],
 			$$slots: { default: [create_default_slot_9] },
 			$$scope: { ctx }
 		};
@@ -34713,7 +34705,7 @@ var app = (function () {
 				if (dirty[0] & /*hovered*/ 2) maplayer0_changes.hovered = /*hovered*/ ctx[1];
 				if (dirty[0] & /*mapHighlighted*/ 128) maplayer0_changes.highlighted = /*mapHighlighted*/ ctx[7];
 
-				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 16777216) {
 					maplayer0_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34721,7 +34713,7 @@ var app = (function () {
 				const maplayer1_changes = {};
 				if (dirty[0] & /*data*/ 1) maplayer1_changes.data = /*data*/ ctx[0].utla;
 
-				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*hovered, currentRow*/ 514 | dirty[1] & /*$$scope*/ 16777216) {
 					maplayer1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -34764,14 +34756,14 @@ var app = (function () {
 			block,
 			id: create_if_block_6.name,
 			type: "if",
-			source: "(477:8) {#if showLayers}",
+			source: "(479:8) {#if showLayers}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (503:6) {:else}
+	// (505:6) {:else}
 	function create_else_block_3(ctx) {
 		let maptooltip;
 		let current;
@@ -34810,14 +34802,14 @@ var app = (function () {
 			block,
 			id: create_else_block_3.name,
 			type: "else",
-			source: "(503:6) {:else}",
+			source: "(505:6) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (497:8) {#if hovered}
+	// (499:8) {#if hovered}
 	function create_if_block_9(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -34893,14 +34885,14 @@ var app = (function () {
 			block,
 			id: create_if_block_9.name,
 			type: "if",
-			source: "(497:8) {#if hovered}",
+			source: "(499:8) {#if hovered}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (500:7) {:else}
+	// (502:7) {:else}
 	function create_else_block_2(ctx) {
 		let maptooltip;
 		let current;
@@ -34943,14 +34935,14 @@ var app = (function () {
 			block,
 			id: create_else_block_2.name,
 			type: "else",
-			source: "(500:7) {:else}",
+			source: "(502:7) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (498:7) {#if currentRow}
+	// (500:7) {#if currentRow}
 	function create_if_block_10(ctx) {
 		let maptooltip;
 		let current;
@@ -34993,14 +34985,14 @@ var app = (function () {
 			block,
 			id: create_if_block_10.name,
 			type: "if",
-			source: "(498:7) {#if currentRow}",
+			source: "(500:7) {#if currentRow}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (478:8) <MapLayer          {animation}          id="utla-fill"          data={data.utla}          type="fill"          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          highlight highlighted={mapHighlighted}          maxzoom={8}          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.8          }}          order={baseMap.key === "omt" ? "water_name" : null}          visible={visLayers}          >
+	// (480:8) <MapLayer          {animation}          id="utla-fill"          data={data.utla}          type="fill"          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          highlight highlighted={mapHighlighted}          maxzoom={8}          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.8          }}          order={baseMap.key === "omt" ? "water_name" : null}          visible={visLayers}          >
 	function create_default_slot_10(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -35076,14 +35068,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_10.name,
 			type: "slot",
-			source: "(478:8) <MapLayer          {animation}          id=\\\"utla-fill\\\"          data={data.utla}          type=\\\"fill\\\"          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          highlight highlighted={mapHighlighted}          maxzoom={8}          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.8          }}          order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}          visible={visLayers}          >",
+			source: "(480:8) <MapLayer          {animation}          id=\\\"utla-fill\\\"          data={data.utla}          type=\\\"fill\\\"          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          highlight highlighted={mapHighlighted}          maxzoom={8}          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.8          }}          order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}          visible={visLayers}          >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (532:6) {:else}
+	// (534:6) {:else}
 	function create_else_block_1(ctx) {
 		let maptooltip;
 		let current;
@@ -35122,14 +35114,14 @@ var app = (function () {
 			block,
 			id: create_else_block_1.name,
 			type: "else",
-			source: "(532:6) {:else}",
+			source: "(534:6) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (526:8) {#if hovered}
+	// (528:8) {#if hovered}
 	function create_if_block_7(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -35205,14 +35197,14 @@ var app = (function () {
 			block,
 			id: create_if_block_7.name,
 			type: "if",
-			source: "(526:8) {#if hovered}",
+			source: "(528:8) {#if hovered}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (529:7) {:else}
+	// (531:7) {:else}
 	function create_else_block(ctx) {
 		let maptooltip;
 		let current;
@@ -35255,14 +35247,14 @@ var app = (function () {
 			block,
 			id: create_else_block.name,
 			type: "else",
-			source: "(529:7) {:else}",
+			source: "(531:7) {:else}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (527:7) {#if currentRow}
+	// (529:7) {#if currentRow}
 	function create_if_block_8(ctx) {
 		let maptooltip;
 		let current;
@@ -35305,14 +35297,14 @@ var app = (function () {
 			block,
 			id: create_if_block_8.name,
 			type: "if",
-			source: "(527:7) {#if currentRow}",
+			source: "(529:7) {#if currentRow}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (507:8) <MapLayer          id="utla-bg"          data={data.utla}          type="fill"          hover={true}          minzoom={8}          bind:hovered          select={true}          bind:selected          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.2          }}           order={baseMap.key === "omt" ? "water_name" : null}           visible={visLayers}          >
+	// (509:8) <MapLayer          id="utla-bg"          data={data.utla}          type="fill"          hover={true}          minzoom={8}          bind:hovered          select={true}          bind:selected          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.2          }}           order={baseMap.key === "omt" ? "water_name" : null}           visible={visLayers}          >
 	function create_default_slot_9(ctx) {
 		let current_block_type_index;
 		let if_block;
@@ -35388,18 +35380,18 @@ var app = (function () {
 			block,
 			id: create_default_slot_9.name,
 			type: "slot",
-			source: "(507:8) <MapLayer          id=\\\"utla-bg\\\"          data={data.utla}          type=\\\"fill\\\"          hover={true}          minzoom={8}          bind:hovered          select={true}          bind:selected          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.2          }}           order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}           visible={visLayers}          >",
+			source: "(509:8) <MapLayer          id=\\\"utla-bg\\\"          data={data.utla}          type=\\\"fill\\\"          hover={true}          minzoom={8}          bind:hovered          select={true}          bind:selected          paint={{           'fill-color': ['case',            ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],            'rgba(255, 255, 255, 0)'           ],           'fill-opacity': 0.2          }}           order={baseMap.key === \\\"omt\\\" ? \\\"water_name\\\" : null}           visible={visLayers}          >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (466:7) <MapSource         id="ula"         type="geojson"         data={geojson2}         promoteId={utlaBounds.name}         maxzoom={8}         {selected}         {animation} labels       `       {hover} {select}         on:select={doSelect}         {hovered} on:hover={doHover}>
+	// (468:7) <MapSource         id="ula"         type="geojson"         data={geojson2}         promoteId={utlaBounds.name}         maxzoom={8}         {selected}         {animation} labels       `       {hover} {select}         on:select={doSelect}         {hovered} on:hover={doHover}>
 	function create_default_slot_8(ctx) {
 		let if_block_anchor;
 		let current;
-		let if_block = /*showLayers*/ ctx[23] && create_if_block_6(ctx);
+		let if_block = /*showLayers*/ ctx[24] && create_if_block_6(ctx);
 
 		const block = {
 			c: function create() {
@@ -35412,7 +35404,7 @@ var app = (function () {
 				current = true;
 			},
 			p: function update(ctx, dirty) {
-				if (/*showLayers*/ ctx[23]) if_block.p(ctx, dirty);
+				if (/*showLayers*/ ctx[24]) if_block.p(ctx, dirty);
 			},
 			i: function intro(local) {
 				if (current) return;
@@ -35436,14 +35428,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_8.name,
 			type: "slot",
-			source: "(466:7) <MapSource         id=\\\"ula\\\"         type=\\\"geojson\\\"         data={geojson2}         promoteId={utlaBounds.name}         maxzoom={8}         {selected}         {animation} labels       `       {hover} {select}         on:select={doSelect}         {hovered} on:hover={doHover}>",
+			source: "(468:7) <MapSource         id=\\\"ula\\\"         type=\\\"geojson\\\"         data={geojson2}         promoteId={utlaBounds.name}         maxzoom={8}         {selected}         {animation} labels       `       {hover} {select}         on:select={doSelect}         {hovered} on:hover={doHover}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (547:7) {#if showLayers && data}
+	// (549:7) {#if showLayers && data}
 	function create_if_block_4(ctx) {
 		let maplayer;
 		let current;
@@ -35463,8 +35455,8 @@ var app = (function () {
 						],
 						'fill-opacity': 0.9
 					},
-					order: /*baseMap*/ ctx[25].key === "omt" ? "water_name" : null,
-					visible: /*visLayers*/ ctx[24]
+					order: /*baseMap*/ ctx[26].key === "omt" ? "water_name" : null,
+					visible: /*visLayers*/ ctx[25]
 				},
 				$$inline: true
 			});
@@ -35500,18 +35492,18 @@ var app = (function () {
 			block,
 			id: create_if_block_4.name,
 			type: "if",
-			source: "(547:7) {#if showLayers && data}",
+			source: "(549:7) {#if showLayers && data}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (539:7) <MapSource          id="lsoa"          type="vector"          url={lsoaBuildings11.url}          layer={lsoaBuildings11.layer}          promoteId={lsoaBuildings11.code}          minzoom={8}          maxzoom={13}>
+	// (541:7) <MapSource          id="lsoa"          type="vector"          url={lsoaBuildings11.url}          layer={lsoaBuildings11.layer}          promoteId={lsoaBuildings11.code}          minzoom={8}          maxzoom={13}>
 	function create_default_slot_7(ctx) {
 		let if_block_anchor;
 		let current;
-		let if_block = /*showLayers*/ ctx[23] && /*data*/ ctx[0] && create_if_block_4(ctx);
+		let if_block = /*showLayers*/ ctx[24] && /*data*/ ctx[0] && create_if_block_4(ctx);
 
 		const block = {
 			c: function create() {
@@ -35524,7 +35516,7 @@ var app = (function () {
 				current = true;
 			},
 			p: function update(ctx, dirty) {
-				if (/*showLayers*/ ctx[23] && /*data*/ ctx[0]) {
+				if (/*showLayers*/ ctx[24] && /*data*/ ctx[0]) {
 					if (if_block) {
 						if_block.p(ctx, dirty);
 
@@ -35569,19 +35561,19 @@ var app = (function () {
 			block,
 			id: create_default_slot_7.name,
 			type: "slot",
-			source: "(539:7) <MapSource          id=\\\"lsoa\\\"          type=\\\"vector\\\"          url={lsoaBuildings11.url}          layer={lsoaBuildings11.layer}          promoteId={lsoaBuildings11.code}          minzoom={8}          maxzoom={13}>",
+			source: "(541:7) <MapSource          id=\\\"lsoa\\\"          type=\\\"vector\\\"          url={lsoaBuildings11.url}          layer={lsoaBuildings11.layer}          promoteId={lsoaBuildings11.code}          minzoom={8}          maxzoom={13}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (464:5) <Map id="map1" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>
+	// (466:5) <Map id="map1" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>
 	function create_default_slot_6(ctx) {
 		let t;
 		let mapsource;
 		let current;
-		let if_block = /*showSources*/ ctx[22] && create_if_block_5(ctx);
+		let if_block = /*showSources*/ ctx[23] && create_if_block_5(ctx);
 
 		mapsource = new MapSource({
 				props: {
@@ -35611,10 +35603,10 @@ var app = (function () {
 				current = true;
 			},
 			p: function update(ctx, dirty) {
-				if (/*showSources*/ ctx[22]) if_block.p(ctx, dirty);
+				if (/*showSources*/ ctx[23]) if_block.p(ctx, dirty);
 				const mapsource_changes = {};
 
-				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 16777216) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -35645,26 +35637,26 @@ var app = (function () {
 			block,
 			id: create_default_slot_6.name,
 			type: "slot",
-			source: "(464:5) <Map id=\\\"map1\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>",
+			source: "(466:5) <Map id=\\\"map1\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map1 controls={true} explore={true} zoom={zoom} {animation} {selected}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (580:4) {#if geojson2}
+	// (581:4) {#if geojson2}
 	function create_if_block(ctx) {
 		let map_1;
 		let updating_map3;
 		let current;
 
 		function map_1_map3_binding(value) {
-			/*map_1_map3_binding*/ ctx[38](value);
+			/*map_1_map3_binding*/ ctx[39](value);
 		}
 
 		let map_1_props = {
 			id: "map3",
-			style: /*baseMap*/ ctx[25].path,
+			style: /*baseMap*/ ctx[26].path,
 			location: { bounds: /*bounds*/ ctx[17].ew },
 			controls: true,
 			explore: true,
@@ -35695,7 +35687,7 @@ var app = (function () {
 				const map_1_changes = {};
 				if (dirty[0] & /*selected*/ 64) map_1_changes.selected = /*selected*/ ctx[6];
 
-				if (dirty[0] & /*geojson2, data, selected, hovered*/ 99 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*geojson2, data, selected, hovered*/ 99 | dirty[1] & /*$$scope*/ 16777216) {
 					map_1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -35725,14 +35717,14 @@ var app = (function () {
 			block,
 			id: create_if_block.name,
 			type: "if",
-			source: "(580:4) {#if geojson2}",
+			source: "(581:4) {#if geojson2}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (589:7) {#if showLayers && data}
+	// (590:7) {#if showLayers && data}
 	function create_if_block_2(ctx) {
 		let maplayer;
 		let current;
@@ -35751,8 +35743,8 @@ var app = (function () {
 						],
 						'fill-opacity': 0.6
 					},
-					order: /*baseMap*/ ctx[25].key === "omt" ? "water_name" : null,
-					visible: /*visLayers*/ ctx[24]
+					order: /*baseMap*/ ctx[26].key === "omt" ? "water_name" : null,
+					visible: /*visLayers*/ ctx[25]
 				},
 				$$inline: true
 			});
@@ -35788,18 +35780,18 @@ var app = (function () {
 			block,
 			id: create_if_block_2.name,
 			type: "if",
-			source: "(589:7) {#if showLayers && data}",
+			source: "(590:7) {#if showLayers && data}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (582:4) <MapSource          id="lsoa"          type="vector"          url={oaBounds.url}          layer={oaBounds.layer}          promoteId={oaBounds.code}          >
+	// (583:4) <MapSource          id="lsoa"          type="vector"          url={oaBounds.url}          layer={oaBounds.layer}          promoteId={oaBounds.code}          >
 	function create_default_slot_5(ctx) {
 		let if_block_anchor;
 		let current;
-		let if_block = /*showLayers*/ ctx[23] && /*data*/ ctx[0] && create_if_block_2(ctx);
+		let if_block = /*showLayers*/ ctx[24] && /*data*/ ctx[0] && create_if_block_2(ctx);
 
 		const block = {
 			c: function create() {
@@ -35812,7 +35804,7 @@ var app = (function () {
 				current = true;
 			},
 			p: function update(ctx, dirty) {
-				if (/*showLayers*/ ctx[23] && /*data*/ ctx[0]) {
+				if (/*showLayers*/ ctx[24] && /*data*/ ctx[0]) {
 					if (if_block) {
 						if_block.p(ctx, dirty);
 
@@ -35857,14 +35849,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_5.name,
 			type: "slot",
-			source: "(582:4) <MapSource          id=\\\"lsoa\\\"          type=\\\"vector\\\"          url={oaBounds.url}          layer={oaBounds.layer}          promoteId={oaBounds.code}          >",
+			source: "(583:4) <MapSource          id=\\\"lsoa\\\"          type=\\\"vector\\\"          url={oaBounds.url}          layer={oaBounds.layer}          promoteId={oaBounds.code}          >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (606:6) {#if showSources}
+	// (607:6) {#if showSources}
 	function create_if_block_1(ctx) {
 		let mapsource;
 		let current;
@@ -35893,7 +35885,7 @@ var app = (function () {
 				const mapsource_changes = {};
 				if (dirty[0] & /*geojson2*/ 32) mapsource_changes.data = /*geojson2*/ ctx[5];
 
-				if (dirty[0] & /*data, selected, hovered*/ 67 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*data, selected, hovered*/ 67 | dirty[1] & /*$$scope*/ 16777216) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
@@ -35917,14 +35909,14 @@ var app = (function () {
 			block,
 			id: create_if_block_1.name,
 			type: "if",
-			source: "(606:6) {#if showSources}",
+			source: "(607:6) {#if showSources}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (612:7) <MapLayer          id="utla-blank-fill"          type="fill"          data={data.utla}          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          maxzoom={13}          paint={{         'fill-color': ['case',          ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],          'rgba(255, 255, 255, 0)'         ],         'fill-opacity': 0        }}        >
+	// (613:7) <MapLayer          id="utla-blank-fill"          type="fill"          data={data.utla}          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          maxzoom={13}          paint={{         'fill-color': ['case',          ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],          'rgba(255, 255, 255, 0)'         ],         'fill-opacity': 0        }}        >
 	function create_default_slot_4(ctx) {
 		let maptooltip;
 		let current;
@@ -35967,14 +35959,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_4.name,
 			type: "slot",
-			source: "(612:7) <MapLayer          id=\\\"utla-blank-fill\\\"          type=\\\"fill\\\"          data={data.utla}          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          maxzoom={13}          paint={{         'fill-color': ['case',          ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],          'rgba(255, 255, 255, 0)'         ],         'fill-opacity': 0        }}        >",
+			source: "(613:7) <MapLayer          id=\\\"utla-blank-fill\\\"          type=\\\"fill\\\"          data={data.utla}          select {selected} on:select={doSelect}          hover {hovered} on:hover={doHover}          maxzoom={13}          paint={{         'fill-color': ['case',          ['!=', ['feature-state', 'color'], null], ['feature-state', 'color'],          'rgba(255, 255, 255, 0)'         ],         'fill-opacity': 0        }}        >",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (607:7) <MapSource         id="ula"         type="geojson"         data={geojson2}         promoteId={utlaBounds.name}>
+	// (608:7) <MapSource         id="ula"         type="geojson"         data={geojson2}         promoteId={utlaBounds.name}>
 	function create_default_slot_3(ctx) {
 		let maplayer0;
 		let t;
@@ -36037,7 +36029,7 @@ var app = (function () {
 				if (dirty[0] & /*selected*/ 64) maplayer0_changes.selected = /*selected*/ ctx[6];
 				if (dirty[0] & /*hovered*/ 2) maplayer0_changes.hovered = /*hovered*/ ctx[1];
 
-				if (dirty[0] & /*hovered*/ 2 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*hovered*/ 2 | dirty[1] & /*$$scope*/ 16777216) {
 					maplayer0_changes.$$scope = { dirty, ctx };
 				}
 
@@ -36068,14 +36060,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_3.name,
 			type: "slot",
-			source: "(607:7) <MapSource         id=\\\"ula\\\"         type=\\\"geojson\\\"         data={geojson2}         promoteId={utlaBounds.name}>",
+			source: "(608:7) <MapSource         id=\\\"ula\\\"         type=\\\"geojson\\\"         data={geojson2}         promoteId={utlaBounds.name}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (581:5) <Map id="map3" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>
+	// (582:5) <Map id="map3" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>
 	function create_default_slot_2(ctx) {
 		let mapsource;
 		let t;
@@ -36095,7 +36087,7 @@ var app = (function () {
 				$$inline: true
 			});
 
-		let if_block = /*showSources*/ ctx[22] && create_if_block_1(ctx);
+		let if_block = /*showSources*/ ctx[23] && create_if_block_1(ctx);
 
 		const block = {
 			c: function create() {
@@ -36114,12 +36106,12 @@ var app = (function () {
 			p: function update(ctx, dirty) {
 				const mapsource_changes = {};
 
-				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*data*/ 1 | dirty[1] & /*$$scope*/ 16777216) {
 					mapsource_changes.$$scope = { dirty, ctx };
 				}
 
 				mapsource.$set(mapsource_changes);
-				if (/*showSources*/ ctx[22]) if_block.p(ctx, dirty);
+				if (/*showSources*/ ctx[23]) if_block.p(ctx, dirty);
 			},
 			i: function intro(local) {
 				if (current) return;
@@ -36147,14 +36139,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_2.name,
 			type: "slot",
-			source: "(581:5) <Map id=\\\"map3\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>",
+			source: "(582:5) <Map id=\\\"map3\\\" style={baseMap.path} location={{bounds: bounds.ew}} bind:map3 controls={true} explore={true} zoom={zoom} {animation} {selected} minzoom={7}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (643:18) <Em color={colors.d_and_o[1]}>
+	// (644:18) <Em color={colors.d_and_o[1]}>
 	function create_default_slot_1(ctx) {
 		let t;
 
@@ -36176,14 +36168,14 @@ var app = (function () {
 			block,
 			id: create_default_slot_1.name,
 			type: "slot",
-			source: "(643:18) <Em color={colors.d_and_o[1]}>",
+			source: "(644:18) <Em color={colors.d_and_o[1]}>",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (643:65) <Em color={colors.d_and_o[2]}>
+	// (644:65) <Em color={colors.d_and_o[2]}>
 	function create_default_slot(ctx) {
 		let t;
 
@@ -36205,7 +36197,7 @@ var app = (function () {
 			block,
 			id: create_default_slot.name,
 			type: "slot",
-			source: "(643:65) <Em color={colors.d_and_o[2]}>",
+			source: "(644:65) <Em color={colors.d_and_o[2]}>",
 			ctx
 		});
 
@@ -36222,65 +36214,72 @@ var app = (function () {
 		let section0;
 		let t2;
 		let div0;
+		let p0;
+		let t3;
+		let a0;
+		let t5;
+		let t6;
+		let p1;
+		let t7;
+		let a1;
+		let t9;
+		let t10;
 		let h10;
-		let t4;
+		let t12;
 		let scroller;
 		let updating_id;
-		let t5;
+		let t13;
 		let section20;
-		let t6;
+		let t14;
 		let section21;
-		let t7;
+		let t15;
 		let div1;
 		let h11;
-		let t9;
+		let t17;
 		let section1;
-		let t10;
+		let t18;
 		let section2;
 		let div8;
 		let div4;
 		let div2;
-		let t11;
+		let t19;
 		let div3;
 		let picture1;
 		let img1;
 		let img1_src_value;
-		let t12;
+		let t20;
 		let h20;
-		let t14;
-		let p0;
-		let t16;
+		let t22;
 		let div7;
 		let div6;
 		let div5;
-		let t17;
+		let t23;
 		let h21;
-		let t18;
+		let t24;
 		let em0;
-		let t19;
+		let t25;
 		let em1;
-		let t20;
+		let t26;
 		let section3;
 		let div9;
-		let p1;
-		let t21;
-		let div10;
-		let t22;
-		let div11;
 		let p2;
-		let t23;
-		let a;
-		let t25;
-		let t26;
+		let t27;
+		let div10;
+		let t28;
+		let div11;
+		let p3;
+		let t29;
+		let a2;
+		let t31;
+		let t32;
 		let section4;
 		let div12;
-		let p3;
+		let p4;
 		let current;
 
 		hero = new Hero({
 				props: {
-					title: "Changing childcare accessibility in England - **DUMMY DATA**",
-					lede: "This webpage hosts interactive visualisations for our publication which you can read here",
+					title: "Changes to access to childcare in England",
 					date: "16 October 2024",
 					height: "auto"
 				},
@@ -36288,7 +36287,7 @@ var app = (function () {
 			});
 
 		function scroller_id_binding(value) {
-			/*scroller_id_binding*/ ctx[34](value);
+			/*scroller_id_binding*/ ctx[35](value);
 		}
 
 		let scroller_props = {
@@ -36334,90 +36333,107 @@ var app = (function () {
 				section0.innerHTML = ``;
 				t2 = space();
 				div0 = element("div");
+				p0 = element("p");
+				t3 = text("This webpage hosts interactive visuals for our publication which you can read ");
+				a0 = element("a");
+				a0.textContent = "here";
+				t5 = text(".");
+				t6 = space();
+				p1 = element("p");
+				t7 = text("View the underlying data for these visualisations ");
+				a1 = element("a");
+				a1.textContent = "here";
+				t9 = text(".");
+				t10 = space();
 				h10 = element("h1");
 				h10.textContent = "Local area change in childcare accessibility since 31 March 2020";
-				t4 = space();
+				t12 = space();
 				create_component(scroller.$$.fragment);
-				t5 = space();
+				t13 = space();
 				section20 = element("section2");
 				section20.innerHTML = ``;
-				t6 = space();
+				t14 = space();
 				section21 = element("section2");
 				section21.innerHTML = ``;
-				t7 = space();
+				t15 = space();
 				div1 = element("div");
 				h11 = element("h1");
 				h11.textContent = "Local childcare accessibility as at 31 March 2024";
-				t9 = space();
+				t17 = space();
 				section1 = element("section");
 				section1.innerHTML = ``;
-				t10 = space();
+				t18 = space();
 				section2 = element("section");
 				div8 = element("div");
 				div4 = element("div");
 				div2 = element("div");
 				if (if_block0) if_block0.c();
-				t11 = space();
+				t19 = space();
 				div3 = element("div");
 				picture1 = element("picture");
 				img1 = element("img");
-				t12 = space();
+				t20 = space();
 				h20 = element("h2");
 				h20.textContent = "Childcare accessibility as at 31 March 2024 (accessible places per child)";
-				t14 = space();
-				p0 = element("p");
-				p0.textContent = "View the underlying data here";
-				t16 = space();
+				t22 = space();
 				div7 = element("div");
 				div6 = element("div");
 				div5 = element("div");
 				if (if_block1) if_block1.c();
-				t17 = space();
+				t23 = space();
 				h21 = element("h2");
-				t18 = text("Childcare ");
+				t24 = text("Childcare ");
 				create_component(em0.$$.fragment);
-				t19 = text(" and ");
+				t25 = text(" and ");
 				create_component(em1.$$.fragment);
-				t20 = space();
+				t26 = space();
 				section3 = element("section");
 				div9 = element("div");
-				p1 = element("p");
-				t21 = space();
+				p2 = element("p");
+				t27 = space();
 				div10 = element("div");
 				div10.innerHTML = ``;
-				t22 = space();
+				t28 = space();
 				div11 = element("div");
-				p2 = element("p");
-				t23 = text("We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repository which is available ");
-				a = element("a");
-				a.textContent = "here";
-				t25 = text(".");
-				t26 = space();
+				p3 = element("p");
+				t29 = text("We would like to thank the Office for National Statistics for publishing the templates and components used in these visualisations. This page was built using a Github repository which is available ");
+				a2 = element("a");
+				a2.textContent = "here";
+				t31 = text(".");
+				t32 = space();
 				section4 = element("section");
 				div12 = element("div");
-				p3 = element("p");
+				p4 = element("p");
 				if (!src_url_equal(img0.src, img0_src_value = "./data/ofsted-logo.png")) attr_dev(img0, "src", img0_src_value);
 				attr_dev(img0, "alt", "Ofsted");
 				set_style(img0, "height", "100px");
 				set_style(img0, "margin-bottom", "20px");
 				set_style(img0, "margin-top", "10px");
 				attr_dev(img0, "aria-hidden", "true");
-				add_location(img0, file, 268, 1, 6915);
-				add_location(picture0, file, 267, 0, 6903);
+				add_location(img0, file, 269, 1, 7048);
+				add_location(picture0, file, 268, 0, 7036);
 				attr_dev(section0, "class", "svelte-1hjzx48");
-				add_location(section0, file, 274, 0, 7274);
-				add_location(h10, file, 280, 1, 7312);
-				add_location(div0, file, 279, 0, 7304);
+				add_location(section0, file, 275, 0, 7291);
+				attr_dev(a0, "href", "https://www.gov.uk/government/publications/changes-to-access-to-childcare-in-england");
+				attr_dev(a0, "class", "svelte-1hjzx48");
+				add_location(a0, file, 281, 82, 7410);
+				add_location(p0, file, 281, 1, 7329);
+				attr_dev(a1, "href", "https://www.gov.uk/government/publications/changes-to-access-to-childcare-in-england");
+				attr_dev(a1, "class", "svelte-1hjzx48");
+				add_location(a1, file, 282, 54, 7574);
+				add_location(p1, file, 282, 1, 7521);
+				add_location(h10, file, 283, 1, 7685);
+				add_location(div0, file, 280, 0, 7321);
 				attr_dev(section20, "class", "svelte-1hjzx48");
-				add_location(section20, file, 447, 0, 12384);
+				add_location(section20, file, 449, 0, 12694);
 				attr_dev(section21, "class", "svelte-1hjzx48");
-				add_location(section21, file, 449, 0, 12409);
-				add_location(h11, file, 453, 1, 12444);
-				add_location(div1, file, 452, 0, 12436);
+				add_location(section21, file, 451, 0, 12719);
+				add_location(h11, file, 455, 1, 12754);
+				add_location(div1, file, 454, 0, 12746);
 				attr_dev(section1, "class", "svelte-1hjzx48");
-				add_location(section1, file, 455, 0, 12512);
+				add_location(section1, file, 457, 0, 12822);
 				attr_dev(div2, "class", "map svelte-1hjzx48");
-				add_location(div2, file, 461, 3, 12581);
+				add_location(div2, file, 463, 3, 12891);
 				if (!src_url_equal(img1.src, img1_src_value = "./data/viridis_scale.png")) attr_dev(img1, "src", img1_src_value);
 				attr_dev(img1, "alt", "Childcare accessibility");
 				set_style(img1, "height", "40px");
@@ -36425,38 +36441,37 @@ var app = (function () {
 				set_style(img1, "margin-top", "15px");
 				set_style(img1, "margin-left", "10px");
 				attr_dev(img1, "aria-hidden", "true");
-				add_location(img1, file, 569, 7, 16080);
-				add_location(picture1, file, 568, 6, 16062);
-				add_location(div3, file, 567, 5, 16049);
+				add_location(img1, file, 571, 7, 16390);
+				add_location(picture1, file, 570, 6, 16372);
+				add_location(div3, file, 569, 5, 16359);
 				attr_dev(h20, "class", "svelte-1hjzx48");
-				add_location(h20, file, 573, 5, 16289);
-				add_location(p0, file, 574, 5, 16378);
-				add_location(div4, file, 460, 2, 12571);
+				add_location(h20, file, 575, 5, 16599);
+				add_location(div4, file, 462, 2, 12881);
 				attr_dev(h21, "class", "svelte-1hjzx48");
-				add_location(h21, file, 642, 4, 18244);
+				add_location(h21, file, 643, 4, 18511);
 				attr_dev(div5, "class", "map svelte-1hjzx48");
-				add_location(div5, file, 578, 3, 16462);
-				add_location(div6, file, 577, 2, 16452);
+				add_location(div5, file, 579, 3, 16729);
+				add_location(div6, file, 578, 2, 16719);
 				attr_dev(div7, "class", "grid svelte-1hjzx48");
-				add_location(div7, file, 576, 3, 16430);
+				add_location(div7, file, 577, 3, 16697);
 				attr_dev(div8, "class", "grid svelte-1hjzx48");
-				add_location(div8, file, 459, 1, 12549);
+				add_location(div8, file, 461, 1, 12859);
 				attr_dev(section2, "class", "svelte-1hjzx48");
-				add_location(section2, file, 458, 0, 12537);
-				add_location(p1, file, 649, 2, 18411);
-				add_location(div9, file, 648, 1, 18402);
+				add_location(section2, file, 460, 0, 12847);
+				add_location(p2, file, 650, 2, 18678);
+				add_location(div9, file, 649, 1, 18669);
 				attr_dev(section3, "class", "svelte-1hjzx48");
-				add_location(section3, file, 647, 0, 18390);
-				add_location(div10, file, 654, 1, 18446);
-				attr_dev(a, "href", "https://github.com/ONSvisual/svelte-maps/tree/main");
-				attr_dev(a, "class", "svelte-1hjzx48");
-				add_location(a, file, 657, 202, 18672);
-				add_location(p2, file, 657, 2, 18472);
-				add_location(div11, file, 656, 1, 18463);
-				add_location(p3, file, 662, 2, 18780);
-				add_location(div12, file, 661, 1, 18771);
+				add_location(section3, file, 648, 0, 18657);
+				add_location(div10, file, 655, 1, 18713);
+				attr_dev(a2, "href", "https://github.com/ONSvisual/svelte-maps/tree/main");
+				attr_dev(a2, "class", "svelte-1hjzx48");
+				add_location(a2, file, 658, 202, 18939);
+				add_location(p3, file, 658, 2, 18739);
+				add_location(div11, file, 657, 1, 18730);
+				add_location(p4, file, 663, 2, 19047);
+				add_location(div12, file, 662, 1, 19038);
 				attr_dev(section4, "class", "svelte-1hjzx48");
-				add_location(section4, file, 660, 0, 18759);
+				add_location(section4, file, 661, 0, 19026);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -36470,65 +36485,73 @@ var app = (function () {
 				insert_dev(target, section0, anchor);
 				insert_dev(target, t2, anchor);
 				insert_dev(target, div0, anchor);
+				append_dev(div0, p0);
+				append_dev(p0, t3);
+				append_dev(p0, a0);
+				append_dev(p0, t5);
+				append_dev(div0, t6);
+				append_dev(div0, p1);
+				append_dev(p1, t7);
+				append_dev(p1, a1);
+				append_dev(p1, t9);
+				append_dev(div0, t10);
 				append_dev(div0, h10);
-				insert_dev(target, t4, anchor);
+				insert_dev(target, t12, anchor);
 				mount_component(scroller, target, anchor);
-				insert_dev(target, t5, anchor);
+				insert_dev(target, t13, anchor);
 				insert_dev(target, section20, anchor);
-				insert_dev(target, t6, anchor);
+				insert_dev(target, t14, anchor);
 				insert_dev(target, section21, anchor);
-				insert_dev(target, t7, anchor);
+				insert_dev(target, t15, anchor);
 				insert_dev(target, div1, anchor);
 				append_dev(div1, h11);
-				insert_dev(target, t9, anchor);
+				insert_dev(target, t17, anchor);
 				insert_dev(target, section1, anchor);
-				insert_dev(target, t10, anchor);
+				insert_dev(target, t18, anchor);
 				insert_dev(target, section2, anchor);
 				append_dev(section2, div8);
 				append_dev(div8, div4);
 				append_dev(div4, div2);
 				if (if_block0) if_block0.m(div2, null);
-				append_dev(div4, t11);
+				append_dev(div4, t19);
 				append_dev(div4, div3);
 				append_dev(div3, picture1);
 				append_dev(picture1, img1);
-				append_dev(div4, t12);
+				append_dev(div4, t20);
 				append_dev(div4, h20);
-				append_dev(div4, t14);
-				append_dev(div4, p0);
-				append_dev(div8, t16);
+				append_dev(div8, t22);
 				append_dev(div8, div7);
 				append_dev(div7, div6);
 				append_dev(div6, div5);
 				if (if_block1) if_block1.m(div5, null);
-				append_dev(div5, t17);
+				append_dev(div5, t23);
 				append_dev(div5, h21);
-				append_dev(h21, t18);
+				append_dev(h21, t24);
 				mount_component(em0, h21, null);
-				append_dev(h21, t19);
+				append_dev(h21, t25);
 				mount_component(em1, h21, null);
-				insert_dev(target, t20, anchor);
+				insert_dev(target, t26, anchor);
 				insert_dev(target, section3, anchor);
 				append_dev(section3, div9);
-				append_dev(div9, p1);
-				insert_dev(target, t21, anchor);
+				append_dev(div9, p2);
+				insert_dev(target, t27, anchor);
 				insert_dev(target, div10, anchor);
-				insert_dev(target, t22, anchor);
+				insert_dev(target, t28, anchor);
 				insert_dev(target, div11, anchor);
-				append_dev(div11, p2);
-				append_dev(p2, t23);
-				append_dev(p2, a);
-				append_dev(p2, t25);
-				insert_dev(target, t26, anchor);
+				append_dev(div11, p3);
+				append_dev(p3, t29);
+				append_dev(p3, a2);
+				append_dev(p3, t31);
+				insert_dev(target, t32, anchor);
 				insert_dev(target, section4, anchor);
 				append_dev(section4, div12);
-				append_dev(div12, p3);
+				append_dev(div12, p4);
 				current = true;
 			},
 			p: function update(ctx, dirty) {
 				const scroller_changes = {};
 
-				if (dirty[0] & /*map2, data, geojson2, hovered, selected, currentRow*/ 619 | dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[0] & /*map2, data, geojson2, hovered, selected, currentRow*/ 619 | dirty[1] & /*$$scope*/ 16777216) {
 					scroller_changes.$$scope = { dirty, ctx };
 				}
 
@@ -36574,7 +36597,7 @@ var app = (function () {
 						if_block1 = create_if_block(ctx);
 						if_block1.c();
 						transition_in(if_block1, 1);
-						if_block1.m(div5, t17);
+						if_block1.m(div5, t23);
 					}
 				} else if (if_block1) {
 					group_outros();
@@ -36588,14 +36611,14 @@ var app = (function () {
 
 				const em0_changes = {};
 
-				if (dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[1] & /*$$scope*/ 16777216) {
 					em0_changes.$$scope = { dirty, ctx };
 				}
 
 				em0.$set(em0_changes);
 				const em1_changes = {};
 
-				if (dirty[1] & /*$$scope*/ 8388608) {
+				if (dirty[1] & /*$$scope*/ 16777216) {
 					em1_changes.$$scope = { dirty, ctx };
 				}
 
@@ -36628,24 +36651,24 @@ var app = (function () {
 					detach_dev(section0);
 					detach_dev(t2);
 					detach_dev(div0);
-					detach_dev(t4);
-					detach_dev(t5);
+					detach_dev(t12);
+					detach_dev(t13);
 					detach_dev(section20);
-					detach_dev(t6);
+					detach_dev(t14);
 					detach_dev(section21);
-					detach_dev(t7);
+					detach_dev(t15);
 					detach_dev(div1);
-					detach_dev(t9);
+					detach_dev(t17);
 					detach_dev(section1);
-					detach_dev(t10);
+					detach_dev(t18);
 					detach_dev(section2);
-					detach_dev(t20);
-					detach_dev(section3);
-					detach_dev(t21);
-					detach_dev(div10);
-					detach_dev(t22);
-					detach_dev(div11);
 					detach_dev(t26);
+					detach_dev(section3);
+					detach_dev(t27);
+					detach_dev(div10);
+					detach_dev(t28);
+					detach_dev(div11);
+					detach_dev(t32);
 					detach_dev(section4);
 				}
 
@@ -36850,6 +36873,7 @@ var app = (function () {
 		let id = {};
 		let animation = getMotion();
 		let currentRow = null;
+		let caveat = "There are <5 LSOAs excluded from this visualisation as they had a childcare accessibility score of 0 in March 2020.";
 		let showSources = true;
 		let showLayers = true;
 		let visLayers = true;
@@ -37084,6 +37108,7 @@ var app = (function () {
 			id,
 			animation,
 			currentRow,
+			caveat,
 			showSources,
 			showLayers,
 			visLayers,
@@ -37110,10 +37135,11 @@ var app = (function () {
 			if ('id' in $$props) $$invalidate(8, id = $$props.id);
 			if ('animation' in $$props) $$invalidate(21, animation = $$props.animation);
 			if ('currentRow' in $$props) $$invalidate(9, currentRow = $$props.currentRow);
-			if ('showSources' in $$props) $$invalidate(22, showSources = $$props.showSources);
-			if ('showLayers' in $$props) $$invalidate(23, showLayers = $$props.showLayers);
-			if ('visLayers' in $$props) $$invalidate(24, visLayers = $$props.visLayers);
-			if ('baseMap' in $$props) $$invalidate(25, baseMap = $$props.baseMap);
+			if ('caveat' in $$props) $$invalidate(22, caveat = $$props.caveat);
+			if ('showSources' in $$props) $$invalidate(23, showSources = $$props.showSources);
+			if ('showLayers' in $$props) $$invalidate(24, showLayers = $$props.showLayers);
+			if ('visLayers' in $$props) $$invalidate(25, visLayers = $$props.visLayers);
+			if ('baseMap' in $$props) $$invalidate(26, baseMap = $$props.baseMap);
 		};
 
 		if ($$props && "$$inject" in $$props) {
@@ -37152,6 +37178,7 @@ var app = (function () {
 			hover,
 			select,
 			animation,
+			caveat,
 			showSources,
 			showLayers,
 			visLayers,
