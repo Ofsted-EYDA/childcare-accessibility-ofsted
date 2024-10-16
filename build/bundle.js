@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35736/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35738/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
 	'use strict';
 
@@ -32244,10 +32244,10 @@ var app = (function () {
 
 				option.__value = null;
 				set_input_value(option, option.__value);
-				add_location(option, file, 296, 5, 8141);
+				add_location(option, file, 296, 5, 8166);
 				if (/*selected*/ ctx[6] === void 0) add_render_callback(() => /*select_1_change_handler*/ ctx[27].call(select_1));
-				add_location(select_1, file, 295, 4, 8068);
-				add_location(p, file, 293, 3, 8014);
+				add_location(select_1, file, 295, 4, 8093);
+				add_location(p, file, 293, 3, 8039);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, p, anchor);
@@ -32336,7 +32336,7 @@ var app = (function () {
 				t1 = space();
 				option.__value = option_value_value = /*place*/ ctx[52].properties.AREANM;
 				set_input_value(option, option.__value);
-				add_location(option, file, 300, 5, 8323);
+				add_location(option, file, 300, 5, 8348);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, option, anchor);
@@ -33611,17 +33611,17 @@ var app = (function () {
 				t11 = space();
 				p1 = element("p");
 				p1.textContent = `${/*caveat*/ ctx[22]}`;
-				add_location(h3, file, 290, 3, 7858);
-				add_location(p0, file, 291, 2, 7895);
+				add_location(h3, file, 290, 3, 7883);
+				add_location(p0, file, 291, 2, 7920);
 				attr_dev(div0, "data-id", "map04");
-				add_location(div0, file, 289, 2, 7832);
+				add_location(div0, file, 289, 2, 7857);
 				attr_dev(h20, "class", "svelte-1hjzx48");
-				add_location(h20, file, 330, 4, 9215);
+				add_location(h20, file, 330, 4, 9240);
 				attr_dev(div1, "class", "chart svelte-1hjzx48");
-				add_location(div1, file, 310, 3, 8505);
-				add_location(div2, file, 309, 2, 8495);
+				add_location(div1, file, 310, 3, 8530);
+				add_location(div2, file, 309, 2, 8520);
 				attr_dev(div3, "class", "map svelte-1hjzx48");
-				add_location(div3, file, 335, 3, 9330);
+				add_location(div3, file, 335, 3, 9355);
 				if (!src_url_equal(img.src, img_src_value = "./data/change_scale.png")) attr_dev(img, "src", img_src_value);
 				attr_dev(img, "alt", "Change in childcare accessibility");
 				set_style(img, "height", "55px");
@@ -33629,17 +33629,17 @@ var app = (function () {
 				set_style(img, "margin-top", "15px");
 				set_style(img, "margin-left", "10px");
 				attr_dev(img, "aria-hidden", "true");
-				add_location(img, file, 439, 5, 12365);
-				add_location(picture, file, 438, 4, 12349);
-				add_location(div4, file, 437, 3, 12338);
+				add_location(img, file, 439, 5, 12390);
+				add_location(picture, file, 438, 4, 12374);
+				add_location(div4, file, 437, 3, 12363);
 				attr_dev(h21, "class", "svelte-1hjzx48");
-				add_location(h21, file, 443, 3, 12575);
-				add_location(p1, file, 444, 3, 12642);
-				add_location(div5, file, 334, 2, 9320);
+				add_location(h21, file, 443, 3, 12600);
+				add_location(p1, file, 444, 3, 12667);
+				add_location(div5, file, 334, 2, 9345);
 				attr_dev(div6, "class", "grid svelte-1hjzx48");
-				add_location(div6, file, 308, 2, 8473);
+				add_location(div6, file, 308, 2, 8498);
 				attr_dev(div7, "slot", "foreground");
-				add_location(div7, file, 288, 1, 7805);
+				add_location(div7, file, 288, 1, 7830);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, div7, anchor);
@@ -35703,22 +35703,22 @@ var app = (function () {
 				attr_dev(a0, "class", "svelte-1hjzx48");
 				add_location(a0, file, 281, 82, 7410);
 				add_location(p0, file, 281, 1, 7329);
-				attr_dev(a1, "href", "https://www.gov.uk/government/publications/changes-to-access-to-childcare-in-england");
+				attr_dev(a1, "href", "https://assets.publishing.service.gov.uk/media/670f71e292bb81fcdbe7b8c2/Childcare_accessibility_over_time.ods");
 				attr_dev(a1, "class", "svelte-1hjzx48");
 				add_location(a1, file, 282, 54, 7574);
 				add_location(p1, file, 282, 1, 7521);
-				add_location(h10, file, 283, 1, 7685);
+				add_location(h10, file, 283, 1, 7710);
 				add_location(div0, file, 280, 0, 7321);
 				attr_dev(section20, "class", "svelte-1hjzx48");
-				add_location(section20, file, 449, 0, 12694);
+				add_location(section20, file, 449, 0, 12719);
 				attr_dev(section21, "class", "svelte-1hjzx48");
-				add_location(section21, file, 451, 0, 12719);
-				add_location(h11, file, 455, 1, 12754);
-				add_location(div1, file, 454, 0, 12746);
+				add_location(section21, file, 451, 0, 12744);
+				add_location(h11, file, 455, 1, 12779);
+				add_location(div1, file, 454, 0, 12771);
 				attr_dev(section1, "class", "svelte-1hjzx48");
-				add_location(section1, file, 457, 0, 12822);
+				add_location(section1, file, 457, 0, 12847);
 				attr_dev(div2, "class", "map svelte-1hjzx48");
-				add_location(div2, file, 463, 3, 12891);
+				add_location(div2, file, 463, 3, 12916);
 				if (!src_url_equal(img1.src, img1_src_value = "./data/viridis_scale.png")) attr_dev(img1, "src", img1_src_value);
 				attr_dev(img1, "alt", "Childcare accessibility");
 				set_style(img1, "height", "40px");
@@ -35726,37 +35726,37 @@ var app = (function () {
 				set_style(img1, "margin-top", "15px");
 				set_style(img1, "margin-left", "10px");
 				attr_dev(img1, "aria-hidden", "true");
-				add_location(img1, file, 571, 7, 16390);
-				add_location(picture1, file, 570, 6, 16372);
-				add_location(div3, file, 569, 5, 16359);
+				add_location(img1, file, 571, 7, 16415);
+				add_location(picture1, file, 570, 6, 16397);
+				add_location(div3, file, 569, 5, 16384);
 				attr_dev(h20, "class", "svelte-1hjzx48");
-				add_location(h20, file, 575, 5, 16599);
-				add_location(div4, file, 462, 2, 12881);
+				add_location(h20, file, 575, 5, 16624);
+				add_location(div4, file, 462, 2, 12906);
 				attr_dev(h21, "class", "svelte-1hjzx48");
-				add_location(h21, file, 643, 4, 18518);
+				add_location(h21, file, 643, 4, 18543);
 				attr_dev(div5, "class", "map svelte-1hjzx48");
-				add_location(div5, file, 579, 3, 16736);
-				add_location(div6, file, 578, 2, 16726);
+				add_location(div5, file, 579, 3, 16761);
+				add_location(div6, file, 578, 2, 16751);
 				attr_dev(div7, "class", "grid svelte-1hjzx48");
-				add_location(div7, file, 577, 3, 16704);
+				add_location(div7, file, 577, 3, 16729);
 				attr_dev(div8, "class", "grid svelte-1hjzx48");
-				add_location(div8, file, 461, 1, 12859);
+				add_location(div8, file, 461, 1, 12884);
 				attr_dev(section2, "class", "svelte-1hjzx48");
-				add_location(section2, file, 460, 0, 12847);
-				add_location(p2, file, 650, 2, 18685);
-				add_location(div9, file, 649, 1, 18676);
+				add_location(section2, file, 460, 0, 12872);
+				add_location(p2, file, 650, 2, 18710);
+				add_location(div9, file, 649, 1, 18701);
 				attr_dev(section3, "class", "svelte-1hjzx48");
-				add_location(section3, file, 648, 0, 18664);
-				add_location(div10, file, 655, 1, 18720);
+				add_location(section3, file, 648, 0, 18689);
+				add_location(div10, file, 655, 1, 18745);
 				attr_dev(a2, "href", "https://github.com/ONSvisual/svelte-maps/tree/main");
 				attr_dev(a2, "class", "svelte-1hjzx48");
-				add_location(a2, file, 658, 202, 18946);
-				add_location(p3, file, 658, 2, 18746);
-				add_location(div11, file, 657, 1, 18737);
-				add_location(p4, file, 663, 2, 19054);
-				add_location(div12, file, 662, 1, 19045);
+				add_location(a2, file, 658, 202, 18971);
+				add_location(p3, file, 658, 2, 18771);
+				add_location(div11, file, 657, 1, 18762);
+				add_location(p4, file, 663, 2, 19079);
+				add_location(div12, file, 662, 1, 19070);
 				attr_dev(section4, "class", "svelte-1hjzx48");
-				add_location(section4, file, 661, 0, 19033);
+				add_location(section4, file, 661, 0, 19058);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
