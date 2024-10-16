@@ -280,7 +280,7 @@
 
 <div>
 	<p>This webpage hosts interactive visuals for our publication which you can read <a href="https://www.gov.uk/government/publications/changes-to-access-to-childcare-in-england">here</a>.</p>
-	<p>View the underlying data for these visualisations <a href="https://www.gov.uk/government/publications/changes-to-access-to-childcare-in-england">here</a>.</p>
+	<p>View the underlying data for these visualisations <a href="https://assets.publishing.service.gov.uk/media/670f71e292bb81fcdbe7b8c2/Childcare_accessibility_over_time.ods">here</a>.</p>
 	<h1>Local area change in childcare accessibility since 31 March 2020</h1>
 </div>
 
