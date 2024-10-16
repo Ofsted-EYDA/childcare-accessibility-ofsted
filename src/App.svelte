@@ -573,7 +573,7 @@
 					  style="height:40px; margin-bottom: 0px; margin-top: 15px; margin-left: 10px;" aria-hidden="true">
 				  </picture>
 			  </div>
-			  <h2>Childcare accessibility as at 31 March 2024 (accessible places per child)</h2>
+			  <h2>Childcare accessibility as at 31 March 2024 (accessible places per 100 children)</h2>
 	  </div>
 	  <div class="grid">
 		<div>
