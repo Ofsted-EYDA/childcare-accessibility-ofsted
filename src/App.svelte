@@ -271,7 +271,7 @@
 	style="height:100px; margin-bottom: 20px; margin-top: 10px;" aria-hidden="true">
 </picture>
 
-<Hero title="Changes to access to childcare in England" date="16 October 2024" height="auto"/>
+<Hero title="Changes in access to childcare in England" date="16 October 2024" height="auto"/>
 
 <section>
 	
