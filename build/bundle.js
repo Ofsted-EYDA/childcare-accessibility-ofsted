@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35735/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35736/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
 	'use strict';
 
@@ -35659,7 +35659,7 @@ var app = (function () {
 				img1 = element("img");
 				t20 = space();
 				h20 = element("h2");
-				h20.textContent = "Childcare accessibility as at 31 March 2024 (accessible places per child)";
+				h20.textContent = "Childcare accessibility as at 31 March 2024 (accessible places per 100 children)";
 				t22 = space();
 				div7 = element("div");
 				div6 = element("div");
@@ -35733,30 +35733,30 @@ var app = (function () {
 				add_location(h20, file, 575, 5, 16599);
 				add_location(div4, file, 462, 2, 12881);
 				attr_dev(h21, "class", "svelte-1hjzx48");
-				add_location(h21, file, 643, 4, 18511);
+				add_location(h21, file, 643, 4, 18518);
 				attr_dev(div5, "class", "map svelte-1hjzx48");
-				add_location(div5, file, 579, 3, 16729);
-				add_location(div6, file, 578, 2, 16719);
+				add_location(div5, file, 579, 3, 16736);
+				add_location(div6, file, 578, 2, 16726);
 				attr_dev(div7, "class", "grid svelte-1hjzx48");
-				add_location(div7, file, 577, 3, 16697);
+				add_location(div7, file, 577, 3, 16704);
 				attr_dev(div8, "class", "grid svelte-1hjzx48");
 				add_location(div8, file, 461, 1, 12859);
 				attr_dev(section2, "class", "svelte-1hjzx48");
 				add_location(section2, file, 460, 0, 12847);
-				add_location(p2, file, 650, 2, 18678);
-				add_location(div9, file, 649, 1, 18669);
+				add_location(p2, file, 650, 2, 18685);
+				add_location(div9, file, 649, 1, 18676);
 				attr_dev(section3, "class", "svelte-1hjzx48");
-				add_location(section3, file, 648, 0, 18657);
-				add_location(div10, file, 655, 1, 18713);
+				add_location(section3, file, 648, 0, 18664);
+				add_location(div10, file, 655, 1, 18720);
 				attr_dev(a2, "href", "https://github.com/ONSvisual/svelte-maps/tree/main");
 				attr_dev(a2, "class", "svelte-1hjzx48");
-				add_location(a2, file, 658, 202, 18939);
-				add_location(p3, file, 658, 2, 18739);
-				add_location(div11, file, 657, 1, 18730);
-				add_location(p4, file, 663, 2, 19047);
-				add_location(div12, file, 662, 1, 19038);
+				add_location(a2, file, 658, 202, 18946);
+				add_location(p3, file, 658, 2, 18746);
+				add_location(div11, file, 657, 1, 18737);
+				add_location(p4, file, 663, 2, 19054);
+				add_location(div12, file, 662, 1, 19045);
 				attr_dev(section4, "class", "svelte-1hjzx48");
-				add_location(section4, file, 661, 0, 19026);
+				add_location(section4, file, 661, 0, 19033);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
