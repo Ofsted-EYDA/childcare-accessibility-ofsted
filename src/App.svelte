@@ -271,7 +271,7 @@
 	style="height:100px; margin-bottom: 20px; margin-top: 10px;" aria-hidden="true">
 </picture>
 
-<Hero title="Changing childcare accessibility in England - **DUMMY DATA**" lede="This webpage hosts interactive visualisations for our publication which you can read here" date="16 October 2024" height="auto"/>
+<Hero title="Changes to access to childcare in England" date="16 October 2024" height="auto"/>
 
 <section>
 	
@@ -279,6 +279,8 @@
 
 
 <div>
+	<p>This webpage hosts interactive visuals for our publication which you can read <a href="https://www.gov.uk/government/publications/changes-to-access-to-childcare-in-england">here</a>.</p>
+	<p>View the underlying data for these visualisations <a href="https://www.gov.uk/government/publications/changes-to-access-to-childcare-in-england">here</a>.</p>
 	<h1>Local area change in childcare accessibility since 31 March 2020</h1>
 </div>
 
@@ -327,7 +329,6 @@
 				xFormatTickString='20%y'
 				subtitle = "Childcare accessibility (places per 100 children)"/>
 				<h2>Change in childcare accessibility since March 2020 by local authority</h2>
-				<p>View the underlying data here</p>
 				</div>
 	</div>
 
@@ -442,7 +443,6 @@
 			</div>
 			<h2>Change in childcare accessibility since 31 March 2020</h2>
 			<p>{caveat}</p>
-			<p>View the underlying data here</p>
 		</div>
   </div>
 </Scroller>
@@ -574,7 +574,6 @@
 				  </picture>
 			  </div>
 			  <h2>Childcare accessibility as at 31 March 2024 (accessible places per child)</h2>
-			  <p>View the underlying data here</p>
 	  </div>
 	  <div class="grid">
 		<div>
